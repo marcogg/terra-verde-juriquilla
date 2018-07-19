@@ -1,0 +1,12 @@
+.title-background{
+	background-color: rgba(17,79,113,.7);
+	padding: 2% !important;
+}
+
+.title-shadow{
+	text-shadow:5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.super-title{
+	font-size: 3em;
+}
