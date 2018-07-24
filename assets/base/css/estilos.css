@@ -10,3 +10,33 @@
 .super-title{
 	font-size: 3em;
 }
+
+.carousel-control.right{
+	background-image: webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%) !important;
+}
+
+.text-white{
+	color: white;
+}
+
+.padding-ph{
+	padding-bottom: 5%;
+}
+
+.grayscale-img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+	
+.grayscale-img:hover {
+    -webkit-filter:contrast(120%); /* Safari 6.0 - 9.0 */
+    filter: contrast(120%);
+}
+
+.display-inline{
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+.padding-ph-container{
+	padding: 10%;
+}

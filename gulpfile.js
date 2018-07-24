@@ -1,9 +1,27 @@
 'use strict';
 
+//Aqui invocamos gulp y el paquete de minificar
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var rtlcss = require("gulp-rtlcss");
 var rename = require("gulp-rename");
+var pump = require('pump');
+var minjs=require('gulp-uglify');
+
+
+
+//Aqui establecimos la tarea de minificar
+gulp.task('mainminjs', function(){
+  gulp.src('assets/plugins/bootstrap/css/*.css') //decimos la ruta del archivo a minificar
+  .pipe(minjs())
+  .pipe(gulp.dest('assets/plugins/bootstrap/css/')); //le decimos el destino del archivo ya minificado
+});
+
+
+//Esta tarea hace update de los cambios que se hacen de forma automática
+gulp.task('varmainjs', function(){
+  gulp.watch('./src/js/*.js',['mainminjs']);
+});
 
 gulp.task('sass', function () {
 	gulp.src('./sass/**/*.scss')
@@ -13,6 +31,16 @@ gulp.task('sass', function () {
 
 gulp.task('sass:watch', function () {
 	gulp.watch('./sass/**/*.scss', ['sass']);
+});
+
+gulp.task('compress', function (cb) {
+  pump([
+        gulp.src('assets/plugins/bootstrap/css/*.css'),
+        uglify(),
+        gulp.dest('assets/plugins/bootstrap/css/')
+    ],
+    cb
+  );
 });
 
 var prettify = require('gulp-prettify');
