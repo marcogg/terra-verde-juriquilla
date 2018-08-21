@@ -40,3 +40,17 @@
 .padding-ph-container{
 	padding: 10%;
 }
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.intro{
+	padding-left: 12%;
+	padding-right: 12%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+body{
+	overflow-x: hidden;
+}
