@@ -1,5 +1,5 @@
 .title-background{
-	background-color: rgba(17,79,113,.7);
+	background-color: /*rgba(17,79,113,.7)*/ rgba(0,0,0,.6);
 	padding: 2% !important;
 }
 

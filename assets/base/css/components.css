@@ -3569,7 +3569,7 @@ h1 {
 @media (max-width: 991px) {
   /* 991px */
   .c-layout-header.c-layout-header-dark-mobile.c-header-transparent-dark {
-    background: rgba(30, 36, 42, 0.9); }
+    background: #104e70; }
     .c-layout-header.c-layout-header-dark-mobile.c-header-transparent-dark.c-mega-menu-shown {
       background: #394048; }
     .c-layout-header.c-layout-header-dark-mobile.c-header-transparent-dark .c-topbar {
@@ -4680,10 +4680,10 @@ h1 {
   .c-layout-revo-slider-7 .c-singup-form {
     margin-top: 50px; }
     .c-layout-revo-slider-7 .c-singup-form h3 {
-      font-size: 17px;
+      font-size: 3em;
       font-weight: bold; }
     .c-layout-revo-slider-7 .c-singup-form h5 {
-      font-size: 14px;
+      font-size: 2em;
       font-weight: bold; }
     .c-layout-header-mobile-fixed .c-layout-revo-slider-7 .c-singup-form {
       margin-top: 150px; }

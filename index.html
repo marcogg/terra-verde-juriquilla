@@ -17,7 +17,7 @@ Follow: http://www.twitter.com/themehats
         <meta charset="utf-8" />
         <title>TERRAVERDE JURIQUILLA</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta content="width=device-width, initial-scale=1.0" name="viewport" user-scalable="no" />
+        <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport" />
         <meta http-equiv="Content-type" content="text/html; charset=utf-8">
         <meta content="" name="description" />
         <meta content="" name="author" />
@@ -39,6 +39,8 @@ Follow: http://www.twitter.com/themehats
         <link href="assets/plugins/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css" />
         <link href="assets/plugins/slider-for-bootstrap/css/slider.css" rel="stylesheet" type="text/css" />
         <!-- END: BASE PLUGINS -->
+        <!--LIGHTBOX CDN------->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.com/libraries/ekko-lightbox">
         <!-- BEGIN THEME STYLES -->
         <link href="assets/base/css/plugins.css" rel="stylesheet" type="text/css" />
         <link href="assets/base/css/components.css" id="style_components" rel="stylesheet" type="text/css" />
@@ -65,9 +67,7 @@ Follow: http://www.twitter.com/themehats
                                 <span class="c-line"></span>
                                 <span class="c-line"></span>
                                 </button>
-                                <button class="c-search-toggler" type="button">
-                                <i class="fa fa-search"></i>
-                                </button>
+                                
                             </div>
                             <!-- END: BRAND -->
                             <!-- BEGIN: HOR NAV -->
@@ -191,11 +191,15 @@ Follow: http://www.twitter.com/themehats
                                             <ul>
                                                 <!--BEGIN: SLIDE #1 -->
                                                 <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-style="dark">
-                                                <img alt="" src="assets/base/img/content/backgrounds/fachada.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> </li>
+                                                <img alt="" src="assets/base/img/content/backgrounds/desarrollo.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> </li>
                                                 <!--END -->
                                                 <!--BEGIN: SLIDE #2 -->
                                                 <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-style="dark">
-                                                <img alt="" src="assets/base/img/content/backgrounds/fachada2.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> </li>
+                                                <img alt="" src="assets/base/img/content/backgrounds/fachada.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> </li>
+                                                <!--END -->
+                                                <!--BEGIN: SLIDE #3 -->
+                                                <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-style="dark">
+                                                <img alt="" src="assets/base/img/content/backgrounds/ph-D.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> </li>
                                                 <!--END -->
                                             </ul>
                                         </div>
@@ -255,7 +259,183 @@ Follow: http://www.twitter.com/themehats
                                     </div>
                                 </section>
                                 <!-- SLIDER DE LOS PROTOTIPOS-->
-                                <section>
+                                <section id="departamentos">
+                                    <div class=" padding-ph-container">
+                                        <div class="row">
+                                            <div class="col-lg-12 text-center">
+                                                <h2 class="c-font-bold super-title">DEPARTAMENTOS</h2>
+                                                <div class="c-content animated wow fadeInDown" data-wow-delay="0.3s">
+                                                    <p class="c-margin-b-30"></p>
+                                                    <p>
+                                                        <a class="btn btn-lg c-btn-blue c-btn-border-2x c-btn-square c-btn-bold wow animated fadeIn" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">DEPARTAMENTOS DE 2 RECÁMARAS</a>
+                                                        <a class="btn btn-lg c-btn-blue c-btn-border-2x c-btn-square c-btn-bold wow animated fadeIn" data-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">DEPARTAMENTOS DE 3 RECÁMARAS</a>
+                                                        
+                                                    </p>
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                                                <div class="card card-body">
+                                                                    <button data-toggle="modal" onclick="depaA()" class="btn btn-lg c-btn-green c-btn-border-2x c-btn-square c-btn-bold wow animated fadeIn"
+                                                                    data-wow-delay="1s">MODELO A</button>
+                                                                    <button data-toggle="modal" onclick="depaB()" class="btn btn-lg c-btn-green c-btn-border-2x c-btn-square c-btn-bold wow animated fadeIn"
+                                                                    data-wow-delay="1s">MODELO B</button>
+                                                                    <button data-toggle="modal" onclick="depaD()" class="btn btn-lg c-btn-green c-btn-border-2x c-btn-square c-btn-bold wow animated fadeIn"
+                                                                    data-wow-delay="1s">MODELO D</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                                                <div class="card card-body">
+                                                                    <button data-toggle="modal" onclick="depaC()" class="btn btn-lg c-btn-green c-btn-border-2x c-btn-square c-btn-bold wow animated fadeIn"
+                                                                    data-wow-delay="1s">MODELO C</button>
+                                                                    <button data-toggle="modal" onclick="depaC()" class="btn btn-lg c-btn-green c-btn-border-2x c-btn-square c-btn-bold wow animated fadeIn"
+                                                                    data-wow-delay="1s">MODELO E</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <img id="depas" src="" class="wow animated fadeIn img-responsive"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--MODALES-->
+                                        <!-- Modal DEPA A -->
+                                        <div class="modal fade" id="phA" tabindex="-1" role="dialog" aria-labelledby="phA" aria-hidden="true">
+                                            <div class="modal-dialog modal-lg" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title super-title c-font-bold text-center" id="carousel1">PROTOTIPO A</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="carousel-inner">
+                                                            <div class="carousel-item active">
+                                                                <img class="d-block img-responsive" src="assets/base/img/content/modelos/phA_baja_web.jpg" alt="Planta baja">
+                                                                <h1 class="text-center c-font-bold uppercase">Planta baja</h1>
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img class="d-block img-responsive" src="assets/base/img/content/modelos/phA_alta_web.jpg" alt="Planta Alta">
+                                                                <h1 class="text-center c-font-bold uppercase">Planta alta</h1>
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img class="d-block img-responsive" src="assets/base/img/content/modelos/phA_roof_web.jpg" alt="Roof Garden">
+                                                                <h1 class="text-center c-font-bold uppercase">Roof Garden</h1>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--FIN MODAL PHA-->
+                                        <!--Modal PHB-->
+                                        <div class="modal fade" id="phB" tabindex="-1" role="dialog" aria-labelledby="phB" aria-hidden="true">
+                                            <div class="modal-dialog modal-lg" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title super-title c-font-bold text-center" id="phB">PROTOTIPO B</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="carousel-inner">
+                                                            <div class="carousel-item active">
+                                                                <img class="d-block img-responsive" src="assets/base/img/content/modelos/phB_baja_web.jpg" alt="Planta baja">
+                                                                <h1 class="text-center c-font-bold uppercase">Planta baja</h1>
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img class="d-block img-responsive" src="assets/base/img/content/modelos/phB_alta_web.jpg" alt="Planta Alta">
+                                                                <h1 class="text-center c-font-bold uppercase">Planta alta</h1>
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img class="d-block img-responsive" src="assets/base/img/content/modelos/phB_roof_web.jpg" alt="Roof Garden">
+                                                                <h1 class="text-center c-font-bold uppercase">Roof Garden</h1>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--FIN DEL MODAL PH-B-->
+                                        <!--MODAL PH-C----->
+                                        <div class="modal fade" id="phC" tabindex="-1" role="dialog" aria-labelledby="phC" aria-hidden="true">
+                                            <div class="modal-dialog modal-lg" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title super-title c-font-bold text-center" id="phC">PROTOTIPO C</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="carousel-inner">
+                                                            <div class="carousel-item active">
+                                                                <img class="d-block img-responsive" src="assets/base/img/content/modelos/phC_baja_web.jpg" alt="Planta baja">
+                                                                <h1 class="text-center c-font-bold uppercase">Planta baja</h1>
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img class="d-block img-responsive" src="assets/base/img/content/modelos/phC_alta_web.jpg" alt="Planta Alta">
+                                                                <h1 class="text-center c-font-bold uppercase">Planta alta</h1>
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img class="d-block img-responsive" src="assets/base/img/content/modelos/phC_roof_web.jpg" alt="Roof Garden">
+                                                                <h1 class="text-center c-font-bold uppercase">Roof Garden</h1>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--FIN DEL MODAL PH-C-->
+                                        <!--INICIO MODAL PH-D-->
+                                        <div class="modal fade" id="phD" tabindex="-1" role="dialog" aria-labelledby="phD" aria-hidden="true">
+                                            <div class="modal-dialog modal-lg" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title super-title c-font-bold text-center" id="phD">PROTOTIPO D</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="carousel-inner">
+                                                            <div class="carousel-item active">
+                                                                <img class="d-block img-responsive" src="assets/base/img/content/modelos/phD_baja_web.jpg" alt="Planta baja">
+                                                                <h1 class="text-center c-font-bold uppercase">Planta baja</h1>
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img class="d-block img-responsive" src="assets/base/img/content/modelos/phD_alta_web.jpg" alt="Planta Alta">
+                                                                <h1 class="text-center c-font-bold uppercase">Planta alta</h1>
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img class="d-block img-responsive" src="assets/base/img/content/modelos/phD_roof_web.jpg" alt="Roof Garden">
+                                                                <h1 class="text-center c-font-bold uppercase">Roof Garden</h1>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--FIN DEL MODAL PH-D-->
+                                    </div>
+                                    <!--Incio Backup gallery-->
                                     <div class="c-content-box c-size-md c-bg-grey-1">
                                         <div class="">
                                             <div class="row">
@@ -326,8 +506,8 @@ Follow: http://www.twitter.com/themehats
                                                 </div>
                                             </div>
                                         </div>
-                                        
                                     </div>
+                                    <!--FIN BACKUP GALLERY-->
                                     <div class=" padding-ph-container">
                                         <div class="row">
                                             <div class="col-lg-12 text-center">
@@ -906,42 +1086,41 @@ Follow: http://www.twitter.com/themehats
                                                                     
                                                                 </div>
                                                             </div>
-                                                        <div class="col-md-6 col-sm-6 c-margin-b-30">
-                                                            <div class="c-content-box c-size-md c-bg-img-top c-no-padding c-pos-relative">
-                                                                <div class="">
-                                                                    <div class="c-content-contacto-1 c-opt-1">
-                                                                        <div class="" data-auto-height=".c-height">
-                                                                            <div class="col-sm-12 c-desktop"></div>
-                                                                            <div class="col-sm-12">
-                                                                                <div class="c-body">
-                                                                                    <div class="c-section">
-                                                                                        <h2 class="uppercase">Terra Verde Juruqilla</h2>
-                                                                                    </div>
-                                                                                    <div class="c-section">
-                                                                                        <div class="c-content-label c-font-uppercase c-font-bold c-theme-bg">Dirección</div>
-                                                                                        <p>Boulevard Universitario #319, Col. Manzanares, C.P. 76230
+                                                            <div class="col-md-6 col-sm-6 c-margin-b-30">
+                                                                <div class="c-content-box c-size-md c-bg-img-top c-no-padding c-pos-relative">
+                                                                    <div class="">
+                                                                        <div class="c-content-contacto-1 c-opt-1">
+                                                                            <div class="" data-auto-height=".c-height">
+                                                                                <div class="col-sm-12 c-desktop"></div>
+                                                                                <div class="col-sm-12">
+                                                                                    <div class="c-body">
+                                                                                        <div class="c-section">
+                                                                                            <h2 class="uppercase">Terra Verde Juruqilla</h2>
+                                                                                        </div>
+                                                                                        <div class="c-section">
+                                                                                            <div class="c-content-label c-font-uppercase c-font-bold c-theme-bg">Dirección</div>
+                                                                                            <p>Boulevard Universitario #319, Col. Manzanares, C.P. 76230
                                                                                             |<br/>Juriquilla, Querétaro</p>
+                                                                                        </div>
                                                                                     </div>
-
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
+                                                            
                                                         </div>
-                                                        
                                                     </div>
                                                 </div>
-                                            </div>
                                                 <!-- END: CONTENT/ubicación/ubicación-3 -->
                                             </section>
                                             <section id="contacto" class="c-bg-grey-1 extra-divider">
                                                 <!-- BEGIN: CONTENT/contacto/contacto-1 -->
                                                 <div class="c-content-title-1">
-                                                        <h1 class="c-center c-font-uppercase c-font-bold super-title">Contacto</h1>
-                                                        <div class="c-line-center c-theme-bg"></div>
-                                                    </div>
+                                                    <h1 class="c-center c-font-uppercase c-font-bold super-title">Contacto</h1>
+                                                    <div class="c-line-center c-theme-bg"></div>
+                                                </div>
                                                 <!-- END: CONTENT/contacto/contacto-1 -->
                                                 <!-- BEGIN: CONTENT/contacto/FEEDBACK-1 -->
                                                 <div class="c-content-box c-size-md">
@@ -953,42 +1132,42 @@ Follow: http://www.twitter.com/themehats
                                                                         <div class="c-content-title-1 c-inverse">
                                                                             <h3 class="c-font-uppercase c-font-bold">Contáctanos</h3>
                                                                             <div class="c-line-left"></div>
-                                                                                                                                                                <div class="c-section">
-                                                                                        <div class="c-content-label c-font-uppercase c-font-bold c-theme-bg">Contáctenos</div>
-                                                                                        <p>
-                                                                                            <strong>T</strong> 4630-3525
-                                                                                            <br/>
-                                                                                        <strong>E</strong> ventas@terraverdejuriquilla.com</p>
-                                                                                    </div>
-                                                                                    <div class="c-section">
-                                                                                        <div class="c-content-label c-font-uppercase c-font-bold c-theme-bg">Redes Sociales</div>
-                                                                                        <br/>
-                                                                                        <ul class="c-content-iconlist-1 c-theme">
-                                                                                            <li>
-                                                                                                <a href="#">
-                                                                                                    <i class="fa fa-twitter"></i>
-                                                                                                </a>
-                                                                                            </li>
-                                                                                            <li>
-                                                                                                <a href="#">
-                                                                                                    <i class="fa fa-facebook"></i>
-                                                                                                </a>
-                                                                                            </li>
-                                                                                            <li>
-                                                                                                <a href="#">
-                                                                                                    <i class="fa fa-youtube-play"></i>
-                                                                                                </a>
-                                                                                            </li>
-                                                                                            <li>
-                                                                                                <a href="#">
-                                                                                                    <i class="fa fa-linkedin"></i>
-                                                                                                </a>
-                                                                                            </li>
-                                                                                        </ul>
-                                                                                    </div>
+                                                                            <div class="c-section">
+                                                                                <div class="c-content-label c-font-uppercase c-font-bold c-theme-bg">Contáctenos</div>
+                                                                                <p>
+                                                                                    <strong>T</strong> 4630-3525
+                                                                                    <br/>
+                                                                                <strong>E</strong> ventas@terraverdejuriquilla.com</p>
+                                                                            </div>
+                                                                            <div class="c-section">
+                                                                                <div class="c-content-label c-font-uppercase c-font-bold c-theme-bg">Redes Sociales</div>
+                                                                                <br/>
+                                                                                <ul class="c-content-iconlist-1 c-theme">
+                                                                                    <li>
+                                                                                        <a href="#">
+                                                                                            <i class="fa fa-twitter"></i>
+                                                                                        </a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <a href="#">
+                                                                                            <i class="fa fa-facebook"></i>
+                                                                                        </a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <a href="#">
+                                                                                            <i class="fa fa-youtube-play"></i>
+                                                                                        </a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <a href="#">
+                                                                                            <i class="fa fa-linkedin"></i>
+                                                                                        </a>
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
-                                                                  
+                                                                    
                                                                 </div>
                                                                 <div class="col-md-6">
                                                                     <div class="c-contacto">
@@ -1026,6 +1205,7 @@ Follow: http://www.twitter.com/themehats
                                                             <div class="container">
                                                                 <div class="row">
                                                                     <div class="col-md-6 col-sm-6">
+                                                                        <img src="assets/base/img/content/desarrollo/logo.png">
                                                                         <p class="c-copyright c-font-oswald c-font-14"> Grupo Hodaya | Derechos reservados</p>
                                                                         <p>Consulta nuestro <a href="privacidad.html">Aviso de Privacidad</a></p>
                                                                     </div>
@@ -1044,11 +1224,6 @@ Follow: http://www.twitter.com/themehats
                                                                             <li>
                                                                                 <a href="#">
                                                                                     <i class="icon-social-youtube"></i>
-                                                                                </a>
-                                                                            </li>
-                                                                            <li>
-                                                                                <a href="#">
-                                                                                    <i class="icon-social-dribbble"></i>
                                                                                 </a>
                                                                             </li>
                                                                         </ul>
@@ -1075,6 +1250,29 @@ Follow: http://www.twitter.com/themehats
                                                     <script src="assets/plugins/reveal-animate/wow.js" type="text/javascript"></script>
                                                     <script src="assets/base/js/scripts/reveal-animate/reveal-animate.js" type="text/javascript"></script>
                                                     <!-- END: CORE PLUGINS -->
+                                                    <!--INICIO: CAMBIO DE DEPAS-->
+                                                    <script type="text/javascript" src="asses/js/scripts.js"></script>
+                                                    <script type="text/javascript">
+                                                        /*Gathering id*/
+                                                    var get=document.getElementById("depas");
+
+                                                    function depaA() {
+                                                        get.src='assets/base/img/content/modelos/planta-a_web.jpg';
+                                                    }
+                                                    function depaB() {
+                                                        get.src='assets/base/img/content/modelos/planta-b_web.jpg';
+                                                    }
+                                                    function depaC() {
+                                                        get.src='assets/base/img/content/modelos/planta-c_web.jpg';
+                                                    }
+                                                    function depaD() {
+                                                        get.src='assets/base/img/content/modelos/planta-d_web.jpg';
+                                                    }
+                                                    function depaE() {
+                                                        get.src='assets/base/img/content/modelos/planta-e_web.jpg';
+                                                    }
+                                                    </script>
+                                                    <!--FIN: CAMBIO DE DEPAS-->
                                                     <!-- BEGIN: LAYOUT PLUGINS -->
                                                     <script src="assets/plugins/revo-slider/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
                                                     <script src="assets/plugins/revo-slider/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
@@ -1108,5 +1306,12 @@ Follow: http://www.twitter.com/themehats
                                                     <script src="assets/base/js/scripts/pages/contacto.js" type="text/javascript"></script>
                                                     <!-- END: PAGE SCRIPTS -->
                                                     <!-- END: LAYOUT/BASE/BOTTOM -->
+                                                    <!--Lightbox SCRIPTS--->
+                                                    <script type="text/javascript">
+                                                    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                                                    event.preventDefault();
+                                                    $(this).ekkoLightbox();
+                                                    });</script>
+                                                    <!--END OF LIGHBOX SCRIPTS-->
                                                 </body>
                                             </html>
