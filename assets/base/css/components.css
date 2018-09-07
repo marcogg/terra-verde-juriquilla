@@ -2893,7 +2893,7 @@ h1 {
     .c-layout-quick-search-shown .c-layout-header .c-navbar .c-mega-menu {
       display: none; }
   .c-layout-header .c-navbar .container-fluid > .c-navbar-wrapper > .c-mega-menu > .nav.navbar-nav > li > .dropdown-menu.c-menu-type-mega {
-    max-width: 1170px; }
+    max-width: 570px; }
   .c-layout-header .c-navbar .c-mega-menu {
     line-height: 0px; }
     .c-layout-header .c-navbar .c-mega-menu.c-fonts-uppercase > .nav.navbar-nav > li > .c-link {
@@ -6731,8 +6731,8 @@ h1 {
     display: inline-block; } }
 
 .c-content-title-1 > .c-line-center {
-  width: 30px;
-  height: 3px;
+  width: 150px;
+  height: 7px;
   background-color: #32c5d2;
   margin: 0 auto 30px auto; }
 
