@@ -6,9 +6,10 @@
 .title-shadow{
 	text-shadow:5px 5px 5px rgba(0,0,0,0.5);
 }
-
+@media screen and (min-width: 768px){
 .super-title{
 	font-size: 3em;
+}
 }
 
 .carousel-control.right{
@@ -91,4 +92,12 @@ body{
 
 .filter-bn:hover{
 	filter: grayscale(0%);
+}
+
+@media screen and (max-width: 768px;){
+	.button-mobile{
+		font-size: small;
+		width: 100% !important;
+		vertical-align: center;
+	}
 }

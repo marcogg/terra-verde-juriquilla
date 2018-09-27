@@ -26,11 +26,12 @@
         $headers = "MIME-Version: 1.0\r\n"; 
         $headers .= "From:".$sender_name."\r\n"; 
         $headers .= "Reply-To: ".$sender_email."" . "\r\n";
-        $headers .= "Content-Type: multipart/mixed; boundary = $boundary\r\n\r\n"; 
+        $headers .= "Content-Type: multipart/mixed; boundary = $boundary\r\n\r\n";
+ 
         
         //message text
 
-		$body .="Contacto - Club Náutico Teques 
+		$body .="Contacto - Terra Verde Juriquilla 
 
                Nombre:".$sender_name."
                Email: ".$sender_email."

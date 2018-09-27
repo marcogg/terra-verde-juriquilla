@@ -47,7 +47,7 @@ if(isset($_POST['email'])) {
   
         !isset($_POST['email']) ||
  
-        !isset($_POST['subject']) ||
+        !isset($_POST['tel']) ||
  
         !isset($_POST['comments'])) {
  
@@ -62,7 +62,7 @@ if(isset($_POST['email'])) {
   
     $email_from = $_POST['email']; // required
  
-    $email_subject = $_POST['subject']; // not required
+    $email_subject = $_POST['tel']; // not required
  
     $comments = $_POST['comments']; // required
  
@@ -118,7 +118,7 @@ if(isset($_POST['email'])) {
   
     $email_message .= "Email: ".clean_string($email_from)."\n";
  
-    $email_message .= "Asunto: ".clean_string($email_subject)."\n";
+    $email_message .= "Teléfono: ".clean_string($email_subject)."\n";
  
     $email_message .= "Mensaje: ".clean_string($comments)."\n";
  
@@ -144,7 +144,7 @@ $headers = 'From: '.$email_from."\r\n".
  
  
  
-echo "<script>alert('Correo enviado'); location.href='http://villastequesaqua.com';</script>";
+echo "<script>alert('Correo enviado'); location.href='http://terraverdejuriquilla.com/#contacto';</script>";
  
  
  
