@@ -48,8 +48,10 @@
 .padding-depa-container{
 	background-image: url(../img/content/backgrounds/depa.jpg);
 	background-size: cover;
+	background-position: bottom;
 	background-attachment: fixed;
 	padding: 10% 20% 10% 20%;
+
 }
 
 
@@ -94,10 +96,17 @@ body{
 	filter: grayscale(0%);
 }
 
-@media screen and (max-width: 768px;){
+@media screen and (max-width: 768px){
 	.button-mobile{
 		font-size: small;
 		width: 100% !important;
 		vertical-align: center;
+	}
+	.button-align{
+		margin-left: 0 !important;
+	}
+	.button-ph{
+		margin-left: 0 !important;
+		margin-top: 10px !important;
 	}
 }
