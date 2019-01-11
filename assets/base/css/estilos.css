@@ -50,7 +50,8 @@
 	background-size: cover;
 	background-position: bottom;
 	background-attachment: fixed;
-	padding: 10% 20% 10% 20%;
+	padding-top: 10%;
+	padding-bottom: 10%;
 
 }
 
@@ -109,4 +110,32 @@ body{
 		margin-left: 0 !important;
 		margin-top: 10px !important;
 	}
+}
+
+.shadowed {
+  -webkit-filter: drop-shadow(5px 5px 15px #222);
+  filter: drop-shadow(5px 5px 15px #222);
+}
+
+.depa-active{
+	background-color: #32c5d2;
+	color:white;
+	padding: 8px 20px 6px 20px;
+	margin-left: 10px;
+	border-width: 2px
+	border-color#32c5d2;
+	font-weight:bold;
+	outline: none;
+}
+
+.depa-unactive{
+	background-color: transparent;
+	color: #32c5d2;
+	margin-left: 10px;
+	padding: 8px 20px 6px 20px;
+	margin-left: 10px;
+	border-width: 2px;
+	border-color: #32c5d2;
+	font-weight:bold;
+	outline: none;
 }
