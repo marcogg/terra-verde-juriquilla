@@ -1,11 +1,3 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Documento sin título</title>
-</head>
-
-<body>
 <?php
  
 if(isset($_POST['email'])) {
@@ -27,7 +19,7 @@ if(isset($_POST['email'])) {
         // your error code can go here
  
        
-		echo "<script>alert('Lo sentimos, pero no se pudo enviar el correo correctamente, intentalo de nuevo');</script>";
+		echo "<script>alert('Lo sentimos, pero no se pudo enviar el correo correctamente, intentalo de nuevo'); location.href='http://terraverdejuriquilla.com/#contacto'</script>";
 
 
  
@@ -46,12 +38,14 @@ if(isset($_POST['email'])) {
     if(!isset($_POST['first_name']) ||
   
         !isset($_POST['email']) ||
+
+        !isset($_POST['last_name']) ||
  
         !isset($_POST['tel']) ||
  
         !isset($_POST['comments'])) {
  
-      echo "<script>alert('Lo sentimos, el correo no se pudo enviar'); </script>";
+      echo "<script>alert('Mensaje enviado, en breve un ejecutivo se pondrá en contacto con usted'); location.href='http://terraverdejuriquilla.com/#contacto' </script>";
 
  
     }
@@ -59,10 +53,12 @@ if(isset($_POST['email'])) {
      
  
     $first_name = $_POST['first_name']; // required
+
+    $last_name = $_POST['last_name']; // required
   
     $email_from = $_POST['email']; // required
  
-    $email_subject = $_POST['tel']; // not required
+    $email_telephone = $_POST['telephone']; // not required
  
     $comments = $_POST['comments']; // required
  
@@ -74,7 +70,7 @@ if(isset($_POST['email'])) {
  
   if(!preg_match($email_exp,$email_from)) {
  
-    $error_message .= "<script>alert('El correo es invalido');</script>";
+    $error_message .= "<script>alert('El correo es invalido'); location.href='http://terraverdejuriquilla.com/#contacto'</script>";
  
   }
  
@@ -82,15 +78,31 @@ if(isset($_POST['email'])) {
  
   if(!preg_match($string_exp,$first_name)) {
  
-    $error_message .= "<script>alert('El nombre no es valido'); </script>";;
+    $error_message .= "<script>alert('El nombre no es valido'); location.href='http://terraverdejuriquilla.com/#contacto' </script>";;
  
   }
+
+  $string_exp = "/^[A-Za-z .'-]+$/";
  
-  
+  if(!preg_match($string_exp,$last_name)) {
+ 
+    $error_message .= "<script>alert('El apellido no es valido'); location.href='http://terraverdejuriquilla.com/#contacto' </script>";;
+ 
+  }
+
+    $string_exp = 
+    $email_exp = '/^[0-9]/';
+ 
+  if(!preg_match($string_exp,$email_telephone)) {
+ 
+    $error_message .= "<script>alert('El teléfono no es valido'); location.href='http://terraverdejuriquilla.com/#contacto' </script>";;
+ 
+  }
+
  
   if(strlen($comments) < 2) {
  
-    $error_message .=  "<script>alert('El mensaje es demasiado corto, porfavor escribe algo más'); </script>";
+    $error_message .=  "<script>alert('El mensaje es demasiado corto, porfavor escribe algo más'); location.href='http://terraverdejuriquilla.com/#contacto' </script>";
  
   }
  
@@ -100,7 +112,7 @@ if(isset($_POST['email'])) {
  
   }
  
-    $email_message = "Form details below.\n\n";
+    $email_message = "Detalles de contacto.\n\n";
  
      
  
@@ -115,10 +127,12 @@ if(isset($_POST['email'])) {
      
  
     $email_message .= "Nombre: ".clean_string($first_name)."\n";
+
+    $email_message .= "Apellido: ".clean_string($last_name)."\n";
   
     $email_message .= "Email: ".clean_string($email_from)."\n";
  
-    $email_message .= "Teléfono: ".clean_string($email_subject)."\n";
+    $email_message .= "Tel: ".clean_string($email_telephone)."\n";
  
     $email_message .= "Mensaje: ".clean_string($comments)."\n";
  
@@ -144,7 +158,7 @@ $headers = 'From: '.$email_from."\r\n".
  
  
  
-echo "<script>alert('Correo enviado'); location.href='http://terraverdejuriquilla.com/#contacto';</script>";
+<script>alert('Correo enviado'); location.href='http://terraverdejuriquilla.com/#contacto';</script>
  
  
  
