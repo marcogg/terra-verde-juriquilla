@@ -7,10 +7,13 @@ if(isset($_POST['email'])) {
  
     function died($error) {
         // your error code can go here
-        echo '<script type="text/javascript">alert("Lo sentimos, hemos detectado un error en el formulario enviado");</script>';
-        echo '<script type="text/javascript">alert("Ha ocurrido un error.");</script>';
+        echo '<script type="text/javascript">alert("Lo sentimos, hemos detectado un error en el formulario enviado");
+        window.location.href = "contacto.html";</script>';
+        echo '<script type="text/javascript">alert("Ha ocurrido un error.");
+        window.location.href = "contacto.html";</script>';
         echo $error."<br /><br />";
-        echo '<script type="text/javascript">alert("Por favor revise los datos del formulario");</script>';
+        echo '<script type="text/javascript">alert("Por favor revise los datos del formulario");
+        window.location.href = "contacto.html";</script>';
         die();
     }
  
@@ -36,21 +39,26 @@ if(isset($_POST['email'])) {
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
  
   if(!preg_match($email_exp,$email_from)) {
-    $error_message .= '<script type="text/javascript">alert("El email ingresado parece ser no válido");</script>';
+    $error_message .= '<script type="text/javascript">alert("El email ingresado parece ser no válido");
+    window.location.href = "contacto.html";</script>';
   }
  
     $string_exp = "/^[A-Za-z .'-]+$/";
  
   if(!preg_match($string_exp,$first_name)) {
-    $error_message .= '<script type="text/javascript">alert("El nombre ingresado no tiene un formato válido<br />");</script>';
+    $error_message .= '<script type="text/javascript">alert("El nombre ingresado no tiene un formato válido<br />");
+    window.location.href = "contacto.html";</script>';
   }
  
   if(!preg_match($string_exp,$last_name)) {
-    $error_message .= '<script type="text/javascript">alert("El apellido ingresado no tien un formato válido<br />");</script>';
+    $error_message .= '<script type="text/javascript">alert("El apellido ingresado no tien un formato válido<br />");
+    window.location.href = "contacto.html";</script>';
+
   }
  
   if(strlen($comments) < 2) {
-    $error_message .= '<script type="text/javascript">alert("El mensje no tien un formato válido<br />");</script>';
+    $error_message .= '<script type="text/javascript">alert("El mensje no tien un formato válido<br />");
+    window.location.href = "contacto.html";</script>';
   }
  
   if(strlen($error_message) > 0) {

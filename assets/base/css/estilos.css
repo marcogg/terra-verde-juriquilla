@@ -61,10 +61,10 @@
 }
 
 .intro{
-	padding-left: 12%;
-	padding-right: 12%;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 3%;
+	padding-bottom: 3%;
 	background-color: 
 }
 body{
@@ -138,5 +138,25 @@ body{
 	border-color: #32c5d2;
 	font-weight:bold;
 	outline: none;
+}
+
+@media screen (min-width: 768px){
+	
+	.btn-brochure{
+	    width: 100%;
+	    position: relative;
+	    top: 11vh;
+	    font-size: 3rem;
+	}
+}
+
+@media screen (max-width: 768px){
+	
+	.btn-brochure{
+	    width: 100%;
+	    position: relative;
+	    top: 8vh;
+	    font-size: 2rem;
+	}
 }
 
