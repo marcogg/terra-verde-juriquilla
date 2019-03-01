@@ -10326,21 +10326,21 @@ h1 {
       left: 0;
       border-left-color: #ffffff; }
     .c-content-tile-1 .c-tile-content.c-arrow-green.c-arrow-left:after {
-      border-right-color: #32c5d2; }
+      border-right-color: transparent; }
     .c-content-tile-1 .c-tile-content.c-arrow-green.c-arrow-right:after {
-      border-left-color: #32c5d2; }
+      border-left-color: transparent; }
     .c-content-tile-1 .c-tile-content.c-arrow-red-2.c-arrow-left:after {
-      border-right-color: #e7505a; }
+      border-right-color: transparent; }
     .c-content-tile-1 .c-tile-content.c-arrow-red-2.c-arrow-right:after {
-      border-left-color: #e7505a; }
+      border-left-color: transparent; }
     .c-content-tile-1 .c-tile-content.c-arrow-brown-2.c-arrow-left:after {
-      border-right-color: #7a6a61; }
+      border-right-color: transparent; }
     .c-content-tile-1 .c-tile-content.c-arrow-brown-2.c-arrow-right:after {
-      border-left-color: #7a6a61; }
+      border-left-color: transparent; }
     .c-content-tile-1 .c-tile-content.c-arrow-blue-3.c-arrow-left:after {
-      border-right-color: #57bfe1; }
+      border-right-color: transparent; }
     .c-content-tile-1 .c-tile-content.c-arrow-blue-3.c-arrow-right:after {
-      border-left-color: #57bfe1; }
+      border-left-color: transparent; }
     .c-content-tile-1 .c-tile-content .btn {
       margin: 10px 0; }
   .c-content-tile-1 .c-wrapper {

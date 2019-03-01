@@ -160,3 +160,7 @@ body{
 	}
 }
 
+
+a#link-contacto:hover{
+	color: #ffffff !important;
+}
