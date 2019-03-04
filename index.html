@@ -298,7 +298,101 @@ Follow: http://www.twitter.com/themehats
                                                 <div class="c-content-title-1" data-height="height">
                                                     <h3 class="c-font-uppercase c-font-bold">Descubre una nueva forma de vivir.</h3>
                                                     <p class=" c-font-sbold"> Ubicado en una zona de alta plusvalía, rodeado de comercios y servicios; Terra Verde Juriquilla posee una conectividad envidiable, con rápido acceso a las principales vías de comunicación. El desarrollo cuenta con un concepto de diseño moderno, elegante y con amenidades exclusivas para brindarte un estilo de vida que tú mereces.</p>
-                                                    <a href="assets/base/media/brochure/Brochure_Juriquilla_v4_digital.pdf"> <button class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square btn-brochure" style="width: 100%;">Decargar Brochure</button></a>
+                                                    <button type="button" class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square btn-brochure" data-toggle="modal" data-target="#descargarBrochure" style="width: 100%;">Descargar Folleto</button>
+                                                </div>
+                                                <!-- Button trigger modal -->
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="descargarBrochure" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                  <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                      <div class="modal-header">
+                                                        <h3 class="modal-title" id="exampleModalLongTitle">Descargar folleto</h3>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                          <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                      </div>
+                                                      <div class="modal-body">
+                                                        <div class="row mb-5">
+                                                            <div class="col-lg-12 text-center">
+                                                                <p>Compártanos sus datos y descargue el folleto completo de Terra Verde Juriquilla.</p>
+                                                                <br>
+                                                            </div>
+                                                        </div>
+                                                        <form action="descargar_folleto.php" method="post" name="contactform">
+                                                                <div class="form-group">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                                            <input type="text" placeholder="Nombre*" class="form-control c-square c-theme input-lg" name="first_name" id="first_name" required>
+                                                                        </div>
+                                                                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                                            <input type="text" placeholder="Apellido*" class="form-control c-square c-theme input-lg" name="last_name" id="last_name" required>
+                                                                        </div>
+                                                                    </div>
+                                                                    
+                                                                </div>
+                                                                <div class="form-group">
+                                                                <input type="text" placeholder="Email*" class="form-control c-square c-theme input-lg" name="email" id="email" required> </div>
+                                                                <div class="form-group">
+                                                                    <input type="text" placeholder="Teléfono" class="form-control c-square c-theme input-lg" name="telephone" id="telephone"> 
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label>Estado</label>
+                                                                    <select id="estado" name="estado" class="input-lg form-control c-square c-theme">
+                                                                        <option value="Aguascalientes">Aguascalientes</option>
+                                                                        <option value="Baja_California">Baja California</option>
+                                                                        <option value="Baja_California_Sur">Baja California Sur</option>
+                                                                        <option value="Campeche">Campeche</option>
+                                                                        <option value="Chiapas">Chiapas</option>
+                                                                        <option value="Chihuahua">Chihuahua</option>
+                                                                        <option value="Cdmx">Ciudad de México</option>
+                                                                        <option value="Coahuila">Coahuila</option>
+                                                                        <option value="Colima">Colima</option>
+                                                                        <option value="Durango">Durango</option>
+                                                                        <option value="Estado_Mexico">Estado de México</option>
+                                                                        <option value="Guanajuato">Guanajuato</option>
+                                                                        <option value="Guerrero">Guerrero</option>
+                                                                        <option value="Hidalgo">Hidalgo</option>
+                                                                        <option value="Jalisco">Jalisco</option>
+                                                                        <option value="Michoacan">Michoacán</option>
+                                                                        <option value="Morelos">Morelos</option>
+                                                                        <option value="Nayarit">Nayarit</option>
+                                                                        <option value="Nuevo_Leon">Nuevo León</option>
+                                                                        <option value="Oaxaca">Oaxaca</option>
+                                                                        <option value="Puebla">Puebla</option>
+                                                                        <option value="Queretaro">Querétaro</option>
+                                                                        <option value="Quintana_Roo">Quintana Roo</option>
+                                                                        <option value="San_Luis_Potosi">San Luis Potosí</option>
+                                                                        <option value="Sinaloa">Sinaloa</option>
+                                                                        <option value="Sonora">Sonora</option>
+                                                                        <option value="Tabasco">Tabasco</option>
+                                                                        <option value="Tamaulipas">Tamaulipas</option>
+                                                                        <option value="Tlaxcala">Tlaxcala</option>
+                                                                        <option value="Veracruz">Veracruz</option>
+                                                                        <option value="Yucatan">Yucatán</option>
+                                                                        <option value="Zacatecas">Zacatecas</option>
+                                                                    </select>
+
+                                                                </div>
+                                                                    <div class="row mt-5">
+                                                            <div class="col-lg-12 text-center">
+                                                                <p><small>*Campos requeridos</small></p>
+                                                                <br>
+                                                            </div>
+                                                        </div>
+                                                                    
+                                                                    <div class="g-recaptcha" data-sitekey="6LeAmYwUAAAAAHxjByS3bni_UxmcQzuAl5zB4ZOt"></div>
+                                                                    <button type="submit" class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square">Ver Folleto</button>
+                                                                    
+                                                                </form>
+                                                                
+                                                      </div>
+                                                      <!--<div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                                      </div>-->
+                                                    </div>
+                                                  </div>
                                                 </div>
                                             </div>
                                             <div class="col-lg-2"></div>
@@ -1397,7 +1491,7 @@ Follow: http://www.twitter.com/themehats
                                                                 <h3 class="c-font-uppercase c-font-bold">Más información</h3>
                                                                 <p class="c-font-lowercase">Déjenos sus datos y en breve un ejecutivo se pondrá en contacto con usted.</p>
                                                             </div>
-                                                            <form action="enviar_correo.php" method="post" name="contactform">
+                                                            <form action="enviar_mail.php" method="post" name="contactform">
                                                                 <div class="form-group">
                                                                     <div class="row">
                                                                         <div class="col-lg-6 col-md-6 col-sm-12 col-12">
