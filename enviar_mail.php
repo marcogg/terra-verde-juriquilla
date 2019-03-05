@@ -43,7 +43,7 @@ if(isset($_POST['email'])) {
     window.location.href = "index.html";</script>';
   }
  
-    $string_exp = "/^[A-Za-z .'-]+$/";
+    $string_exp = "/^[A-Za-z .'-áéíóúñüÁÉÍÓÚÑÜ]+$/";
  
   if(!preg_match($string_exp,$first_name)) {
     $error_message .= '<script type="text/javascript">alert("El nombre ingresado no tiene un formato válido<br />");

@@ -47,7 +47,7 @@ if(isset($_POST['email'])) {
     window.location.href = "index.html";</script>';
   }
  
-    $string_exp = "/^[A-Za-z .'-]+$/";
+    $string_exp = "/^[A-Za-z .'-áéíóúñüÁÉÍÓÚÑÜ]+$/";
  
   if(!preg_match($string_exp,$first_name)) {
     $error_message .= '<script type="text/javascript">alert("El nombre ingresado no tiene un formato válido<br />");
@@ -90,6 +90,7 @@ if(isset($_POST['email'])) {
 $headers = 'From: '.$email_from."\r\n".
 'Reply-To: '.$email_from."\r\n" .
 'X-Mailer: PHP/' . phpversion();
+$headers.= "Content-Type: text/plain;charset=utf-8\r\n";
 @mail($email_to, $email_subject, $email_message, $headers);  
 ?>
  
@@ -97,7 +98,7 @@ $headers = 'From: '.$email_from."\r\n".
 
 <script type="text/javascript">
   alert("¡Gracias! Puede descargar el folleto completo haciendo click en 'Aceptar'");
-  window.location.href = "assets/base/media/brochure/brochure_juriquilla_digital.pdf";
+  window.location.href = "https://drive.google.com/file/d/1qKGz4EKx_Y7Fkz5ZBnhOGnOJZ0ydd55p/view?usp=sharing";
 </script>
 
 
