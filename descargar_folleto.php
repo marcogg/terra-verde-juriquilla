@@ -2,7 +2,7 @@
 if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "mgarcia@grupohodaya.com";
+    $email_to = "contacto@terraverdejuriquilla.com";
     $email_subject = "Nueva entrada en formulario desde Sitio Web";
  
     function died($error) {
@@ -90,7 +90,7 @@ if(isset($_POST['email'])) {
 $headers = 'From: '.$email_from."\r\n".
 'Reply-To: '.$email_from."\r\n" .
 'X-Mailer: PHP/' . phpversion();
-$headers.= "Content-Type: text/plain;charset=utf-8\r\n";
+$headers .= 'Content-Type: text/html; charset=iso-8859-1\n';
 @mail($email_to, $email_subject, $email_message, $headers);  
 ?>
  
