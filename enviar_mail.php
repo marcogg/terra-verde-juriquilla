@@ -2,8 +2,8 @@
 if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "contacto@terraverdejuriquilla.com";
-    $email_subject = "Nueva entrada en formulario desde Sitio Web";
+    $email_to = "mgarcia@grupohodaya.com";
+    $email_subject = "Nueva entrada desde formulario de contacto en Sitio Web";
  
     function died($error) {
         // your error code can go here
@@ -85,6 +85,9 @@ if(isset($_POST['email'])) {
 $headers = 'From: '.$email_from."\r\n".
 'Reply-To: '.$email_from."\r\n" .
 'X-Mailer: PHP/' . phpversion();
+
+$headers .= 'MIME-Version: 1.0' . "\r\n" . 'Content-type: text/html; charset=UTF-8' . "\r\n";
+
 @mail($email_to, $email_subject, $email_message, $headers);  
 ?>
  

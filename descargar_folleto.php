@@ -1,9 +1,10 @@
 <?php
+ 
 if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "contacto@terraverdejuriquilla.com";
-    $email_subject = "Nueva entrada en formulario desde Sitio Web";
+    $email_to = "mgarcia@grupohodaya.com";
+    $email_subject = "Nueva entrada desde Descarga Brochure";
  
     function died($error) {
         // your error code can go here
@@ -78,7 +79,6 @@ if(isset($_POST['email'])) {
     }
  
      
- 
     $email_message .= "Nombre: ".clean_string($first_name)."\n";
     $email_message .= "Apellido: ".clean_string($last_name)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
@@ -88,9 +88,12 @@ if(isset($_POST['email'])) {
  
 // create email headers
 $headers = 'From: '.$email_from."\r\n".
-'Reply-To: '.$email_from."\r\n" .
+'Reply-To: '.$email_from."\r\n".
 'X-Mailer: PHP/' . phpversion();
-$headers .= 'Content-Type: text/html; charset=iso-8859-1\n';
+
+$headers .= 'MIME-Version: 1.0' . "\r\n";
+$headers .='Content-type: text/html; charset=UTF-8' . "\r\n";
+
 @mail($email_to, $email_subject, $email_message, $headers);  
 ?>
  
