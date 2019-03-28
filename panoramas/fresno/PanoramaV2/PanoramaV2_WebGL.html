@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5 Transitional//EN">
+<html>
+	<head>
+		<META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link rel="shortcut icon" href="./webglPlayer/logo_iVisit3D.ico" type="image/x-icon"/>
+		<link rel="icon" href="./webglPlayer/logo_iVisit3D.ico" type="image/x-icon"/>
+		<title>iVisit 3D WebGL</title>
+
+		<script language="javascript">
+			var p_width = 1280;//player width (div id="PlayerWebGL" and div id="divuser")
+			var p_height = 720;//player height (div id="PlayerWebGL")
+
+			window.addEventListener( 'resize', onWindowResizeUser, false );
+			function onWindowResizeUser(){
+				document.getElementById('divuser').style.marginLeft=(window.innerWidth/2-p_width/2)>0?(window.innerWidth/2-p_width/2)+'px':'0px';
+			}
+			function initUser(){
+				document.getElementById('divuser').style.width=p_width+'px';//should not change
+
+				document.getElementById('divuser').style.marginTop='100px';
+				document.getElementById('divuser').style.marginLeft=(window.innerWidth/2-p_width/2)+'px';
+			}
+		</script>
+	</head>
+
+<body onload="initUser();initPlayerWebGL();">
+
+<script type="text/javascript" src="./webglPlayer/PlayerWebGL.js"></script>
+
+	<div id="divuser" > <!-- users must use this tag in css to change the position of the div (with id="PlayerWebGL") in the webpage, and modify the onWindowResizeUser() and initUser() functions in the head tag. -->
+
+		<!------------------------------------------>
+		<div id="PlayerWebGL">
+			<div id="BoxPlayer">
+				<div id="OverlayButton">
+					<div id="divBoutonFS" style="float: right;  width: 32px; height:32px">
+						<img id='bouton_Fullscreen' src="./webglPlayer/pleinEcran.png" height="32px" width="32px" alt="Fullscreen" title="Fullscreen" onmouseover="this.style.cursor='pointer';" onclick="toggleFullPlayerWebGL();" />
+					</div>
+				</div>
+			</div>
+			<iframe id="frameWebGL" src="./PanoramaV2_WebGL_Fullpage.html" frameborder="0"></iframe>
+		</div>
+		<!------------------------------------------>
+
+	</div>
+
+</body>
+
+</html>

@@ -100,8 +100,8 @@ $headers .='Content-type: text/html; charset=UTF-8' . "\r\n";
 <!-- include your own success html here -->
 
 <script type="text/javascript">
-  alert("¡Gracias! Puede descargar el folleto completo haciendo click en 'Aceptar'");
-  window.location.href = "https://drive.google.com/file/d/1qKGz4EKx_Y7Fkz5ZBnhOGnOJZ0ydd55p/view?usp=sharing";
+  alert("¡Gracias! Puede descargar el folleto completo después de este mensaje");
+  window.location.href = "https://drive.google.com/file/d/1umYNwYkYj9YbHfIOY1X_A5z2QsHd5-jz/view?usp=sharing";
 </script>
 
 
