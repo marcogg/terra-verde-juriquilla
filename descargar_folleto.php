@@ -58,7 +58,6 @@ if(isset($_POST['email'])) {
   if(!preg_match($string_exp,$last_name)) {
     $error_message .= '<script type="text/javascript">alert("El apellido ingresado no tiene un formato válido<br />");
     window.location.href = "index.html";</script>';
-
   }
  
   /*if(strlen($comments) < 2) {
@@ -84,16 +83,13 @@ if(isset($_POST['email'])) {
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Tel: ".clean_string($telephone)."\n";
     $email_message .= "Estado: ".clean_string($selected_val)."\n";
-
  
 // create email headers
 $headers = 'From: '.$email_from."\r\n".
 'Reply-To: '.$email_from."\r\n".
 'X-Mailer: PHP/' . phpversion();
-
 $headers .= 'MIME-Version: 1.0' . "\r\n";
 $headers .='Content-type: text/html; charset=UTF-8' . "\r\n";
-
 @mail($email_to, $email_subject, $email_message, $headers);  
 ?>
  
