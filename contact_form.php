@@ -50,7 +50,7 @@ require('constant.php');
 		  }	
 	}
 	
-	$toEmail = "mgarcia@grupohodaya.com";
+	$toEmail = "contacto@terraverdejuriquilla.com";
 	$mailHeaders = "De: " . $user_name . "<" . $user_email . ">\r\n";
 	$mailBody = "Nombre: " . $user_name . "\n";
 	$mailBody .= "Apellido: " . $user_last . "\n";
