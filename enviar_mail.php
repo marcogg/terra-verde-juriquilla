@@ -132,3 +132,7 @@ echo '<script>alert("Captcha no validado, intenta nuevamente"); window.location.
   window.location.href = "index.html";
 </script>
 
+<?php
+ 
+}
+?>
