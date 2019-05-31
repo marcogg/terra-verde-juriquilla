@@ -1,10 +1,10 @@
 <?php
  
-if(isset($_POST['email_brochure'])) {
+if(isset($_POST['mail'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "mgarcia@grupohodaya.com";
-    $email_subject = "Nueva entrada desde Descarga Brochure";
+    $email_to = "contacto@terraverdejuriquilla.com";
+    $email_subject = "Nueva entrada desde Descarga";
  
     function died($error) {
         // your error code can go here
@@ -20,10 +20,10 @@ if(isset($_POST['email_brochure'])) {
  
  
     // validation expected data exists
-    if(!isset($_POST['first_name_brochure']) ||
-        !isset($_POST['last_name_brochure']) ||
-        !isset($_POST['email_brochure']) ||
-        !isset($_POST['telephone_brochure']) //||
+    if(!isset($_POST['first_name']) ||
+        !isset($_POST['last_name']) ||
+        !isset($_POST['mail']) ||
+        !isset($_POST['telephone']) //||
         //!isset($_POST['comments'])
       )
          {
@@ -32,10 +32,10 @@ if(isset($_POST['email_brochure'])) {
  
      
  
-    $first_name = $_POST['first_name_brochure']; // required
-    $last_name = $_POST['last_name_brochure']; // required
-    $email_from = $_POST['email_brochure']; // required
-    $telephone = $_POST['telephone_brochure']; // not required
+    $first_name = $_POST['first_name']; // required
+    $last_name = $_POST['last_name']; // required
+    $email_from = $_POST['mail']; // required
+    $telephone = $_POST['telephone']; // not required
     //$comments = $_POST['comments']; // required
     //$estado = $_POST['estado']; //not required
     $selected_val=$_POST['estado'];
@@ -78,10 +78,10 @@ if(isset($_POST['email_brochure'])) {
     }
  
      
-    $email_message .= "Nombre: ".clean_string($first_name_brochure)."\n";
-    $email_message .= "Apellido: ".clean_string($last_name_brochure)."\n";
-    $email_message .= "Email: ".clean_string($email_from_brochure)."\n";
-    //$email_message .= "Tel: ".clean_string($telephone_brochure)."\n";
+    $email_message .= "Nombre: ".clean_string($first_name)."\n"; 
+    $email_message .= "Apellido: ".clean_string($last_name)."\n";
+    $email_message .= "Email: ".clean_string($email_from)."\n";
+    $email_message .= "Tel: ".clean_string($telephone)."\n";
     $email_message .= "Estado: ".clean_string($selected_val)."\n";
  
 // create email headers

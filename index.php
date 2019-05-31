@@ -374,18 +374,18 @@ Follow: http://www.twitter.com/themehats
                                                                 <div class="form-group">
                                                                     <div class="row">
                                                                         <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                                                                            <input type="text" placeholder="Nombre*" class="form-control c-square c-theme input-lg" name="first_name_brochure" id="first_name_brochure" required>
+                                                                            <input type="text" placeholder="Nombre*" class="form-control c-square c-theme input-lg" name="first_name" id="first_name" required>
                                                                         </div>
                                                                         <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                                                                            <input type="text" placeholder="Apellido*" class="form-control c-square c-theme input-lg" name="last_name_brochure" id="last_name_brochure" required>
+                                                                            <input type="text" placeholder="Apellido*" class="form-control c-square c-theme input-lg" name="last_name" id="last_name" required>
                                                                         </div>
                                                                     </div>
                                                                     
                                                                 </div>
                                                                 <div class="form-group">
-                                                                <input type="text" placeholder="Email*" class="form-control c-square c-theme input-lg" name="email_brochure" id="email_brochure" required> </div>
+                                                                <input type="text" placeholder="Email*" class="form-control c-square c-theme input-lg" name="mail" id="mail" required> </div>
                                                                 <div class="form-group">
-                                                                    <input type="text" placeholder="Teléfono" class="form-control c-square c-theme input-lg" name="telephone_brochure" id="telephone_brochure">
+                                                                    <input type="text" placeholder="Teléfono" class="form-control c-square c-theme input-lg" name="telephone" id="telephone">
                                                                 </div>
                                                                 <div class="form-group">
                                                                     <label>Estado</label>
