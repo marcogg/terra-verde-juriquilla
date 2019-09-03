@@ -13,7 +13,7 @@ Follow: http://www.twitter.com/themehats
 -->
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!-->
-<html lang="es">
+<html lang="es" style="overflow-x: hidden !important;">
     <!--<![endif]-->
     <!-- BEGIN HEAD -->
     <head>
@@ -1500,7 +1500,7 @@ Follow: http://www.twitter.com/themehats
                                                                 <strong>T</strong> <a id="link-contacto" href="tel:4630 3525">4630-3525</a>
                                                                 <br/>
                                                                 <strong>E</strong><a id="link-contacto" href="mailto:contacto@terraverdejuriquilla.com"> contacto@terraverdejuriquilla.com</a></p>
-                                                                <p><img src="assets/base/img/content/apps/whatsapp-logo.png" width="20"><a href="https://wa.me/525573552395" id="link-contacto"> 55 7355-2395</p>
+                                                                <p><img src="assets/base/img/content/apps/whatsapp-logo.png" width="20"><a href="https://wa.me/525573552395" id="link-contacto"> 55 7355-2395</a></p>
                                                                 <br>
                                                             </div>
                                                             <div class="c-section">
@@ -1870,8 +1870,8 @@ Follow: http://www.twitter.com/themehats
                         <!--<script src="assets/base/js/scripts/pages/contacto.js" type="text/javascript"></script>-->
                         <!-- END: PAGE SCRIPTS -->
                         <!-- END: LAYOUT/BASE/BOTTOM -->
-                        <div style="background-color:#02a047; width: 60px; height:60px; border-radius: 50%; position:fixed; top: 85vh; left: 5px; z-index:50000; display: block; ">
-    <div style="margin: auto; display: block; position: relative; left: 20%; top: 15%">
+                        <div style="background-color:#02a047; width: 70px; height:70px; border-radius: 50%; position:fixed; top: 85vh; left: 5px; z-index:50000; display: block; ">
+    <div style="margin: auto; display: block; position: relative; left: 18%; top: 13%">
         <a href="https://wa.me/525573552395">
             <i class="fab fa-whatsapp fa-3x" style="color:white;"></i>
         </a>
