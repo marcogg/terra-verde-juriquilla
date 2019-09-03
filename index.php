@@ -42,6 +42,8 @@ Follow: http://www.twitter.com/themehats
         <link href="assets/plugins/owl-carousel/assets/owl.carousel.css" rel="stylesheet" type="text/css" />
         <link href="assets/plugins/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css" />
         <link href="assets/plugins/slider-for-bootstrap/css/slider.css" rel="stylesheet" type="text/css" />
+        <!--Font Awesome-->
+        <script src="https://kit.fontawesome.com/7c9178a2fa.js"></script>
         <!-- END: BASE PLUGINS -->
         <!--LIGHTBOX CDN------->
         
@@ -322,15 +324,15 @@ Follow: http://www.twitter.com/themehats
                                         <ul>
                                             <!--BEGIN: SLIDE #1 -->
                                             <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-style="dark">
-                                            <img alt="" src="assets/base/img/content/backgrounds/desarrollo.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> </li>
+                                            <img alt="" src="assets/base/img/content/backgrounds/desarrollo_ago.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> </li>
                                             <!--END -->
                                             <!--BEGIN: SLIDE #2 -->
                                             <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-style="dark">
-                                            <img alt="" src="assets/base/img/content/backgrounds/fachada.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> </li>
+                                            <img alt="" src="assets/base/img/content/backgrounds/fachada_ago.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> </li>
                                             <!--END -->
                                             <!--BEGIN: SLIDE #3 -->
                                             <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-style="dark">
-                                            <img alt="" src="assets/base/img/content/backgrounds/sala-depaA.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> </li>
+                                            <img alt="" src="assets/base/img/content/backgrounds/balcones.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> </li>
                                             <!--END -->
                                         </ul>
                                     </div>
@@ -1868,5 +1870,14 @@ Follow: http://www.twitter.com/themehats
                         <!--<script src="assets/base/js/scripts/pages/contacto.js" type="text/javascript"></script>-->
                         <!-- END: PAGE SCRIPTS -->
                         <!-- END: LAYOUT/BASE/BOTTOM -->
+                        <div style="background-color:#02a047; width: 60px; height:60px; border-radius: 50%; position:fixed; top: 85vh; left: 5px; z-index:50000; display: block; ">
+    <div style="margin: auto; display: block; position: relative; left: 20%; top: 15%">
+        <a href="https://wa.me/525573552395">
+            <i class="fab fa-whatsapp fa-3x" style="color:white;"></i>
+        </a>
+    </div>
+    
+</div>
+<!--FIN BUTTON WHATSAPP-->
                     </body>
                 </html>

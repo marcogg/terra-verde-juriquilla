@@ -3,8 +3,8 @@
 if(isset($_POST['mail'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "contacto@terraverdejuriquilla.com";
-    $email_subject = "Nueva entrada desde Descarga";
+    $email_to = "mgarcia@grupohodaya.com";
+    $email_subject = "Nueva entrada desde Descarga de Brochure";
  
     function died($error) {
         // your error code can go here
@@ -97,7 +97,7 @@ $headers .='Content-type: text/html; charset=UTF-8' . "\r\n";
 
 <script type="text/javascript">
   alert("¡Gracias! Puede descargar el folleto completo después de este mensaje");
-  window.location.href = "https://drive.google.com/file/d/1umYNwYkYj9YbHfIOY1X_A5z2QsHd5-jz/view?usp=sharing";
+  window.location.href = "https://drive.google.com/file/d/1fD6857WdpoFf8_NaxJ7mpkZ4j0RtFY2D/view?usp=sharing";
 </script>
 
 
