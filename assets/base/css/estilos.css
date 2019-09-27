@@ -4,7 +4,7 @@
 }
 
 .title-shadow{
-	text-shadow:5px 5px 5px rgba(0,0,0,0.5);
+	text-shadow:1px 1px 4px rgba(0,0,0,0.8);
 }
 @media screen and (min-width: 768px){
 .super-title{
@@ -166,3 +166,25 @@ a#link-contacto:hover{
 }
 
 
+/*ANIMACION SLIDER---------------*/
+
+#slider1animacion img{
+
+  position: relative;
+  -webkit-animation-name: slidetoleft; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  animation-name: slidetoleft;
+  animation-duration: 5s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes slidetoleft {
+  0%   {right:0px; top:0px;}
+  100% {right:300px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes slidetoleft {
+	0%{right:0px; top:0px;}
+  100% {right:300px; top:0px;}
+}
