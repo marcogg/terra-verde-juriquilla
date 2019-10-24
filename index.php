@@ -29,7 +29,9 @@ Follow: http://www.twitter.com/themehats
         <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700&amp;subset=all' rel='stylesheet' type='text/css'>
         <link href="assets/plugins/socicon/socicon.css" rel="stylesheet" type="text/css" />
         <link href="assets/plugins/bootstrap-social/bootstrap-social.css" rel="stylesheet" type="text/css" />
-        <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <!--FONT AWESOME-->
+        <!--<link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
         <link href="assets/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
         <link href="assets/plugins/animate/animate.min.css" rel="stylesheet" type="text/css" />
         <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -220,9 +222,9 @@ Follow: http://www.twitter.com/themehats
                                         <li class="c-onepage-link ">
                                             <a href="#ubicacion" class="c-link">Ubicación</a>
                                         </li>
-                                        <li class="c-onepage-link ">
+                                        <!--<li class="c-onepage-link ">
                                             <a href="#financiamiento" class="c-link">Financiamiento</a>
-                                        </li>
+                                        </li>-->
                                         <li class="c-onepage-link ">
                                             <a href="#avances" class="c-link">Avances de Obra</a>
                                         </li>
@@ -521,6 +523,7 @@ Follow: http://www.twitter.com/themehats
                                                         <div class="col-lg-5 col-md-4 col-sm-12">
                                                             <img id="especs" src="" class="wow animated fadeIn img-responsive" onclick="">
                                                         </div>
+                                                        
                                                     </div>
                                                     
                                                 </div>
@@ -532,10 +535,28 @@ Follow: http://www.twitter.com/themehats
                             <!--INICIO: SEPARADOR-->
                             <div class="c-size-md c-bg-grey-1">
                                 <div class="container" style="padding: 5%;">
-                                    <h5 class="c-center c-font-uppercase c-font-bold c-font-40 text-center c-content-title-1">ACABADOS DE LUJO</h5>
-                                    <div style=" width: 150px; height: 7px; background-color: #32c5d2; margin: 0 auto 30px auto;"></div>
-                                    <p class="text-center">Todos los departamentos cuentan con piso cerámico, cancelería de vidrio, cocina integral con granito y más.</p>
+                                    <div class="row">
+                                        <h5 class="c-center c-font-uppercase c-font-bold c-font-40 text-center c-content-title-1">Conoce los Departamentos virtuales</h5>
+                                        <div style=" width: 150px; height: 7px; background-color: #32c5d2; margin: 0 auto 30px auto;"></div>
+                                        <p class="text-center">Haz el recorrido virtual de los prototipos de <b>Terra Verde Juiriquilla</b></p>
+                                    </div>
+                                
+                                    <div class="row mt-5">
+                                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                                            <a href="panoramas/arce"><button class="btn btn-xl btn-block c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph">MODELO ARCE<br><small>2 recámaras</small></button></a>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                                            <a href="#"><button class="btn btn-xl btn-block c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph" disabled>MODELO OLMO <br><small>Próximamente</small></button></a>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                                            <a href="#"><button class="btn btn-xl btn-block c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph" disabled>MODELO FRESNO<br><small>Próximamente</small></button></a>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                                            <a href="#"><button class="btn btn-xl btn-block c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph" disabled>MODELO CEREZO <br><small>Próximamente</small></button></a>
+                                        </div>
+                                    </div>
                                 </div>
+                                
                             </div>
                             <!--FIN: SEPARADOR-->
                             <div class=" padding-ph-container">
@@ -1271,76 +1292,143 @@ Follow: http://www.twitter.com/themehats
                         <!--FIN: Seccion financiamiento-->
                         <!--INICIO: Avances de Obra-->
                         <section id="avances" class="c-bg-grey-1">
-                            <div class="container-full">
-                                <div class="row mt-5 mb-5">
-                                    <div class="col-lg-12 col-md-6 col-sm-8 col-8 py-auto">
-                                        <h1 class="c-center c-font-36 c-font-uppercase c-font-bold super-title mt-5">Avances de Obra</h1>
-                                        <div class="c-line-center c-theme-bg"></div>
-                                        <p class=" c-content-title-1 text-center">Conoce el progeso en la contrucción de <strong>Terra Verde Juriquilla</strong></p>
+                            <div class="row">
+                                <div class="container-full">
+                                    <div class="row mt-5 mb-5">
+                                        <div class="col-lg-12 col-md-6 col-sm-8 col-8 py-auto">
+                                            <h1 class="c-center c-font-36 c-font-uppercase c-font-bold super-title mt-5">Avances de Obra</h1>
+                                            <div class="c-line-center c-theme-bg"></div>
+                                            <p class=" c-content-title-1 text-center">Conoce el progeso en la contrucción de <strong>Terra Verde Juriquilla</strong></p>
+                                            <div class="c-line-center c-theme-bg"></div>
+                                        </div>
                                         <div class="c-line-center c-theme-bg"></div>
                                     </div>
-                                    <div class="c-line-center c-theme-bg"></div>
+                                </div>
+                            </div>
+                            <!--INICIO: LIGHTBOX DE AVANCES DE OBRA SEP-->
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="c-content-box c-bg-white text-center">
+                                        <div class="c-content-tile-grid c-bs-grid-reset-space" data-auto-height="true">
+                                            <div class="col-lg-12">
+                                                <div class="c-content-tile-1 c-bg-green-2">
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <div class="wow animate fadeInUp">
+                                                                <div class="c-tile-content c-arrow-right c-arrow-brown-2 c-content-overlay">
+                                                                    <div class="c-overlay-wrapper">
+                                                                        <div class="c-overlay-content filter-bn">
+                                                                            <a href="assets/base/img/content/avances/sep19/1.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                <i class="far fa-eye"></i>
+                                                                                <p class="text-center text-white">Ver avances</p>
+                                                                            </a>
+                                                                            <a href="assets/base/img/content/avances/sep19/2.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                
+                                                                            </a>
+                                                                            <a href="assets/base/img/content/avances/sep19/3.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                
+                                                                            </a>
+                                                                            <a href="assets/base/img/content/avances/sep19/4.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                
+                                                                            </a>
+                                                                            <a href="assets/base/img/content/avances/sep19/5.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                
+                                                                            </a>
+                                                                            <a href="assets/base/img/content/avances/sep19/6.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                
+                                                                            </a>
+                                                                            <a href="assets/base/img/content/avances/sep19/7.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                
+                                                                            </a>
+                                                                            <a href="assets/base/img/content/avances/sep19/8.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                
+                                                                            </a>
+                                                                            <a href="assets/base/img/content/avances/sep19/9.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                
+                                                                            </a>
+                                                                            <a href="assets/base/img/content/avances/sep19/vid1.mp4" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                
+                                                                            </a>
+                                                                            <a href="assets/base/img/content/avances/sep19/vid2.mp4" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/content/avances/sep19/1.jpg)"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="c-tile-content c-content-v-center" data-height="height">
+                                                                <div class="c-wrapper">
+                                                                    <div class="c-body c-center">
+                                                                        <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white"> Septiembre 2019</h3>
+                                                                        <p class="c-tile-body c-font-white"></p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <!--INICIO: LIGHTBOX DE AVANCES DE OBRA-->
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <div class="c-content-box c-size-md c-bg-white text-center">
+                                        <div class="c-content-box  c-bg-white text-center">
                                             <div class="c-content-tile-grid c-bs-grid-reset-space" data-auto-height="true">
                                                 <div class="col-lg-12">
-                                                    <div class="c-content-tile-1 c-bg-green-2">
+                                                    <div class="c-content-tile-1 c-bg-green-1">
                                                         <div class="row">
+                                                            
+                                                            <div class="col-lg-6">
+                                                                <div class="c-tile-content c-content-v-center" data-height="height">
+                                                                    <div class="c-wrapper">
+                                                                        <div class="c-body c-center">
+                                                                            <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white"> Octubre 2019</h3>
+                                                                            <p class="c-tile-body c-font-white"></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                                             <div class="col-sm-6">
-                                                                <div class="row wow animate fadeInUp">
+                                                                <div class="wow animate fadeInUp">
                                                                     <div class="c-tile-content c-arrow-right c-arrow-brown-2 c-content-overlay">
                                                                         <div class="c-overlay-wrapper">
                                                                             <div class="c-overlay-content filter-bn">
-                                                                                <a href="assets/base/img/content/avances/sep19/1.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
-                                                                                    <i class="icon-magnifier"></i>
+                                                                                <a href="assets/base/img/content/avances/oct19/2.jpeg" data-lightbox="fancybox" data-fancybox-group="gallery-7">
+                                                                                    <i class="far fa-eye"></i>
+                                                                                    <p class="text-center text-white">Ver avances</p>
                                                                                 </a>
-                                                                                <a href="assets/base/img/content/avances/sep19/2.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                <a href="assets/base/img/content/avances/oct19/2.jpeg" data-lightbox="fancybox" data-fancybox-group="gallery-7">
                                                                                     
                                                                                 </a>
-                                                                                <a href="assets/base/img/content/avances/sep19/3.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                <a href="assets/base/img/content/avances/oct19/3.jpeg" data-lightbox="fancybox" data-fancybox-group="gallery-7">
                                                                                     
                                                                                 </a>
-                                                                                <a href="assets/base/img/content/avances/sep19/4.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                <a href="assets/base/img/content/avances/oct19/4.jpeg" data-lightbox="fancybox" data-fancybox-group="gallery-7">
                                                                                     
                                                                                 </a>
-                                                                                <a href="assets/base/img/content/avances/sep19/5.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                <a href="assets/base/img/content/avances/oct19/5.jpeg" data-lightbox="fancybox" data-fancybox-group="gallery-7">
                                                                                     
                                                                                 </a>
-                                                                                <a href="assets/base/img/content/avances/sep19/6.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                <a href="assets/base/img/content/avances/oct19/6.jpeg" data-lightbox="fancybox" data-fancybox-group="gallery-7">
                                                                                     
                                                                                 </a>
-                                                                                <a href="assets/base/img/content/avances/sep19/7.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                <a href="assets/base/img/content/avances/oct19/7.jpeg" data-lightbox="fancybox" data-fancybox-group="gallery-7">
                                                                                     
                                                                                 </a>
-                                                                                <a href="assets/base/img/content/avances/sep19/8.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                <a href="assets/base/img/content/avances/oct19/8.jpeg" data-lightbox="fancybox" data-fancybox-group="gallery-7">
                                                                                     
                                                                                 </a>
-                                                                                <a href="assets/base/img/content/avances/sep19/9.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
-                                                                                    
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/sep19/vid1.mp4" data-lightbox="fancybox" data-fancybox-group="gallery-5">
-                                                                                    
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/sep19/vid2.mp4" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                <a href="assets/base/img/content/avances/oct19/9.jpeg" data-lightbox="fancybox" data-fancybox-group="gallery-7">
                                                                                     
                                                                                 </a>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/content/avances/sep19/1.jpg)"></div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-6">
-                                                                <div class="c-tile-content c-content-v-center" data-height="height">
-                                                                    <div class="c-wrapper">
-                                                                        <div class="c-body c-center">
-                                                                            <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white">SEPTIEMBRE 2019</h3>
-                                                                            
-                                                                            
-                                                                        </div>
+                                                                        <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/content/avances/oct19/3.jpeg)"></div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1350,413 +1438,411 @@ Follow: http://www.twitter.com/themehats
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            
-                        </section>
-                        <!--Fin: Seccion Avances de obra-->
-                        <!--SECTION: CONTACT-->
-                        <section id="contacto" class="extra-divider c-bg-grey-1" style="background-image: url(assets/base/img/content/backgrounds/bg-92.jpg); max-width: 100%; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;">
-                            <!-- BEGIN: CONTENT/contacto/contacto-1 -->
-                            <div class="c-content-title-1">
-                                <h1 class="c-center c-font-uppercase c-font-bold super-title c-font-36">Contacto</h1>
-                                <div class="c-line-center c-theme-bg"></div>
-                            </div>
-                            <!-- END: CONTENT/contacto/contacto-1 -->
-                            <!-- BEGIN: CONTENT/contacto/FEEDBACK-1 -->
-                            <div class="c-content-box c-size-md">
-                                <div class="container">
-                                    <div class="c-content-feedback-1 c-option-1">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="c-container c-bg-green c-bg-img-bottom-right" style="background-image:url(assets/base/img/content/misc/feedback_box_1.png)">
-                                                    <div class="c-content-title-1 c-inverse">
-                                                        <h3 class="c-font-uppercase c-font-bold">Contáctanos</h3>
-                                                        <div class="c-line-left"></div>
-                                                        <div class="c-section">
-                                                            <div class="c-content-label c-font-uppercase c-font-bold c-theme-bg">Para mayor información</div>
-                                                            <p class="text-white">
-                                                                <strong>T</strong> <a id="link-contacto" href="tel:4630 3525">4630-3525</a>
-                                                                <br/>
-                                                                <strong>E</strong><a id="link-contacto" href="mailto:contacto@terraverdejuriquilla.com"> contacto@terraverdejuriquilla.com</a></p>
-                                                                <p><img src="assets/base/img/content/apps/whatsapp-logo.png" width="20"><a href="https://wa.me/525573552395" id="link-contacto"> 55 7355-2395</a></p>
-                                                                <br>
-                                                            </div>
-                                                            <div class="c-section">
-                                                                <div class="c-content-label c-font-uppercase c-font-bold c-theme-bg">Redes Sociales</div>
-                                                                <br/>
-                                                                <ul class="c-content-iconlist-1 c-theme">
-                                                                    <li>
-                                                                        <a href="https://twitter.com/TVJuriquilla">
-                                                                            <i class="fa fa-twitter"></i>
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="https://www.facebook.com/terraverdejuriquilla/">
-                                                                            <i class="fa fa-facebook"></i>
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="https://www.instagram.com/terra_verde_juriquilla/">
-                                                                            <i class="fa fa-instagram"></i>
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="https://www.linkedin.com/company/11827693/admin/updates/">
-                                                                            <i class="fa fa-linkedin"></i>
-                                                                        </a>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="row">
-                                                                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                                                                    <!--FACEBOOK FEED CODE-->
-                                                                    <div class="fb-page" data-href="https://www.facebook.com/terraverdejuriquilla/" data-tabs="timeline" data-width="350" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/terraverdejuriquilla/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/terraverdejuriquilla/">Terra Verde Juriquilla</a></blockquote></div>
-                                                                </div>
-                                                                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                                                                    <!--TWITTER FEED CODE-->
-                                                                    <a class="twitter-timeline" data-width="350" data-height="400" data-theme="light" href="https://twitter.com/TVJuriquilla?ref_src=twsrc%5Etfw">Tweets by TVJuriquilla</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    
-                                                </div>
-                                                <div class="col-md-6" style="background-color: rgba(255,255,255,0.6); padding: 5%;">
-                                                    <div class="c-contacto">
-                                                        <div class="c-content-title-1">
-                                                            <h3 class="c-font-uppercase c-font-bold">Más información</h3>
-                                                            <p class="c-font-lowercase">Déjenos sus datos y en breve un ejecutivo se pondrá en contacto con usted.</p>
-                                                        </div>
-                                                        <div id="message">
-                                                            <form id="frmContact" action="" method="POST" novalidate="novalidate">
-                                                                <div class="row">
-                                                                    <div class="col-lg-6">
-                                                                        <div class="field">
-                                                                            <input type="text" id="name" name="name" placeholder="Nombre" title="Por favor ingrese su nombre" class="required" aria-required="true" required>
-                                                                        </div>
+                                    
+                                </section>
+                                <!--Fin: Seccion Avances de obra-->
+                                <!--SECTION: CONTACT-->
+                                <section id="contacto" class="extra-divider c-bg-grey-1" style="background-image: url(assets/base/img/content/backgrounds/bg-92.jpg); max-width: 100%; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;">
+                                    <!-- BEGIN: CONTENT/contacto/contacto-1 -->
+                                    <div class="c-content-title-1">
+                                        <h1 class="c-center c-font-uppercase c-font-bold super-title c-font-36">Contacto</h1>
+                                        <div class="c-line-center c-theme-bg"></div>
+                                    </div>
+                                    <!-- END: CONTENT/contacto/contacto-1 -->
+                                    <!-- BEGIN: CONTENT/contacto/FEEDBACK-1 -->
+                                    <div class="c-content-box c-size-md">
+                                        <div class="container">
+                                            <div class="c-content-feedback-1 c-option-1">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="c-container c-bg-green c-bg-img-bottom-right" style="background-image:url(assets/base/img/content/misc/feedback_box_1.png)">
+                                                            <div class="c-content-title-1 c-inverse">
+                                                                <h3 class="c-font-uppercase c-font-bold">Contáctanos</h3>
+                                                                <div class="c-line-left"></div>
+                                                                <div class="c-section">
+                                                                    <div class="c-content-label c-font-uppercase c-font-bold c-theme-bg">Para mayor información</div>
+                                                                    <p class="text-white">
+                                                                        <strong>T</strong> <a id="link-contacto" href="tel:4630 3525">4630-3525</a>
+                                                                        <br/>
+                                                                        <strong>E</strong><a id="link-contacto" href="mailto:contacto@terraverdejuriquilla.com"> contacto@terraverdejuriquilla.com</a></p>
+                                                                        <p><img src="assets/base/img/content/apps/whatsapp-logo.png" width="20"><a href="https://wa.me/525573552395" id="link-contacto"> 55 7355-2395</a></p>
+                                                                        <br>
                                                                     </div>
-                                                                    <div class="col-lg-6">
-                                                                        <div class="field">
-                                                                            <input type="text" id="lastname" name="lastname" placeholder="Apellido" title="Por favor ingrese su apellido" class="required" aria-required="true" required>
+                                                                    <div class="c-section">
+                                                                        <div class="c-content-label c-font-uppercase c-font-bold c-theme-bg">Redes Sociales</div>
+                                                                        <br/>
+                                                                        <ul class="c-content-iconlist-1 c-theme">
+                                                                            <li>
+                                                                                <a href="https://twitter.com/TVJuriquilla">
+                                                                                    <i class="fab fa-twitter"></i>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="https://www.facebook.com/terraverdejuriquilla/">
+                                                                                    <i class="fab fa-facebook"></i>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="https://www.instagram.com/terra_verde_juriquilla/">
+                                                                                    <i class="fab fa-instagram"></i>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="https://www.linkedin.com/company/11827693/admin/updates/">
+                                                                                    <i class="fab fa-linkedin"></i>
+                                                                                </a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="row">
+                                                                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                                                                            <!--FACEBOOK FEED CODE-->
+                                                                            <div class="fb-page" data-href="https://www.facebook.com/terraverdejuriquilla/" data-tabs="timeline" data-width="350" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/terraverdejuriquilla/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/terraverdejuriquilla/">Terra Verde Juriquilla</a></blockquote></div>
+                                                                        </div>
+                                                                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                                                                            <!--TWITTER FEED CODE-->
+                                                                            <a class="twitter-timeline" data-width="350" data-height="400" data-theme="light" href="https://twitter.com/TVJuriquilla?ref_src=twsrc%5Etfw">Tweets by TVJuriquilla</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="field">
-                                                                    <input type="text" id="email" name="email" placeholder="Email" title="Ingrese su correo electrónico" class="required email" aria-required="true" required>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                        <div class="col-md-6" style="background-color: rgba(255,255,255,0.6); padding: 5%;">
+                                                            <div class="c-contacto">
+                                                                <div class="c-content-title-1">
+                                                                    <h3 class="c-font-uppercase c-font-bold">Más información</h3>
+                                                                    <p class="c-font-lowercase">Déjenos sus datos y en breve un ejecutivo se pondrá en contacto con usted.</p>
                                                                 </div>
-                                                                
-                                                                <div class="field">
-                                                                    <input type="text" id="phone" name="phone" placeholder="Número telefónico" title="Please enter your phone number" class="phone">
+                                                                <div id="message">
+                                                                    <form id="frmContact" action="" method="POST" novalidate="novalidate">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <div class="field">
+                                                                                    <input type="text" id="name" name="name" placeholder="Nombre" title="Por favor ingrese su nombre" class="required" aria-required="true" required>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-lg-6">
+                                                                                <div class="field">
+                                                                                    <input type="text" id="lastname" name="lastname" placeholder="Apellido" title="Por favor ingrese su apellido" class="required" aria-required="true" required>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="field">
+                                                                            <input type="text" id="email" name="email" placeholder="Email" title="Ingrese su correo electrónico" class="required email" aria-required="true" required>
+                                                                        </div>
+                                                                        
+                                                                        <div class="field">
+                                                                            <input type="text" id="phone" name="phone" placeholder="Número telefónico" title="Please enter your phone number" class="phone">
+                                                                        </div>
+                                                                        
+                                                                        <div class="field">
+                                                                            <textarea id="comment-content" name="content" placeholder="Escriba su comentario"></textarea>
+                                                                        </div>
+                                                                        <div class="g-recaptcha" data-sitekey="<?php echo SITE_KEY; ?>"></div>
+                                                                        <div id="mail-status"></div>
+                                                                        <button class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square" type="Submit" id="send-message" style="clear:both;">Enviar</button>
+                                                                    </form>
+                                                                    <div id="loader-icon" style="display:none;"><img src="img/loader.gif" /></div>
                                                                 </div>
-                                                                
-                                                                <div class="field">
-                                                                    <textarea id="comment-content" name="content" placeholder="Escriba su comentario"></textarea>
-                                                                </div>
-                                                                <div class="g-recaptcha" data-sitekey="<?php echo SITE_KEY; ?>"></div>
-                                                                <div id="mail-status"></div>
-                                                                <button class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square" type="Submit" id="send-message" style="clear:both;">Enviar</button>
-                                                            </form>
-                                                            <div id="loader-icon" style="display:none;"><img src="img/loader.gif" /></div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                        <!-- END: CONTENT/contacto/FEEDBACK-1 -->
+                                    </section>
+                                    <!-- END: PAGE CONTENT -->
                                 </div>
-                                <!-- END: CONTENT/contacto/FEEDBACK-1 -->
-                            </section>
-                            <!-- END: PAGE CONTENT -->
-                        </div>
-                        <!-- END: PAGE CONTAINER -->
-                        <!-- BEGIN: LAYOUT/FOOTERS/FOOTER-2 -->
-                        <a name="footer"></a>
-                        <footer class="c-layout-footer c-layout-footer-1">
-                            <div class="c-postfooter">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-6 col-sm-6">
-                                            <img src="assets/base/img/content/desarrollo/logo.png">
-                                            <p class="c-copyright c-font-oswald c-font-14"> Grupo Hodaya | Derechos reservados</p>
-                                            <p>Consulta nuestro <a href="Aviso_de_Privacidad.pdf">Aviso de Privacidad</a></p>
-                                            <p><small>El diseño, superficies, decoración, imágenes y mobiliario, son solo ilustrativas y podrían tener modificaciones sin previo aviso. Por lo tanto, no constituye un compromiso, obligación y oferta comercial o legal de la empresa vendedora.</small></p>
-                                            <p>Las áreas especificadas pueden ser variables.</p>
-                                        </div>
-                                        <div class="col-md-6 col-sm-6 float-right">
-                                            <ul class="c-content-iconlist-1 c-theme" style="float: right;">
-                                                <li>
-                                                    <a href="https://twitter.com/TVJuriquilla">
-                                                        <i class="fa fa-twitter"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://www.facebook.com/terraverdejuriquilla/">
-                                                        <i class="fa fa-facebook"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://www.instagram.com/terra_verde_juriquilla/">
-                                                        <i class="fa fa-instagram"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://www.linkedin.com/company/11827693/admin/updates/">
-                                                        <i class="fa fa-linkedin"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
+                                <!-- END: PAGE CONTAINER -->
+                                <!-- BEGIN: LAYOUT/FOOTERS/FOOTER-2 -->
+                                <a name="footer"></a>
+                                <footer class="c-layout-footer c-layout-footer-1">
+                                    <div class="c-postfooter">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-6 col-sm-6">
+                                                    <img src="assets/base/img/content/desarrollo/logo.png">
+                                                    <p class="c-copyright c-font-oswald c-font-14"> Grupo Hodaya | Derechos reservados</p>
+                                                    <p>Consulta nuestro <a href="Aviso_de_Privacidad.pdf">Aviso de Privacidad</a></p>
+                                                    <p><small>El diseño, superficies, decoración, imágenes y mobiliario, son solo ilustrativas y podrían tener modificaciones sin previo aviso. Por lo tanto, no constituye un compromiso, obligación y oferta comercial o legal de la empresa vendedora.</small></p>
+                                                    <p>Las áreas especificadas pueden ser variables.</p>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 float-right">
+                                                    <ul class="c-content-iconlist-1 c-theme" style="float: right;">
+                                                        <li>
+                                                            <a href="https://twitter.com/TVJuriquilla">
+                                                                <i class="fab fa-twitter"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://www.facebook.com/terraverdejuriquilla/">
+                                                                <i class="fab fa-facebook"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://www.instagram.com/terra_verde_juriquilla/">
+                                                                <i class="fab fa-instagram"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://www.linkedin.com/company/11827693/admin/updates/">
+                                                                <i class="fab fa-linkedin"></i>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
+                                </footer>
+                                <!-- END: LAYOUT/FOOTERS/FOOTER-2 -->
+                                
+                                <!-- BEGIN: LAYOUT/FOOTERS/GO2TOP -->
+                                <div class="c-layout-go2top">
+                                    <i class="icon-arrow-up" data-target="#inicio"></i>
                                 </div>
-                            </div>
-                        </footer>
-                        <!-- END: LAYOUT/FOOTERS/FOOTER-2 -->
-                        
-                        <!-- BEGIN: LAYOUT/FOOTERS/GO2TOP -->
-                        <div class="c-layout-go2top">
-                            <i class="icon-arrow-up" data-target="#inicio"></i>
-                        </div>
-                        <!-- END: LAYOUT/FOOTERS/GO2TOP -->
-                        <!-- BEGIN: LAYOUT/BASE/BOTTOM -->
-                        <!-- BEGIN: CORE PLUGINS -->
-                        <!--[if lt IE 9]>
-                        <script src="../assets/global/plugins/excanvas.min.js"></script>
-                        <![endif]-->
-                        <script src="assets/plugins/jquery.min.js" type="text/javascript"></script>
-                        <script src="assets/plugins/jquery-migrate.min.js" type="text/javascript"></script>
-                        <script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-                        <script src="assets/plugins/jquery.easing.min.js" type="text/javascript"></script>
-                        <script src="assets/plugins/reveal-animate/wow.js" type="text/javascript"></script>
-                        <script src="assets/base/js/scripts/reveal-animate/reveal-animate.js" type="text/javascript"></script>
-                        <!-- END: CORE PLUGINS -->
-                        <!--INICIO: CAMBIO DE DEPAS-->
-                        
-                        <script type="text/javascript">
-                        /*Gathering id*/
-                        var get=document.getElementById("depas");
-                        var getEspecs=document.getElementById("especs");
-                        var caption=document.getElementById("caption");
-                        function depaArce() {
-                        get.innerHTML='<br>'+'<br>';
-                        get.src='assets/base/img/content/modelos/arce_final.png';
-                        getEspecs.src='assets/base/img/content/modelos/especs_arce_final.png';
-                        
-                        //LIGHTBOX DEL MODELO
-                        }
-                        function depaFresno() {
-                        get.innerHTML='<br>'+'<br>';
-                        get.src='assets/base/img/content/modelos/fresno_final.png';
-                        getEspecs.src='assets/base/img/content/modelos/especs_fresno_final.png';
-                        
-                        }
-                        function depaCerezo() {
-                        get.innerHTML='<br>'+'<br>';
-                        get.src='assets/base/img/content/modelos/cerezo_final.png';
-                        getEspecs.src='assets/base/img/content/modelos/especs_cerezo_final.png';
-                        
-                        
-                        }
-                        function depaOlmo() {
-                        get.innerHTML='<br>'+'<br>';
-                        get.src='assets/base/img/content/modelos/olmo_final.png';
-                        getEspecs.src='assets/base/img/content/modelos/especs_olmo.png';
-                        
-                        }
-                        /*function depaAlamo() {
-                        get.innerHTML='<br>'+'<br>';
-                        get.src='assets/base/img/content/modelos/alamo.png';
-                        getEspecs.src='assets/base/img/content/modelos/especs_alamo.png';
-                        
-                        }*/
-                        /*function depaCedro() {
-                        get.innerHTML='<br>'+'<br>';
-                        get.src='assets/base/img/content/modelos/cedro.png';
-                        getEspecs.src='assets/base/img/content/modelos/especs_cedro.png';
-                        
-                        }*/
-                        /*function depaBose() {
-                        get.innerHTML='<br>'+'<br>';
-                        get.src='assets/base/img/content/modelos/bose.png';
-                        getEspecs.src='assets/base/img/content/modelos/especs_bose.png';
-                        
-                        }*/
-                        
-                        function close() {
-                        get.src='';
-                        }
-                        //SUSTITUIR BOTONES DEPAS:
-                        
-                        document.getElementById("btn-2rec").addEventListener("click", function hide3rec() {
-                        document.getElementById("multiCollapseExample2").style.display = 'none';
-                        document.getElementById("multiCollapseExample1").style.display = 'inline-block';
-                        document.getElementById("btn-2rec").style.backgroundColor = 'black';
-                        document.getElementById("btn-2rec").style.color = 'white';
-                        document.getElementById("btn-3rec").style.backgroundColor = 'transparent';
-                        document.getElementById("btn-3rec").style.color = 'black';
-                        })
-                        
-                        document.getElementById("btn-3rec").addEventListener("click", function hide2rec() {
-                        document.getElementById("multiCollapseExample1").style.display = 'none';
-                        document.getElementById("multiCollapseExample2").style.display = 'inline-block';
-                        document.getElementById("btn-3rec").style.backgroundColor = 'black';
-                        document.getElementById("btn-3rec").style.color = 'white';
-                        document.getElementById("btn-2rec").style.backgroundColor = 'transparent';
-                        document.getElementById("btn-2rec").style.color = 'black';
-                        })
-                        //MARCAR DEPARTAMENTO EN VISTA
-                        //FUNCION BOTON ACTIVO
-                        var arce=document.getElementById("btn-arce");
-                        var olmo=document.getElementById("btn-olmo");
-                        var fresno=document.getElementById("btn-fresno");
-                        var cerezo=document.getElementById("btn-cerezo");
-                        //Boton ARCE-------------------
-                        document.getElementById("btn-arce").addEventListener("click", function (){
-                        arce.style.backgroundColor = '#32c5d2';
-                        arce.style.color = 'white';
-                        olmo.style.backgroundColor = 'transparent';
-                        olmo.style.color = '#32c5d2';
-                        fresno.style.backgroundColor = 'transparent';
-                        fresno.style.color = '#32c5d2';
-                        cerezo.style.backgroundColor = 'transparent';
-                        cerezo.style.color = '#32c5d2';
-                        }
-                        );
-                        //Boton OLMO-------------------
-                        document.getElementById("btn-olmo").addEventListener("click", function (){
-                        olmo.style.backgroundColor = '#32c5d2';
-                        olmo.style.color = 'white';
-                        arce.style.backgroundColor = 'transparent';
-                        arce.style.color = '#32c5d2';
-                        fresno.style.backgroundColor = 'transparent';
-                        fresno.style.color = '#32c5d2';
-                        cerezo.style.backgroundColor = 'transparent';
-                        cerezo.style.color = '#32c5d2';
-                        }
-                        );
-                        //Boton Fresno-------------------
-                        document.getElementById("btn-fresno").addEventListener("click", function (){
-                        fresno.style.backgroundColor = '#32c5d2';
-                        fresno.style.color = 'white';
-                        arce.style.backgroundColor = 'transparent';
-                        arce.style.color = '#32c5d2';
-                        olmo.style.backgroundColor = 'transparent';
-                        olmo.style.color = '#32c5d2';
-                        cerezo.style.backgroundColor = 'transparent';
-                        cerezo.style.color = '#32c5d2';
-                        }
-                        );
-                        
-                        //Boton Cerezo-------------------
-                        document.getElementById("btn-cerezo").addEventListener("click", function (){
-                        cerezo.style.backgroundColor = '#32c5d2';
-                        cerezo.style.color = 'white';
-                        arce.style.backgroundColor = 'transparent';
-                        arce.style.color = '#32c5d2';
-                        fresno.style.backgroundColor = 'transparent';
-                        fresno.style.color = '#32c5d2';
-                        olmo.style.backgroundColor = 'transparent';
-                        olmo.style.color = '#32c5d2';
-                        }
-                        );
-                        
-                        
-                        
-                        </script>
-                        <!--FIN: CAMBIO DE DEPAS-->
-                        <!-- BEGIN: LAYOUT PLUGINS -->
-                        <script src="assets/plugins/revo-slider/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
-                        <script src="assets/plugins/revo-slider/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
-                        <script src="assets/plugins/revo-slider/js/extensions/revolution.extension.slideanims.min.js" type="text/javascript"></script>
-                        <script src="assets/plugins/revo-slider/js/extensions/revolution.extension.layeranimation.min.js" type="text/javascript"></script>
-                        <script src="assets/plugins/revo-slider/js/extensions/revolution.extension.navigation.min.js" type="text/javascript"></script>
-                        <script src="assets/plugins/revo-slider/js/extensions/revolution.extension.video.min.js" type="text/javascript"></script>
-                        <script src="assets/plugins/cubeportfolio/js/jquery.cubeportfolio.min.js" type="text/javascript"></script>
-                        <script src="assets/plugins/owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
-                        <script src="assets/plugins/counterup/jquery.waypoints.min.js" type="text/javascript"></script>
-                        <script src="assets/plugins/counterup/jquery.counterup.min.js" type="text/javascript"></script>
-                        <script src="assets/plugins/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
-                        <script src="assets/plugins/smooth-scroll/jquery.smooth-scroll.js" type="text/javascript"></script>
-                        <script src="assets/plugins/slider-for-bootstrap/js/bootstrap-slider.js" type="text/javascript"></script>
-                        <!-- END: LAYOUT PLUGINS -->
-                        <!-- BEGIN: THEME SCRIPTS -->
-                        <script src="assets/base/js/components.js" type="text/javascript"></script>
-                        <script src="assets/base/js/components-shop.js" type="text/javascript"></script>
-                        <script src="assets/base/js/app.js" type="text/javascript"></script>
-                        <script>
-                        $(document).ready(function()
-                        {
-                        App.init(); // init core
-                        });
-                        </script>
-                        <!--Contact form script-->
-                        <script>
-                        $(document).ready(function (e){
-                        $("#frmContact").on('submit',(function(e){
-                        e.preventDefault();
-                        $("#mail-status").hide();
-                        $('#send-message').hide();
-                        $('#loader-icon').show();
-                        $.ajax({
-                        url: "contact_form.php",
-                        type: "POST",
-                        dataType:'json',
-                        data: {
-                        "name":$('input[name="name"]').val(),
-                        "lastname":$('input[name="lastname"]').val(),
-                        "email":$('input[name="email"]').val(),
-                        "phone":$('input[name="phone"]').val(),
-                        "content":$('textarea[name="content"]').val(),
-                        "g-recaptcha-response":$('textarea[id="g-recaptcha-response"]').val()},
-                        success: function(response){
-                        $("#mail-status").show();
-                        $('#loader-icon').hide();
-                        if(response.type == "error") {
-                        $('#send-message').show();
-                        $("#mail-status").attr("class","error");
-                        } else if(response.type == "message"){
-                        $('#send-message').hide();
-                        $("#mail-status").attr("class","success");
-                        }
-                        $("#mail-status").html(response.text);
-                        },
-                        error: function(){}
-                        });
-                        }));
-                        });
-                        </script>
-                        <!--Contact form script end-->
-                        <!-- END: THEME SCRIPTS -->
-                        <!-- BEGIN: PAGE SCRIPTS -->
-                        <script src="assets/base/js/scripts/revo-slider/slider-7.js" type="text/javascript"></script>
-                        <!--VALIDACION DE LA RESPUESTA DEL SERVIDOR DEL RECAPTCHA CON JAVASCRIPT-->
-                        <!--<script>
-                        function submitUserForm() {
-                        var response = grecaptcha.getResponse();
-                        if(response.length == 0) {
-                        document.getElementById('g-recaptcha-error').innerHTML = '<span style="color:red;">This field is required.</span>';
-                        return false;
-                        }
-                        return true;
-                        }
-                        
-                        function verifyCaptcha() {
-                        document.getElementById('g-recaptcha-error').innerHTML = '';
-                        }
-                        </script>-->
-                        <!--<script src="//maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>-->
-                        <!-- <script src="assets/plugins/gmaps/gmaps.js" type="text/javascript"></script>-->
-                        <!--<script src="assets/base/js/scripts/pages/contacto.js" type="text/javascript"></script>-->
-                        <!-- END: PAGE SCRIPTS -->
-                        <!-- END: LAYOUT/BASE/BOTTOM -->
-                        <div style="background-color:#02a047; width: 70px; height:70px; border-radius: 50%; position:fixed; top: 85vh; left: 5px; z-index:50000; display: block; ">
-                            <div style="margin: auto; display: block; position: relative; left: 18%; top: 13%">
-                                <a href="https://wa.me/525573552395">
-                                    <i class="fab fa-whatsapp fa-3x" style="color:white;"></i>
-                                </a>
-                            </div>
-                            
-                        </div>
-                        <!--FIN BUTTON WHATSAPP-->
-                    </body>
-                </html>
+                                <!-- END: LAYOUT/FOOTERS/GO2TOP -->
+                                <!-- BEGIN: LAYOUT/BASE/BOTTOM -->
+                                <!-- BEGIN: CORE PLUGINS -->
+                                <!--[if lt IE 9]>
+                                <script src="../assets/global/plugins/excanvas.min.js"></script>
+                                <![endif]-->
+                                <script src="assets/plugins/jquery.min.js" type="text/javascript"></script>
+                                <script src="assets/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+                                <script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+                                <script src="assets/plugins/jquery.easing.min.js" type="text/javascript"></script>
+                                <script src="assets/plugins/reveal-animate/wow.js" type="text/javascript"></script>
+                                <script src="assets/base/js/scripts/reveal-animate/reveal-animate.js" type="text/javascript"></script>
+                                <!-- END: CORE PLUGINS -->
+                                <!--INICIO: CAMBIO DE DEPAS-->
+                                
+                                <script type="text/javascript">
+                                /*Gathering id*/
+                                var get=document.getElementById("depas");
+                                var getEspecs=document.getElementById("especs");
+                                var caption=document.getElementById("caption");
+                                function depaArce() {
+                                get.innerHTML='<br>'+'<br>';
+                                get.src='assets/base/img/content/modelos/arce_final.png';
+                                getEspecs.src='assets/base/img/content/modelos/especs_arce_final.png';
+                                
+                                //LIGHTBOX DEL MODELO
+                                }
+                                function depaFresno() {
+                                get.innerHTML='<br>'+'<br>';
+                                get.src='assets/base/img/content/modelos/fresno_final.png';
+                                getEspecs.src='assets/base/img/content/modelos/especs_fresno_final.png';
+                                
+                                }
+                                function depaCerezo() {
+                                get.innerHTML='<br>'+'<br>';
+                                get.src='assets/base/img/content/modelos/cerezo_final.png';
+                                getEspecs.src='assets/base/img/content/modelos/especs_cerezo_final.png';
+                                
+                                
+                                }
+                                function depaOlmo() {
+                                get.innerHTML='<br>'+'<br>';
+                                get.src='assets/base/img/content/modelos/olmo_final.png';
+                                getEspecs.src='assets/base/img/content/modelos/especs_olmo.png';
+                                
+                                }
+                                /*function depaAlamo() {
+                                get.innerHTML='<br>'+'<br>';
+                                get.src='assets/base/img/content/modelos/alamo.png';
+                                getEspecs.src='assets/base/img/content/modelos/especs_alamo.png';
+                                
+                                }*/
+                                /*function depaCedro() {
+                                get.innerHTML='<br>'+'<br>';
+                                get.src='assets/base/img/content/modelos/cedro.png';
+                                getEspecs.src='assets/base/img/content/modelos/especs_cedro.png';
+                                
+                                }*/
+                                /*function depaBose() {
+                                get.innerHTML='<br>'+'<br>';
+                                get.src='assets/base/img/content/modelos/bose.png';
+                                getEspecs.src='assets/base/img/content/modelos/especs_bose.png';
+                                
+                                }*/
+                                
+                                function close() {
+                                get.src='';
+                                }
+                                //SUSTITUIR BOTONES DEPAS:
+                                
+                                document.getElementById("btn-2rec").addEventListener("click", function hide3rec() {
+                                document.getElementById("multiCollapseExample2").style.display = 'none';
+                                document.getElementById("multiCollapseExample1").style.display = 'inline-block';
+                                document.getElementById("btn-2rec").style.backgroundColor = 'black';
+                                document.getElementById("btn-2rec").style.color = 'white';
+                                document.getElementById("btn-3rec").style.backgroundColor = 'transparent';
+                                document.getElementById("btn-3rec").style.color = 'black';
+                                })
+                                
+                                document.getElementById("btn-3rec").addEventListener("click", function hide2rec() {
+                                document.getElementById("multiCollapseExample1").style.display = 'none';
+                                document.getElementById("multiCollapseExample2").style.display = 'inline-block';
+                                document.getElementById("btn-3rec").style.backgroundColor = 'black';
+                                document.getElementById("btn-3rec").style.color = 'white';
+                                document.getElementById("btn-2rec").style.backgroundColor = 'transparent';
+                                document.getElementById("btn-2rec").style.color = 'black';
+                                })
+                                //MARCAR DEPARTAMENTO EN VISTA
+                                //FUNCION BOTON ACTIVO
+                                var arce=document.getElementById("btn-arce");
+                                var olmo=document.getElementById("btn-olmo");
+                                var fresno=document.getElementById("btn-fresno");
+                                var cerezo=document.getElementById("btn-cerezo");
+                                //Boton ARCE-------------------
+                                document.getElementById("btn-arce").addEventListener("click", function (){
+                                arce.style.backgroundColor = '#32c5d2';
+                                arce.style.color = 'white';
+                                olmo.style.backgroundColor = 'transparent';
+                                olmo.style.color = '#32c5d2';
+                                fresno.style.backgroundColor = 'transparent';
+                                fresno.style.color = '#32c5d2';
+                                cerezo.style.backgroundColor = 'transparent';
+                                cerezo.style.color = '#32c5d2';
+                                }
+                                );
+                                //Boton OLMO-------------------
+                                document.getElementById("btn-olmo").addEventListener("click", function (){
+                                olmo.style.backgroundColor = '#32c5d2';
+                                olmo.style.color = 'white';
+                                arce.style.backgroundColor = 'transparent';
+                                arce.style.color = '#32c5d2';
+                                fresno.style.backgroundColor = 'transparent';
+                                fresno.style.color = '#32c5d2';
+                                cerezo.style.backgroundColor = 'transparent';
+                                cerezo.style.color = '#32c5d2';
+                                }
+                                );
+                                //Boton Fresno-------------------
+                                document.getElementById("btn-fresno").addEventListener("click", function (){
+                                fresno.style.backgroundColor = '#32c5d2';
+                                fresno.style.color = 'white';
+                                arce.style.backgroundColor = 'transparent';
+                                arce.style.color = '#32c5d2';
+                                olmo.style.backgroundColor = 'transparent';
+                                olmo.style.color = '#32c5d2';
+                                cerezo.style.backgroundColor = 'transparent';
+                                cerezo.style.color = '#32c5d2';
+                                }
+                                );
+                                
+                                //Boton Cerezo-------------------
+                                document.getElementById("btn-cerezo").addEventListener("click", function (){
+                                cerezo.style.backgroundColor = '#32c5d2';
+                                cerezo.style.color = 'white';
+                                arce.style.backgroundColor = 'transparent';
+                                arce.style.color = '#32c5d2';
+                                fresno.style.backgroundColor = 'transparent';
+                                fresno.style.color = '#32c5d2';
+                                olmo.style.backgroundColor = 'transparent';
+                                olmo.style.color = '#32c5d2';
+                                }
+                                );
+                                
+                                
+                                
+                                </script>
+                                <!--FIN: CAMBIO DE DEPAS-->
+                                <!-- BEGIN: LAYOUT PLUGINS -->
+                                <script src="assets/plugins/revo-slider/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
+                                <script src="assets/plugins/revo-slider/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
+                                <script src="assets/plugins/revo-slider/js/extensions/revolution.extension.slideanims.min.js" type="text/javascript"></script>
+                                <script src="assets/plugins/revo-slider/js/extensions/revolution.extension.layeranimation.min.js" type="text/javascript"></script>
+                                <script src="assets/plugins/revo-slider/js/extensions/revolution.extension.navigation.min.js" type="text/javascript"></script>
+                                <script src="assets/plugins/revo-slider/js/extensions/revolution.extension.video.min.js" type="text/javascript"></script>
+                                <script src="assets/plugins/cubeportfolio/js/jquery.cubeportfolio.min.js" type="text/javascript"></script>
+                                <script src="assets/plugins/owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
+                                <script src="assets/plugins/counterup/jquery.waypoints.min.js" type="text/javascript"></script>
+                                <script src="assets/plugins/counterup/jquery.counterup.min.js" type="text/javascript"></script>
+                                <script src="assets/plugins/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+                                <script src="assets/plugins/smooth-scroll/jquery.smooth-scroll.js" type="text/javascript"></script>
+                                <script src="assets/plugins/slider-for-bootstrap/js/bootstrap-slider.js" type="text/javascript"></script>
+                                <!-- END: LAYOUT PLUGINS -->
+                                <!-- BEGIN: THEME SCRIPTS -->
+                                <script src="assets/base/js/components.js" type="text/javascript"></script>
+                                <script src="assets/base/js/components-shop.js" type="text/javascript"></script>
+                                <script src="assets/base/js/app.js" type="text/javascript"></script>
+                                <script>
+                                $(document).ready(function()
+                                {
+                                App.init(); // init core
+                                });
+                                </script>
+                                <!--Contact form script-->
+                                <script>
+                                $(document).ready(function (e){
+                                $("#frmContact").on('submit',(function(e){
+                                e.preventDefault();
+                                $("#mail-status").hide();
+                                $('#send-message').hide();
+                                $('#loader-icon').show();
+                                $.ajax({
+                                url: "contact_form.php",
+                                type: "POST",
+                                dataType:'json',
+                                data: {
+                                "name":$('input[name="name"]').val(),
+                                "lastname":$('input[name="lastname"]').val(),
+                                "email":$('input[name="email"]').val(),
+                                "phone":$('input[name="phone"]').val(),
+                                "content":$('textarea[name="content"]').val(),
+                                "g-recaptcha-response":$('textarea[id="g-recaptcha-response"]').val()},
+                                success: function(response){
+                                $("#mail-status").show();
+                                $('#loader-icon').hide();
+                                if(response.type == "error") {
+                                $('#send-message').show();
+                                $("#mail-status").attr("class","error");
+                                } else if(response.type == "message"){
+                                $('#send-message').hide();
+                                $("#mail-status").attr("class","success");
+                                }
+                                $("#mail-status").html(response.text);
+                                },
+                                error: function(){}
+                                });
+                                }));
+                                });
+                                </script>
+                                <!--Contact form script end-->
+                                <!-- END: THEME SCRIPTS -->
+                                <!-- BEGIN: PAGE SCRIPTS -->
+                                <script src="assets/base/js/scripts/revo-slider/slider-7.js" type="text/javascript"></script>
+                                <!--VALIDACION DE LA RESPUESTA DEL SERVIDOR DEL RECAPTCHA CON JAVASCRIPT-->
+                                <!--<script>
+                                function submitUserForm() {
+                                var response = grecaptcha.getResponse();
+                                if(response.length == 0) {
+                                document.getElementById('g-recaptcha-error').innerHTML = '<span style="color:red;">This field is required.</span>';
+                                return false;
+                                }
+                                return true;
+                                }
+                                
+                                function verifyCaptcha() {
+                                document.getElementById('g-recaptcha-error').innerHTML = '';
+                                }
+                                </script>-->
+                                <!--<script src="//maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>-->
+                                <!-- <script src="assets/plugins/gmaps/gmaps.js" type="text/javascript"></script>-->
+                                <!--<script src="assets/base/js/scripts/pages/contacto.js" type="text/javascript"></script>-->
+                                <!-- END: PAGE SCRIPTS -->
+                                <!-- END: LAYOUT/BASE/BOTTOM -->
+                                <div style="background-color:#02a047; width: 70px; height:70px; border-radius: 50%; position:fixed; top: 85vh; left: 5px; z-index:50000; display: block; ">
+                                    <div style="margin: auto; display: block; position: relative; left: 18%; top: 13%">
+                                        <a href="https://wa.me/525573552395">
+                                            <i class="fab fa-whatsapp fa-3x" style="color:white;"></i>
+                                        </a>
+                                    </div>
+                                    
+                                </div>
+                                <!--FIN BUTTON WHATSAPP-->
+                            </body>
+                        </html>
