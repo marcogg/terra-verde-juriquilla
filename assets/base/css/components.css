@@ -8852,8 +8852,8 @@ h1 {
     border-top-right-radius: 35% 50%;
     border-bottom-right-radius: 35% 50%; }
   .c-content-feature-4 .c-content-left.c-diagonal {
-    border-right: 200px solid;
-    border-top: 750px solid transparent; }
+   /* border-right: 200px solid;
+    border-top: 750px solid transparent;*/ }
   .c-content-feature-4 .c-content-left.c-arrow {
     border-right: 200px solid;
     border-top: 375px solid transparent;

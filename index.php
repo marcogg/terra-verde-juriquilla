@@ -783,7 +783,8 @@ Follow: http://www.twitter.com/themehats
                             <!-- BEGIN: CONTENT/FEATURES/FEATURES-12 -->
                             <div class="c-content-box c-size-md c-no-padding c-bg-dark-2">
                                 <div class="c-content-feature-4">
-                                    <div class=" c-feature-bg c-content-left c-diagonal c-border-right-dark-2" style="background-image: url('assets/base/img/content/backgrounds/aquazona3.jpg');  background-size: auto; background-position: top;"></div> <!--class="c-bg-parallax" PARA PARALAX-->
+                                    <div class=" c-feature-bg c-content-left c-diagonal c-border-right-dark-2" style="background-image: url('assets/base/img/content/backgrounds/aquazona3.jpg');  background-size: cover; background-position: bottom; background-repeat: no-repeat;"></div> <!--class="c-bg-parallax" PARA PARALAX-->
+
                                     <div class="container">
                                         <div class="c-feature-content c-right">
                                             <div class="c-content-v-center">
