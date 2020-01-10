@@ -25,6 +25,13 @@ Follow: http://www.twitter.com/themehats
         <meta http-equiv="Content-type" content="text/html; charset=utf-8">
         <meta content="" name="description" />
         <meta content="" name="author" />
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-WW8DQ7P');</script>
+        <!-- End Google Tag Manager -->
         <!-- BEGIN GLOBAL MANDATORY STYLES -->
         <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700&amp;subset=all' rel='stylesheet' type='text/css'>
         <link href="assets/plugins/socicon/socicon.css" rel="stylesheet" type="text/css" />
@@ -134,6 +141,10 @@ Follow: http://www.twitter.com/themehats
         <script src='https://www.google.com/recaptcha/api.js'></script>
     </head>
     <body class="c-layout-header-fixed c-layout-header-mobile-fixed c-layout-header-fullscreen c-layout-header-topbar">
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WW8DQ7P"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
         <!--PURE CHAT SCRIPT----------------------------------------------->
         <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: 'c68a0862-4258-47db-9c4c-b8708b8c5e1e', f: true }); done = true; } }; })();</script>
         <!--END PURECHAT SCRIPT---------------------->
@@ -335,7 +346,7 @@ Follow: http://www.twitter.com/themehats
                                                         <h1 class="c-font-36 c-font-bold c-font-uppercase c-font-white c-subtitle title-shadow" > El <strong>mejor desarrollo</strong> en Querétaro</h1>
                                                         <br>
                                                         <br>
-                                                        <p><span style="background-color: #c12a34; padding: 1% 3% 1% 3%;" class="text-uppercase c-font-24 text-white">Pre-preventa</span></p></h5>
+                                                        <p><span style="background-color: #c12a34; padding: 1% 3% 1% 3%;" class="text-uppercase c-font-24 text-white">Preventa</span></p></h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -345,7 +356,7 @@ Follow: http://www.twitter.com/themehats
                                             <ul>
                                                 <!--BEGIN: SLIDE #1 -->
                                                 <li data-transition="fade" data-slotamount="1" data-masterspeed="1000">
-                                                    <img alt="" src="assets/base/img/content/backgrounds/desarrollo.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                                    <img alt="" src="assets/base/img/content/backgrounds/fachada_juriquilla.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                                                     
                                                     
                                                 </li>
@@ -378,429 +389,435 @@ Follow: http://www.twitter.com/themehats
                                             <div class="row my-5" data-auto-height="true">
                                                 <div class="col-lg-2"></div>
                                                 <div class="col-lg-8 col-md-8 col-sm-12 d-block m-auto">
-                                                    <!-- Begin: Title 1 component --> 
+                                                    <!-- Begin: Title 1 component -->
                                                     <div class="c-content-title-1" data-height="height">
                                                         <h3 class="c-font-uppercase c-font-bold">Descubre una nueva forma de vivir.</h3>
                                                         <p class=" c-font-sbold"> Ubicado en una zona de alta plusvalía, rodeado de comercios y servicios; Terra Verde Juriquilla posee una conectividad envidiable, con rápido acceso a las principales vías de comunicación. El desarrollo cuenta con un concepto de diseño moderno, elegante y con amenidades exclusivas para brindarte un estilo de vida que tú mereces.</p>
                                                         <button type="button" class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square btn-brochure" data-toggle="modal" data-target="#descargarBrochure" style="width: 100%;">Descargar Folleto</button>
+                                                    </div>
+                                                    <!-- Button trigger modal -->
+                                                    
                                                 </div>
-                                                <!-- Button trigger modal -->
-                                                
+                                                <div class="col-lg-2"></div>
                                             </div>
-                                            <div class="col-lg-2"></div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </section>
-                        <!-- Modal -->
-                                                <div class="modal fade" id="descargarBrochure" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                                    <div class="modal-dialog modal-dialog-centered" role="document">
-                                                        <div class="modal-content">
-                                                            <div class="modal-header">
-                                                                <h3 class="modal-title" id="exampleModalLongTitle">Descargar folleto</h3>
-                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                                <span aria-hidden="true">&times;</span>
-                                                                </button>
+                            </section>
+                            <!-- Modal -->
+                            <div class="modal fade" id="descargarBrochure" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h3 class="modal-title" id="exampleModalLongTitle">Descargar folleto</h3>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row mb-5">
+                                                <div class="col-lg-12 text-center">
+                                                    <p>Compártanos sus datos y descargue el folleto completo de Terra Verde Juriquilla.</p>
+                                                    <br>
+                                                </div>
+                                            </div>
+                                            <form action="descargar_folleto.php" method="post" name="contactform" onsubmit="return submitUserForm();">
+                                                <div class="form-group">
+                                                    <div class="row">
+                                                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                            <input type="text" placeholder="Nombre completo*" class="form-control c-square c-theme input-lg" name="first_name" id="first_name" required>
+                                                        </div>
+                                                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                            <div class="form-group">
+                                                                <input type="text" placeholder="Email*" class="form-control c-square c-theme input-lg" name="mail" id="mail" required>
                                                             </div>
-                                                            <div class="modal-body">
-                                                                <div class="row mb-5">
-                                                                    <div class="col-lg-12 text-center">
-                                                                        <p>Compártanos sus datos y descargue el folleto completo de Terra Verde Juriquilla.</p>
-                                                                        <br>
-                                                                    </div>
-                                                                </div>
-                                                                <form action="descargar_folleto.php" method="post" name="contactform" onsubmit="return submitUserForm();">
-                                                                    <div class="form-group">
-                                                                        <div class="row">
-                                                                            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                                                                                <input type="text" placeholder="Nombre*" class="form-control c-square c-theme input-lg" name="first_name" id="first_name" required>
-                                                                            </div>
-                                                                            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                                                                                <input type="text" placeholder="Apellido*" class="form-control c-square c-theme input-lg" name="last_name" id="last_name" required>
-                                                                            </div>
-                                                                        </div>
-                                                                        
-                                                                    </div>
-                                                                    <div class="form-group">
-                                                                    <input type="text" placeholder="Email*" class="form-control c-square c-theme input-lg" name="mail" id="mail" required> </div>
-                                                                    <div class="form-group">
-                                                                        <input type="text" placeholder="Teléfono" class="form-control c-square c-theme input-lg" name="telephone" id="telephone">
-                                                                    </div>
-                                                                    <div class="form-group">
-                                                                        <label>Estado</label>
-                                                                        <select id="estado" name="estado" class="input-lg form-control c-square c-theme">
-                                                                            <option value="Aguascalientes">Aguascalientes</option>
-                                                                            <option value="Baja California">Baja California</option>
-                                                                            <option value="Baja California Sur">Baja California Sur</option>
-                                                                            <option value="Campeche">Campeche</option>
-                                                                            <option value="Chiapas">Chiapas</option>
-                                                                            <option value="Chihuahua">Chihuahua</option>
-                                                                            <option value="Cdmx">Ciudad de México</option>
-                                                                            <option value="Coahuila">Coahuila</option>
-                                                                            <option value="Colima">Colima</option>
-                                                                            <option value="Durango">Durango</option>
-                                                                            <option value="Estado de México">Estado de México</option>
-                                                                            <option value="Guanajuato">Guanajuato</option>
-                                                                            <option value="Guerrero">Guerrero</option>
-                                                                            <option value="Hidalgo">Hidalgo</option>
-                                                                            <option value="Jalisco">Jalisco</option>
-                                                                            <option value="Michoacan">Michoacán</option>
-                                                                            <option value="Morelos">Morelos</option>
-                                                                            <option value="Nayarit">Nayarit</option>
-                                                                            <option value="Nuevo_Leon">Nuevo León</option>
-                                                                            <option value="Oaxaca">Oaxaca</option>
-                                                                            <option value="Puebla">Puebla</option>
-                                                                            <option value="Queretaro">Querétaro</option>
-                                                                            <option value="Quintana Roo">Quintana Roo</option>
-                                                                            <option value="San Luis Potosi">San Luis Potosí</option>
-                                                                            <option value="Sinaloa">Sinaloa</option>
-                                                                            <option value="Sonora">Sonora</option>
-                                                                            <option value="Tabasco">Tabasco</option>
-                                                                            <option value="Tamaulipas">Tamaulipas</option>
-                                                                            <option value="Tlaxcala">Tlaxcala</option>
-                                                                            <option value="Veracruz">Veracruz</option>
-                                                                            <option value="Yucatan">Yucatán</option>
-                                                                            <option value="Zacatecas">Zacatecas</option>
-                                                                        </select>
-                                                                    </div>
-                                                                    <div class="row mt-5">
-                                                                        <div class="col-lg-12 text-center">
-                                                                            <p><small>*Campos requeridos</small></p>
-                                                                            <br>
-                                                                        </div>
-                                                                    </div>
-                                                                    
-                                                                    <!--<div class="g-recaptcha" data-sitekey="6LeAmYwUAAAAAHxjByS3bni_UxmcQzuAl5zB4ZOt"></div>-->
-                                                                    <input type="submit" name="submit_brochure" value="Ver Folleto"class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square">
-                                                                    
-                                                                </form>
-                                                                
-                                                            </div>
-                                                            <!--<div class="modal-footer">
-                                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                                                <button type="button" class="btn btn-primary">Save changes</button>
-                                                            </div>-->
+                                                        </div>
+                                                        <!--<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                            <input type="text" placeholder="Apellido*" class="form-control c-square c-theme input-lg" name="last_name" id="last_name" required>
+                                                        </div>-->
+                                                    </div>
+                                                    <div class="row mt-5">
+                                                        <div class="col-lg-12 text-center">
+                                                            <p><small>*Campos requeridos</small></p>
+                                                            <br>
                                                         </div>
                                                     </div>
-                                                </div>
-                        <!-- END: CONTENT/BARS/BAR-2 -->
-                        <!-- BEGIN: CONTENT/FEATURES/FEATURES-4-4 -->
-                        <!-- BEGIN: FEATURES 4.4 -->
-                        <!-- SLIDER DE LOS PROTOTIPOS-->
-                        <section id="departamentos">
-                            <div class="padding-depa-container">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center white-background">
-                                            <h2 class="c-font-bold super-title" style="color: #32c5d2;">DEPARTAMENTOS</h2>
-                                            <h3 class="c-font-bold text-center" style="color:#32c5d2;">Torre A</h3>
-                                            <div class="c-content animated wow fadeInDown" data-wow-delay="0.3s">
-                                                <p class="c-margin-b-30"></p>
-                                                <p>
-                                                    <button class="btn btn-lg c-btn-black c-btn-border-2x c-btn-square c-btn-bold button-mobile" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" id="btn-2rec">2 RECÁMARAS</button>
-                                                    <button class="btn btn-lg c-btn-black c-btn-border-2x c-btn-square c-btn-bold button-mobile button-align" data-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" id="btn-3rec">3 RECÁMARAS</button>
                                                     
-                                                </p>
-                                                <!--DEPAS 2 RECAMARAS-------------->
-                                                <div class="row">
-                                                    <div class="col">
-                                                        <div class="collapse multi-collapse" id="multiCollapseExample1">
-                                                            <div class="card card-body" id="2rec">
-                                                                <button id ="btn-arce" data-toggle="modal" onclick="depaArce()" ondblclick="close()" class="btn btn-md c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph">ARCE</button>
-                                                                <button id="btn-olmo" data-toggle="modal" onclick="depaOlmo()" ondblclick="close()" class="btn btn-md c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph">OLMO</button>
-                                                                
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!--DEPAS 3 RECAMARAS-------------->
-                                                    <div class="col">
-                                                        <div class="collapse multi-collapse" id="multiCollapseExample2">
-                                                            <div class="card card-body" id="3rec">
-                                                                <button id="btn-fresno" data-toggle="modal" onclick="depaFresno()" class="btn btn-lg c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph"
-                                                                data-wow-delay="1s">FRESNO</button>
-                                                                <button id="btn-cerezo" data-toggle="modal" onclick="depaCerezo()" class="btn btn-lg c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph"
-                                                                data-wow-delay="1s">CEREZO</button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
                                                 </div>
-                                                <div class="row">
-                                                    <div class="col-lg-12 col-md-12 col-sm-12 mt-4" style="margin-top: 3%;">
-                                                        <h2 id="caption" class="text-center" style="font-size: 2.5em;"> </h2>
-                                                        <div class="col-lg-7 col-md-8 col-sm-12">
-                                                            <img id="depas" src="" class="wow animated fadeIn img-responsive shadowed" onclick="">
+                                                
+                                                <div class="form-group">
+                                                    <label>Recibe una asesoría gratuita vía telefónica (opcional)</label>
+                                                    <input type="text" placeholder="Teléfono" class="form-control c-square c-theme input-lg" name="telephone" id="telephone">
+                                                </div>
+                                                <!--<div class="form-group">
+                                                    <label>Estado</label>
+                                                    <select id="estado" name="estado" class="input-lg form-control c-square c-theme">
+                                                        <option value="Aguascalientes">Aguascalientes</option>
+                                                        <option value="Baja California">Baja California</option>
+                                                        <option value="Baja California Sur">Baja California Sur</option>
+                                                        <option value="Campeche">Campeche</option>
+                                                        <option value="Chiapas">Chiapas</option>
+                                                        <option value="Chihuahua">Chihuahua</option>
+                                                        <option value="Cdmx">Ciudad de México</option>
+                                                        <option value="Coahuila">Coahuila</option>
+                                                        <option value="Colima">Colima</option>
+                                                        <option value="Durango">Durango</option>
+                                                        <option value="Estado de México">Estado de México</option>
+                                                        <option value="Guanajuato">Guanajuato</option>
+                                                        <option value="Guerrero">Guerrero</option>
+                                                        <option value="Hidalgo">Hidalgo</option>
+                                                        <option value="Jalisco">Jalisco</option>
+                                                        <option value="Michoacan">Michoacán</option>
+                                                        <option value="Morelos">Morelos</option>
+                                                        <option value="Nayarit">Nayarit</option>
+                                                        <option value="Nuevo_Leon">Nuevo León</option>
+                                                        <option value="Oaxaca">Oaxaca</option>
+                                                        <option value="Puebla">Puebla</option>
+                                                        <option value="Queretaro">Querétaro</option>
+                                                        <option value="Quintana Roo">Quintana Roo</option>
+                                                        <option value="San Luis Potosi">San Luis Potosí</option>
+                                                        <option value="Sinaloa">Sinaloa</option>
+                                                        <option value="Sonora">Sonora</option>
+                                                        <option value="Tabasco">Tabasco</option>
+                                                        <option value="Tamaulipas">Tamaulipas</option>
+                                                        <option value="Tlaxcala">Tlaxcala</option>
+                                                        <option value="Veracruz">Veracruz</option>
+                                                        <option value="Yucatan">Yucatán</option>
+                                                        <option value="Zacatecas">Zacatecas</option>
+                                                    </select>
+                                                </div>-->
+                                                
+                                                
+                                                <!--<div class="g-recaptcha" data-sitekey="6LeAmYwUAAAAAHxjByS3bni_UxmcQzuAl5zB4ZOt"></div>-->
+                                                <input type="submit" name="submit_brochure" value="Ver Folleto"class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square">
+                                                
+                                            </form>
+                                            
+                                        </div>
+                                        <!--<div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>-->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END: CONTENT/BARS/BAR-2 -->
+                            <!-- BEGIN: CONTENT/FEATURES/FEATURES-4-4 -->
+                            <!-- BEGIN: FEATURES 4.4 -->
+                            <!-- SLIDER DE LOS PROTOTIPOS-->
+                            <section id="departamentos">
+                                <div class="padding-depa-container">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center white-background">
+                                                <h2 class="c-font-bold super-title" style="color: #32c5d2;">DEPARTAMENTOS</h2>
+                                                <h3 class="c-font-bold text-center" style="color:#32c5d2;">Torre A</h3>
+                                                <div class="c-content animated wow fadeInDown" data-wow-delay="0.3s">
+                                                    <p class="c-margin-b-30"></p>
+                                                    <p>
+                                                        <button class="btn btn-lg c-btn-black c-btn-border-2x c-btn-square c-btn-bold button-mobile" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" id="btn-2rec">2 RECÁMARAS</button>
+                                                        <button class="btn btn-lg c-btn-black c-btn-border-2x c-btn-square c-btn-bold button-mobile button-align" data-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" id="btn-3rec">3 RECÁMARAS</button>
+                                                        
+                                                    </p>
+                                                    <!--DEPAS 2 RECAMARAS-------------->
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                                                <div class="card card-body" id="2rec">
+                                                                    <button id ="btn-arce" data-toggle="modal" onclick="depaArce()" ondblclick="close()" class="btn btn-md c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph">ARCE</button>
+                                                                    <button id="btn-olmo" data-toggle="modal" onclick="depaOlmo()" ondblclick="close()" class="btn btn-md c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph">OLMO</button>
+                                                                    
+                                                                </div>
+                                                            </div>
                                                         </div>
-                                                        <div class="col-lg-5 col-md-4 col-sm-12">
-                                                            <img id="especs" src="" class="wow animated fadeIn img-responsive" onclick="">
+                                                        <!--DEPAS 3 RECAMARAS-------------->
+                                                        <div class="col">
+                                                            <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                                                <div class="card card-body" id="3rec">
+                                                                    <button id="btn-fresno" data-toggle="modal" onclick="depaFresno()" class="btn btn-lg c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph"
+                                                                    data-wow-delay="1s">FRESNO</button>
+                                                                    <button id="btn-cerezo" data-toggle="modal" onclick="depaCerezo()" class="btn btn-lg c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph"
+                                                                    data-wow-delay="1s">CEREZO</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12 col-sm-12 mt-4" style="margin-top: 3%;">
+                                                            <h2 id="caption" class="text-center" style="font-size: 2.5em;"> </h2>
+                                                            <div class="col-lg-7 col-md-8 col-sm-12">
+                                                                <img id="depas" src="" class="wow animated fadeIn img-responsive shadowed" onclick="">
+                                                            </div>
+                                                            <div class="col-lg-5 col-md-4 col-sm-12">
+                                                                <img id="especs" src="" class="wow animated fadeIn img-responsive" onclick="">
+                                                            </div>
+                                                            
                                                         </div>
                                                         
                                                     </div>
-                                                    
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!--INICIO: SEPARADOR-->
-                            <div class="c-size-md c-bg-grey-1">
-                                <div class="container" style="padding: 5%;">
-                                    <div class="row">
-                                        <h5 class="c-center c-font-uppercase c-font-bold c-font-40 text-center c-content-title-1">Conoce los Departamentos virtuales</h5>
-                                        <div style=" width: 150px; height: 7px; background-color: #32c5d2; margin: 0 auto 30px auto;"></div>
-                                        <p class="text-center">Haz el recorrido virtual de los prototipos de <b>Terra Verde Juiriquilla</b></p>
+                                <!--INICIO: SEPARADOR-->
+                                <div class="c-size-md c-bg-grey-1">
+                                    <div class="container" style="padding: 5%;">
+                                        <div class="row">
+                                            <h5 class="c-center c-font-uppercase c-font-bold c-font-40 text-center c-content-title-1">Conoce los Departamentos virtuales</h5>
+                                            <div style=" width: 150px; height: 7px; background-color: #32c5d2; margin: 0 auto 30px auto;"></div>
+                                            <p class="text-center">Haz el recorrido virtual de los prototipos de <b>Terra Verde Juiriquilla</b></p>
+                                        </div>
+                                        
+                                        <div class="row mt-5">
+                                            <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                                                <a href="panoramas/arce"><button class="btn btn-xl btn-block c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph">MODELO ARCE<br><small>2 recámaras</small></button></a>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                                                <a href="#"><button class="btn btn-xl btn-block c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph" disabled>MODELO OLMO <br><small>Próximamente</small></button></a>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                                                <a href="#"><button class="btn btn-xl btn-block c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph" disabled>MODELO FRESNO<br><small>Próximamente</small></button></a>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                                                <a href="#"><button class="btn btn-xl btn-block c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph" disabled>MODELO CEREZO <br><small>Próximamente</small></button></a>
+                                            </div>
+                                        </div>
                                     </div>
                                     
-                                    <div class="row mt-5">
-                                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                                            <a href="panoramas/arce"><button class="btn btn-xl btn-block c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph">MODELO ARCE<br><small>2 recámaras</small></button></a>
-                                        </div>
-                                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                                            <a href="#"><button class="btn btn-xl btn-block c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph" disabled>MODELO OLMO <br><small>Próximamente</small></button></a>
-                                        </div>
-                                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                                            <a href="#"><button class="btn btn-xl btn-block c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph" disabled>MODELO FRESNO<br><small>Próximamente</small></button></a>
-                                        </div>
-                                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                                            <a href="#"><button class="btn btn-xl btn-block c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph" disabled>MODELO CEREZO <br><small>Próximamente</small></button></a>
+                                </div>
+                                <!--FIN: SEPARADOR-->
+                                <div class=" padding-ph-container">
+                                    <div class="row">
+                                        <div class="col-lg-12 text-center white-background">
+                                            <h2 class="c-font-bold super-title" style="color: #32c5d2;">PENTHOUSES</h2>
+                                            <div class="c-content animated wow fadeInDown">
+                                                <p class="c-margin-b-30"></p>
+                                                <div class="row">
+                                                    <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                                                        <button data-toggle="modal" data-target=".bs-example-modal-lg" class="btn btn-lg btn-block c-btn-black c-btn-border-2x c-btn-square c-btn-bold wow animated fadeIn button-ph"
+                                                        data-wow-delay="1s"><span style="font-size: 2vh;">MODELO TECA</span></button>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                                                        <button data-toggle="modal" data-target=".tzalam" class="btn btn-lg btn-block c-btn-black c-btn-border-2x c-btn-square c-btn-bold wow animated fadeIn button-ph"
+                                                        data-wow-delay="1s"><span style="font-size: 2vh;">MODELO TZALAM</span></button>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                                                        <button data-toggle="modal" data-target=".banak" class="btn btn-lg btn-block c-btn-black c-btn-border-2x c-btn-square c-btn-bold wow animated fadeIn button-ph"
+                                                        data-wow-delay="1s"><span style="font-size: 2vh;">MODELO BANAK</span></button>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                                                        <button data-toggle="modal" data-target=".balau" class="btn btn-lg btn-block c-btn-black c-btn-border-2x c-btn-square c-btn-bold wow animated fadeIn button-ph"
+                                                        data-wow-delay="1s"><span style="font-size: 2vh;">MODELO BALAU</span></button>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                
-                            </div>
-                            <!--FIN: SEPARADOR-->
-                            <div class=" padding-ph-container">
-                                <div class="row">
-                                    <div class="col-lg-12 text-center white-background">
-                                        <h2 class="c-font-bold super-title" style="color: #32c5d2;">PENTHOUSES</h2>
-                                        <div class="c-content animated wow fadeInDown">
-                                            <p class="c-margin-b-30"></p>
+                                <!--MODALES-->
+                                <!-- Modal TECA -->
+                                <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin: 1.5%;">
+                                                <span aria-hidden="true">&times;</span>
+                                                </button>
+                                                <h5 class="super-title c-font-bold text-center" id="">Modelo Teca</h5>
+                                                
+                                                
+                                            </div>
+                                            <div id="carousel-tzalam" class="carousel slide" data-ride="carousel">
+                                                
+                                                <!-- Wrapper for slides -->
+                                                <div class="carousel-inner">
+                                                    <div class="item active">
+                                                        <img class="img-responsive" src="assets/base/img/content/modelos/ph/teca-pb.jpg" alt="Teca Planta Baja">
+                                                        <div class="carousel-caption d-none d-md-block">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="img-responsive" src="assets/base/img/content/modelos/ph/teca-pa.jpg" alt="Teca Planta Alta">
+                                                        <div class="carousel-caption d-none d-md-block">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Controls -->
+                                                <a class="left carousel-control" href="#carousel-tzalam" role="button" data-slide="prev">
+                                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                                </a>
+                                                <a class="right carousel-control" href="#carousel-tzalam" role="button" data-slide="next">
+                                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                                </a>
+                                            </div>
                                             <div class="row">
-                                                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
-                                                    <button data-toggle="modal" data-target=".bs-example-modal-lg" class="btn btn-lg btn-block c-btn-black c-btn-border-2x c-btn-square c-btn-bold wow animated fadeIn button-ph"
-                                                    data-wow-delay="1s"><span style="font-size: 2vh;">MODELO TECA</span></button>
-                                                </div>
-                                                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
-                                                    <button data-toggle="modal" data-target=".tzalam" class="btn btn-lg btn-block c-btn-black c-btn-border-2x c-btn-square c-btn-bold wow animated fadeIn button-ph"
-                                                    data-wow-delay="1s"><span style="font-size: 2vh;">MODELO TZALAM</span></button>
-                                                </div>
-                                                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
-                                                    <button data-toggle="modal" data-target=".banak" class="btn btn-lg btn-block c-btn-black c-btn-border-2x c-btn-square c-btn-bold wow animated fadeIn button-ph"
-                                                    data-wow-delay="1s"><span style="font-size: 2vh;">MODELO BANAK</span></button>
-                                                </div>
-                                                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
-                                                    <button data-toggle="modal" data-target=".balau" class="btn btn-lg btn-block c-btn-black c-btn-border-2x c-btn-square c-btn-bold wow animated fadeIn button-ph"
-                                                    data-wow-delay="1s"><span style="font-size: 2vh;">MODELO BALAU</span></button>
+                                                <div class="col-lg-12 col-md-12 col-sm12">
+                                                    <img class="img-responsive" src="assets/base/img/content/modelos/especs_teca.png" alt="Especificaciones Teca">
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!--MODALES-->
-                            <!-- Modal TECA -->
-                            <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-lg">
-                                    <div class="modal-content">
-                                        <div class="">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin: 1.5%;">
-                                            <span aria-hidden="true">&times;</span>
-                                            </button>
-                                            <h5 class="super-title c-font-bold text-center" id="">Modelo Teca</h5>
-                                            
-                                            
-                                        </div>
-                                        <div id="carousel-tzalam" class="carousel slide" data-ride="carousel">
-                                            
-                                            <!-- Wrapper for slides -->
-                                            <div class="carousel-inner">
-                                                <div class="item active">
-                                                    <img class="img-responsive" src="assets/base/img/content/modelos/ph/teca-pb.jpg" alt="Teca Planta Baja">
-                                                    <div class="carousel-caption d-none d-md-block">
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <img class="img-responsive" src="assets/base/img/content/modelos/ph/teca-pa.jpg" alt="Teca Planta Alta">
-                                                    <div class="carousel-caption d-none d-md-block">
-                                                    </div>
-                                                </div>
+                                <!--FIN MODAL TECA-->
+                                <!--Inicio Modal Tzalam-->
+                                <div class="modal fade tzalam" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin: 1.5%;">
+                                                <span aria-hidden="true">&times;</span>
+                                                </button>
+                                                <h5 class="super-title c-font-bold text-center" id="">Modelo Tzalam</h5>
+                                                
+                                                
                                             </div>
-                                            <!-- Controls -->
-                                            <a class="left carousel-control" href="#carousel-tzalam" role="button" data-slide="prev">
-                                                <span class="glyphicon glyphicon-chevron-left"></span>
-                                            </a>
-                                            <a class="right carousel-control" href="#carousel-tzalam" role="button" data-slide="next">
-                                                <span class="glyphicon glyphicon-chevron-right"></span>
-                                            </a>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-lg-12 col-md-12 col-sm12">
-                                                <img class="img-responsive" src="assets/base/img/content/modelos/especs_teca.png" alt="Especificaciones Teca">
+                                            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                                
+                                                <!-- Wrapper for slides -->
+                                                <div class="carousel-inner">
+                                                    <div class="item active">
+                                                        <img class="img-responsive" src="assets/base/img/content/modelos/ph/tzalam-pb.jpg" alt="Tzalam Planta Baja">
+                                                        <div class="carousel-caption d-none d-md-block">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="img-responsive" src="assets/base/img/content/modelos/ph/tzalam-pa.jpg" alt="Tzalam Planta Alta">
+                                                        <div class="carousel-caption d-none d-md-block">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Controls -->
+                                                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                                </a>
+                                                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                                </a>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-12 col-md-12 col-sm12">
+                                                    <img class="img-responsive" src="assets/base/img/content/modelos/especs_tzalam.png" alt="Especificaciones Tzalam">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!--FIN MODAL TECA-->
-                            <!--Inicio Modal Tzalam-->
-                            <div class="modal fade tzalam" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-lg">
-                                    <div class="modal-content">
-                                        <div class="">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin: 1.5%;">
-                                            <span aria-hidden="true">&times;</span>
-                                            </button>
-                                            <h5 class="super-title c-font-bold text-center" id="">Modelo Tzalam</h5>
-                                            
-                                            
-                                        </div>
-                                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                                            
-                                            <!-- Wrapper for slides -->
-                                            <div class="carousel-inner">
-                                                <div class="item active">
-                                                    <img class="img-responsive" src="assets/base/img/content/modelos/ph/tzalam-pb.jpg" alt="Tzalam Planta Baja">
-                                                    <div class="carousel-caption d-none d-md-block">
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <img class="img-responsive" src="assets/base/img/content/modelos/ph/tzalam-pa.jpg" alt="Tzalam Planta Alta">
-                                                    <div class="carousel-caption d-none d-md-block">
-                                                    </div>
-                                                </div>
+                                <!--Fin Modal Tzalam-->
+                                <!--Inicio: Modal Banak-->
+                                <div class="modal fade banak" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin: 1.5%;">
+                                                <span aria-hidden="true">&times;</span>
+                                                </button>
+                                                <h5 class="super-title c-font-bold text-center" id="">Modelo Banak</h5>
+                                                
+                                                
                                             </div>
-                                            <!-- Controls -->
-                                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                                                <span class="glyphicon glyphicon-chevron-left"></span>
-                                            </a>
-                                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                                                <span class="glyphicon glyphicon-chevron-right"></span>
-                                            </a>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-lg-12 col-md-12 col-sm12">
-                                                <img class="img-responsive" src="assets/base/img/content/modelos/especs_tzalam.png" alt="Especificaciones Tzalam">
+                                            <div id="carousel-banak" class="carousel slide" data-ride="carousel">
+                                                
+                                                <!-- Wrapper for slides -->
+                                                <div class="carousel-inner">
+                                                    <div class="item active">
+                                                        <img class="img-responsive" src="assets/base/img/content/modelos/ph/banak-pb.jpg" alt="Teca Planta Baja">
+                                                        <div class="carousel-caption d-none d-md-block">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="img-responsive" src="assets/base/img/content/modelos/ph/banak-pa.jpg" alt="Teca Planta Alta">
+                                                        <div class="carousel-caption d-none d-md-block">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Controls -->
+                                                <a class="left carousel-control" href="#carousel-banak" role="button" data-slide="prev">
+                                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                                </a>
+                                                <a class="right carousel-control" href="#carousel-banak" role="button" data-slide="next">
+                                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                                </a>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-12 col-md-12 col-sm12">
+                                                    <img class="img-responsive" src="assets/base/img/content/modelos/especs_banak.png" alt="Especificaciones Banak">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!--Fin Modal Tzalam-->
-                            <!--Inicio: Modal Banak-->
-                            <div class="modal fade banak" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-lg">
-                                    <div class="modal-content">
-                                        <div class="">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin: 1.5%;">
-                                            <span aria-hidden="true">&times;</span>
-                                            </button>
-                                            <h5 class="super-title c-font-bold text-center" id="">Modelo Banak</h5>
-                                            
-                                            
-                                        </div>
-                                        <div id="carousel-banak" class="carousel slide" data-ride="carousel">
-                                            
-                                            <!-- Wrapper for slides -->
-                                            <div class="carousel-inner">
-                                                <div class="item active">
-                                                    <img class="img-responsive" src="assets/base/img/content/modelos/ph/banak-pb.jpg" alt="Teca Planta Baja">
-                                                    <div class="carousel-caption d-none d-md-block">
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <img class="img-responsive" src="assets/base/img/content/modelos/ph/banak-pa.jpg" alt="Teca Planta Alta">
-                                                    <div class="carousel-caption d-none d-md-block">
-                                                    </div>
-                                                </div>
+                                <!--Fin: Modal Banak-->
+                                <!--Inicio: Modal Balau-->
+                                <div class="modal fade balau" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin: 1.5%;">
+                                                <span aria-hidden="true">&times;</span>
+                                                </button>
+                                                <h5 class="super-title c-font-bold text-center" id="">Modelo Balau</h5>
+                                                
+                                                
                                             </div>
-                                            <!-- Controls -->
-                                            <a class="left carousel-control" href="#carousel-banak" role="button" data-slide="prev">
-                                                <span class="glyphicon glyphicon-chevron-left"></span>
-                                            </a>
-                                            <a class="right carousel-control" href="#carousel-banak" role="button" data-slide="next">
-                                                <span class="glyphicon glyphicon-chevron-right"></span>
-                                            </a>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-lg-12 col-md-12 col-sm12">
-                                                <img class="img-responsive" src="assets/base/img/content/modelos/especs_banak.png" alt="Especificaciones Banak">
+                                            <div id="carousel-balau" class="carousel slide" data-ride="carousel">
+                                                
+                                                <!-- Wrapper for slides -->
+                                                <div class="carousel-inner">
+                                                    <div class="item active">
+                                                        <img class="img-responsive" src="assets/base/img/content/modelos/ph/balau-pb.jpg" alt="Teca Planta Baja">
+                                                        <div class="carousel-caption d-none d-md-block">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="img-responsive" src="assets/base/img/content/modelos/ph/balau-pa.jpg" alt="Teca Planta Alta">
+                                                        <div class="carousel-caption d-none d-md-block">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Controls -->
+                                                <a class="left carousel-control" href="#carousel-balau" role="button" data-slide="prev">
+                                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                                </a>
+                                                <a class="right carousel-control" href="#carousel-balau" role="button" data-slide="next">
+                                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                                </a>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-12 col-md-12 col-sm12">
+                                                    <img class="img-responsive" src="assets/base/img/content/modelos/especs_balau.png" alt="Especificaciones Balau">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!--Fin: Modal Banak-->
-                            <!--Inicio: Modal Balau-->
-                            <div class="modal fade balau" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-lg">
-                                    <div class="modal-content">
-                                        <div class="">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin: 1.5%;">
-                                            <span aria-hidden="true">&times;</span>
-                                            </button>
-                                            <h5 class="super-title c-font-bold text-center" id="">Modelo Balau</h5>
-                                            
-                                            
-                                        </div>
-                                        <div id="carousel-balau" class="carousel slide" data-ride="carousel">
-                                            
-                                            <!-- Wrapper for slides -->
-                                            <div class="carousel-inner">
-                                                <div class="item active">
-                                                    <img class="img-responsive" src="assets/base/img/content/modelos/ph/balau-pb.jpg" alt="Teca Planta Baja">
-                                                    <div class="carousel-caption d-none d-md-block">
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <img class="img-responsive" src="assets/base/img/content/modelos/ph/balau-pa.jpg" alt="Teca Planta Alta">
-                                                    <div class="carousel-caption d-none d-md-block">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- Controls -->
-                                            <a class="left carousel-control" href="#carousel-balau" role="button" data-slide="prev">
-                                                <span class="glyphicon glyphicon-chevron-left"></span>
-                                            </a>
-                                            <a class="right carousel-control" href="#carousel-balau" role="button" data-slide="next">
-                                                <span class="glyphicon glyphicon-chevron-right"></span>
-                                            </a>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-lg-12 col-md-12 col-sm12">
-                                                <img class="img-responsive" src="assets/base/img/content/modelos/especs_balau.png" alt="Especificaciones Balau">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Fin: Modal Balau-->
-                        </section>
-                        <!-- FIN DE LOS PROTOTIPOS-->
-                        <!-- END: FEATURES 4.4 -->
-                        <!-- END: CONTENT/FEATURES/FEATURES-4-4 -->
-                        <section id="amenidades-desarrollo">
-                            <!-- BEGIN: CONTENT/FEATURES/FEATURES-12 -->
-                            <div class="c-content-box c-size-md c-no-padding c-bg-dark-2">
-                                <div class="c-content-feature-4">
-                                    <div class=" c-feature-bg c-content-left c-diagonal c-border-right-dark-2" style="background-image: url('assets/base/img/content/backgrounds/aquazona3.jpg');  background-size: cover; background-position: bottom; background-repeat: no-repeat;"></div> <!--class="c-bg-parallax" PARA PARALAX-->
-
-                                    <div class="container">
-                                        <div class="c-feature-content c-right">
-                                            <div class="c-content-v-center">
-                                                <div class="c-wrapper wow fadeInDown">
-                                                    <div class="c-body c-animate">
-                                                        <div class="c-content-title-1 animated wow fadeInDown" data-wow-delay="0.2s">
-                                                            <h2 class="c-font-uppercase c-font-bold super-title">DEPARTAMENTOS CON PARQUE ACUÁTICO INCLUÍDO</h2>
-                                                            <div class="c-line-right"></div>
-                                                            <h3>Preventa de la Torre A</h3>
-                                                            <p class="c-margin-b-30"></p>
-                                                            <button data-toggle="modal" data-target="#masterPlan" class=" text-center btn btn-lg btn-block c-btn-green c-btn-border-2x c-btn-square c-btn-bold wow animated fadeIn"
-                                                            data-wow-delay="1s">VER MASTER PLAN</button>
-                                                            
-                                                            <div class="c-content animated wow fadeInDown" data-wow-delay="0.7s">
+                                <!--Fin: Modal Balau-->
+                            </section>
+                            <!-- FIN DE LOS PROTOTIPOS-->
+                            <!-- END: FEATURES 4.4 -->
+                            <!-- END: CONTENT/FEATURES/FEATURES-4-4 -->
+                            <section id="amenidades-desarrollo">
+                                <!-- BEGIN: CONTENT/FEATURES/FEATURES-12 -->
+                                <div class="c-content-box c-size-md c-no-padding c-bg-dark-2">
+                                    <div class="c-content-feature-4">
+                                        <div class=" c-feature-bg c-content-left c-diagonal c-border-right-dark-2" style="background-image: url('assets/base/img/content/backgrounds/aquazona3.jpg');  background-size: cover; background-position: bottom; background-repeat: no-repeat;"></div> <!--class="c-bg-parallax" PARA PARALAX-->
+                                        <div class="container">
+                                            <div class="c-feature-content c-right">
+                                                <div class="c-content-v-center">
+                                                    <div class="c-wrapper wow fadeInDown">
+                                                        <div class="c-body c-animate">
+                                                            <div class="c-content-title-1 animated wow fadeInDown" data-wow-delay="0.2s">
+                                                                <h2 class="c-font-uppercase c-font-bold super-title">DEPARTAMENTOS CON PARQUE ACUÁTICO INCLUÍDO</h2>
+                                                                <div class="c-line-right"></div>
+                                                                <h3>Preventa de la Torre A</h3>
                                                                 <p class="c-margin-b-30"></p>
+                                                                <button data-toggle="modal" data-target="#masterPlan" class=" text-center btn btn-lg btn-block c-btn-green c-btn-border-2x c-btn-square c-btn-bold wow animated fadeIn"
+                                                                data-wow-delay="1s">VER MASTER PLAN</button>
                                                                 
+                                                                <div class="c-content animated wow fadeInDown" data-wow-delay="0.7s">
+                                                                    <p class="c-margin-b-30"></p>
+                                                                    
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -808,130 +825,246 @@ Follow: http://www.twitter.com/themehats
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <!--INCIO RESTO AMENIDADES-->
-                                <div class="c-content-box c-size-md c-bg-parallax" style="background-image: url(assets/base/img/content/backgrounds/textura2.jpg); max-width: 100%;">
-                                    <div class="container">
-                                        <div class="c-content-box c-size-md">
-                                            <div class="">
-                                                <div class="row">
-                                                    <div class="c-content-title-1">
-                                                        <h1 class="c-center c-font-uppercase c-font-bold super-title c-font-36">AMENIDADES DEL DESARROLLO</h1>
-                                                        <div class="c-line-center c-theme-bg"></div>
+                                    <!--INCIO RESTO AMENIDADES-->
+                                    <div class="c-content-box c-size-md c-bg-parallax" style="background-image: url(assets/base/img/content/backgrounds/textura2.jpg); max-width: 100%;">
+                                        <div class="container">
+                                            <div class="c-content-box c-size-md">
+                                                <div class="">
+                                                    <div class="row">
+                                                        <div class="c-content-title-1">
+                                                            <h1 class="c-center c-font-uppercase c-font-bold super-title c-font-36">AMENIDADES DEL DESARROLLO</h1>
+                                                            <div class="c-line-center c-theme-bg"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="c-content-feature-8 c-opt-8">
+                                                        <ul class="c-grid">
+                                                            <li>
+                                                                <div class="c-card c-img c-bg-img-center grayscale-img" style="background-image: url(assets/base/img/content/backgrounds/aquazona.jpg)">
+                                                                    <h3 class="c-font-40 c-font-bold c-font-uppercase c-font-white title-shadow">AQUAZONA</h3>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="c-card c-img c-bg-img-center grayscale-img" style="background-image: url(assets/base/img/content/backgrounds/multiple.jpg)">
+                                                                    <h3 class="c-font-40 c-font-bold c-font-uppercase c-font-white title-shadow">CANCHA MÚLTIPLE</h3>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                        <ul class="c-grid">
+                                                            <li>
+                                                                <div class="c-card c-img c-bg-img-center grayscale-img" style="background-image: url(assets/base/img/content/backgrounds/alberca.jpg); padding-right: 20px;">
+                                                                    <h3 class="c-font-40 c-font-bold c-font-uppercase c-font-white title-shadow">ALBERCA CON CHAPOTEADERO</h3>
+                                                                </div>
+                                                            </li>
+                                                            
+                                                            <li>
+                                                                <div class="c-card c-img c-bg-img-center grayscale-img" style="background-image: url(assets/base/img/content/backgrounds/tenis.jpg)">
+                                                                    <h3 class="c-font-40 c-font-bold c-font-uppercase c-font-white title-shadow">CANCHA <br>DE TENIS</h3>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                        <ul class="c-grid">
+                                                            <li>
+                                                                <div class="c-card c-img c-bg-img-center grayscale-img" style="background-image: url(assets/base/img/content/backgrounds/paddle.jpg)">
+                                                                    <h3 class="c-font-40 c-font-bold c-font-uppercase c-font-white title-shadow">CANCHA <br>DE PADDLE</h3>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="c-card c-img c-bg-img-center grayscale-img" style="background-image: url(assets/base/img/content/backgrounds/pet.jpg)">
+                                                                    <h3 class="c-font-40 c-font-bold c-font-uppercase c-font-white">Zona Pet <br>Friendly</h3>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                        <ul class="c-grid">
+                                                            <li>
+                                                                <div class="c-card c-img c-bg-img-center grayscale-img" style="background-image: url(assets/base/img/content/desarrollo/juegos-infantiles.jpg)">
+                                                                    <h3 class="c-font-40 c-font-bold c-font-uppercase c-font-white title-shadow">JUEGOS<br> INFANTILES</h3>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="c-card c-img c-bg-img-center grayscale-img" style="background-image: url(assets/base/img/content/desarrollo/cabana.jpg)">
+                                                                    <h3 class="c-font-40 c-font-bold c-font-uppercase c-font-white title-shadow">CABAÑAS<br>GRILL</h3>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                        <ul class="c-grid">
+                                                            <li>
+                                                                <div class="c-card c-img c-bg-img-center grayscale-img" style="background-image: url(assets/base/img/content/backgrounds/terraza.jpg)">
+                                                                    <h3 class="c-font-40 c-font-bold c-font-uppercase c-font-white title-shadow">SALÓN DE FIESTAS PRINCIPAL</h3>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="c-card c-img c-bg-img-center grayscale-img" style="background-image: url(assets/base/img/content/desarrollo/amigos.jpg)">
+                                                                    <h3 class="c-font-40 c-font-bold c-font-uppercase c-font-white title-shadow">ÁREAS <br>VERDES</h3>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
                                                     </div>
                                                 </div>
-                                                <div class="c-content-feature-8 c-opt-8">
-                                                    <ul class="c-grid">
-                                                        <li>
-                                                            <div class="c-card c-img c-bg-img-center grayscale-img" style="background-image: url(assets/base/img/content/backgrounds/aquazona.jpg)">
-                                                                <h3 class="c-font-40 c-font-bold c-font-uppercase c-font-white title-shadow">AQUAZONA</h3>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div class="c-card c-img c-bg-img-center grayscale-img" style="background-image: url(assets/base/img/content/backgrounds/multiple.jpg)">
-                                                                <h3 class="c-font-40 c-font-bold c-font-uppercase c-font-white title-shadow">CANCHA MÚLTIPLE</h3>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                    <ul class="c-grid">
-                                                        <li>
-                                                            <div class="c-card c-img c-bg-img-center grayscale-img" style="background-image: url(assets/base/img/content/backgrounds/alberca.jpg); padding-right: 20px;">
-                                                                <h3 class="c-font-40 c-font-bold c-font-uppercase c-font-white title-shadow">ALBERCA CON CHAPOTEADERO</h3>
-                                                            </div>
-                                                        </li>
-                                                        
-                                                        <li>
-                                                            <div class="c-card c-img c-bg-img-center grayscale-img" style="background-image: url(assets/base/img/content/backgrounds/tenis.jpg)">
-                                                                <h3 class="c-font-40 c-font-bold c-font-uppercase c-font-white title-shadow">CANCHA <br>DE TENIS</h3>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                    <ul class="c-grid">
-                                                        <li>
-                                                            <div class="c-card c-img c-bg-img-center grayscale-img" style="background-image: url(assets/base/img/content/backgrounds/paddle.jpg)">
-                                                                <h3 class="c-font-40 c-font-bold c-font-uppercase c-font-white title-shadow">CANCHA <br>DE PADDLE</h3>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div class="c-card c-img c-bg-img-center grayscale-img" style="background-image: url(assets/base/img/content/backgrounds/pet.jpg)">
-                                                                <h3 class="c-font-40 c-font-bold c-font-uppercase c-font-white">Zona Pet <br>Friendly</h3>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                    <ul class="c-grid">
-                                                        <li>
-                                                            <div class="c-card c-img c-bg-img-center grayscale-img" style="background-image: url(assets/base/img/content/desarrollo/juegos-infantiles.jpg)">
-                                                                <h3 class="c-font-40 c-font-bold c-font-uppercase c-font-white title-shadow">JUEGOS<br> INFANTILES</h3>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div class="c-card c-img c-bg-img-center grayscale-img" style="background-image: url(assets/base/img/content/desarrollo/cabana.jpg)">
-                                                                <h3 class="c-font-40 c-font-bold c-font-uppercase c-font-white title-shadow">CABAÑAS<br>GRILL</h3>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                    <ul class="c-grid">
-                                                        <li>
-                                                            <div class="c-card c-img c-bg-img-center grayscale-img" style="background-image: url(assets/base/img/content/backgrounds/terraza.jpg)">
-                                                                <h3 class="c-font-40 c-font-bold c-font-uppercase c-font-white title-shadow">SALÓN DE FIESTAS PRINCIPAL</h3>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div class="c-card c-img c-bg-img-center grayscale-img" style="background-image: url(assets/base/img/content/desarrollo/amigos.jpg)">
-                                                                <h3 class="c-font-40 c-font-bold c-font-uppercase c-font-white title-shadow">ÁREAS <br>VERDES</h3>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- END: CONTENT/FEATURES/FEATURES-12 -->
+                                </section>
+                                <!--INICIO:AQUAZONA-->
+                                <section id="amenidades">
+                                    <!--MODAL MASTER PLAN-->
+                                    <div class="modal fade bd-example-modal-lg" id="masterPlan" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                            <div class="modal-content">
+                                                <!--<div class="modal-header">
+                                                    <h5 class="modal-title text-center" id="exampleModalLongTitle">Master Plan</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>-->
+                                                <div class="modal-body">
+                                                    
+                                                    <img src="assets/base/img/content/masterPlan/master-plan.jpg" class="img-responsive">
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                    
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                    <!--FIN DE MODAL DEL MASTER PLAN-->
                                 </div>
-                                <!-- END: CONTENT/FEATURES/FEATURES-12 -->
+                                
                             </section>
-                            <!--INICIO:AQUAZONA-->
-                            <section id="amenidades">
-                                <!--MODAL MASTER PLAN-->
-                                <div class="modal fade bd-example-modal-lg" id="masterPlan" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                                        <div class="modal-content">
-                                            <!--<div class="modal-header">
-                                                <h5 class="modal-title text-center" id="exampleModalLongTitle">Master Plan</h5>
-                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>-->
-                                            <div class="modal-body">
+                            <!--FIN: AQUAZONA-->
+                            <section id="amenidades-interiores">
+                                <!-- BEGIN: CONTENT/TILES/TILE-3 -->
+                                
+                                <!--BACKUP AMENIDADES--------------------------------------------->
+                                <div class="c-content-box c-size-md c-bg-white text-center">
+                                    <div class="c-content-tile-grid c-bs-grid-reset-space" data-auto-height="true">
+                                        <div class="c-content-title-1 wow animate fadeInDown">
+                                            <h1 class="c-font-uppercase c-center c-font-bold super-title c-font-36">Amenidades Interiores</h1>
+                                            <div class="c-line-center"></div>
+                                            <div class="c-content animated wow fadeInDown padding-ph" data-wow-delay="0.7s">
                                                 
-                                                <img src="assets/base/img/content/masterPlan/master-plan.jpg" class="img-responsive">
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                                                 
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <!--FIN DE MODAL DEL MASTER PLAN-->
-                            </div>
-                            
-                        </section>
-                        <!--FIN: AQUAZONA-->
-                        <section id="amenidades-interiores">
-                            <!-- BEGIN: CONTENT/TILES/TILE-3 -->
-                            
-                            <!--BACKUP AMENIDADES--------------------------------------------->
-                            <div class="c-content-box c-size-md c-bg-white text-center">
-                                <div class="c-content-tile-grid c-bs-grid-reset-space" data-auto-height="true">
-                                    <div class="c-content-title-1 wow animate fadeInDown">
-                                        <h1 class="c-font-uppercase c-center c-font-bold super-title c-font-36">Amenidades Interiores</h1>
-                                        <div class="c-line-center"></div>
-                                        <div class="c-content animated wow fadeInDown padding-ph" data-wow-delay="0.7s">
-                                            
+                                        <div class="row wow animate fadeInUp">
+                                            <div class="col-md-6">
+                                                <div class="c-content-tile-1 c-bg-blue-3">
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <div class="c-tile-content c-arrow-left c-arrow-blue-3 c-content-overlay">
+                                                                <div class="c-overlay-wrapper">
+                                                                    <div class="c-overlay-content filter-bn">
+                                                                        <a href="assets/base/img/content/desarrollo/salon-adultos.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-4">
+                                                                            <i class="icon-magnifier"></i>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/content/desarrollo/salon-adultos.jpg)"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <div class="c-tile-content c-content-v-center" data-height="height">
+                                                                <div class="c-wrapper">
+                                                                    <div class="c-body c-center">
+                                                                        <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white"> Área de Esparcimiento</h3>
+                                                                        <p class="c-tile-body c-font-white">Zona Lounge, Periqueras y Área de Co-Working para socializar.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="c-content-tile-1 c-bg-green-2">
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <div class="c-tile-content c-arrow-right c-arrow-brown-2 c-content-overlay">
+                                                                <div class="c-overlay-wrapper">
+                                                                    <div class="c-overlay-content filter-bn">
+                                                                        <a href="assets/base/img/content/backgrounds/gym.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-4">
+                                                                            <i class="icon-magnifier"></i>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/content/backgrounds/gym.jpg)"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <div class="c-tile-content c-content-v-center" data-height="height">
+                                                                <div class="c-wrapper">
+                                                                    <div class="c-body c-center">
+                                                                        <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white"> GYM</h3>
+                                                                        <p class="c-tile-body c-font-white">Equipado con salón para yoga, vestidores y vista a las áreas verdes</p>
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
                                             
                                         </div>
-                                    </div>
-                                    <div class="row wow animate fadeInUp">
+                                        <div class="col-md-6">
+                                            <div class="c-content-tile-1 c-bg-blue-3">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <div class="c-tile-content c-arrow-left c-arrow-red-2 c-content-overlay">
+                                                            <div class="c-overlay-wrapper">
+                                                                <div class="c-overlay-content filter-bn">
+                                                                    <a href="assets/base/img/content/desarrollo/ludoteca.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-4">
+                                                                        <i class="icon-magnifier"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/content/desarrollo/ludoteca.jpg)"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <div class="c-tile-content c-content-v-center" data-height="height">
+                                                            <div class="c-wrapper">
+                                                                <div class="c-body c-center">
+                                                                    <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white"> Ludoteca</h3>
+                                                                    <p class="c-tile-body c-font-white">Entretenimiento para los más pequeños</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="c-content-tile-1 c-bg-green-2">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <div class="c-tile-content c-arrow-left c-arrow-red-2 c-content-overlay">
+                                                            <div class="c-overlay-wrapper">
+                                                                <div class="c-overlay-content filter-bn">
+                                                                    <a href="assets/base/img/content/desarrollo/salon-fiestas.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-4">
+                                                                        <i class="icon-magnifier"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/content/desarrollo/salon-fiestas.jpg)"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <div class="c-tile-content c-content-v-center" data-height="height">
+                                                            <div class="c-wrapper">
+                                                                <div class="c-body c-center">
+                                                                    <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white">Salón de fiestas</h3>
+                                                                    <p class="c-tile-body c-font-white">Con todas las comodidades para eventos incréibles.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
                                         <div class="col-md-6">
                                             <div class="c-content-tile-1 c-bg-blue-3">
                                                 <div class="row">
@@ -939,20 +1072,20 @@ Follow: http://www.twitter.com/themehats
                                                         <div class="c-tile-content c-arrow-left c-arrow-blue-3 c-content-overlay">
                                                             <div class="c-overlay-wrapper">
                                                                 <div class="c-overlay-content filter-bn">
-                                                                    <a href="assets/base/img/content/desarrollo/salon-adultos.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-4">
+                                                                    <a href="assets/base/img/content/desarrollo/sum.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-4">
                                                                         <i class="icon-magnifier"></i>
                                                                     </a>
                                                                 </div>
                                                             </div>
-                                                            <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/content/desarrollo/salon-adultos.jpg)"></div>
+                                                            <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/content/desarrollo/sum.jpg)"></div>
                                                         </div>
                                                     </div>
                                                     <div class="col-sm-6">
                                                         <div class="c-tile-content c-content-v-center" data-height="height">
                                                             <div class="c-wrapper">
                                                                 <div class="c-body c-center">
-                                                                    <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white"> Área de Esparcimiento</h3>
-                                                                    <p class="c-tile-body c-font-white">Zona Lounge, Periqueras y Área de Co-Working para socializar.</p>
+                                                                    <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white"> Salón de usos Múltiples</h3>
+                                                                    <p class="c-tile-body c-font-white"></p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -967,416 +1100,300 @@ Follow: http://www.twitter.com/themehats
                                                         <div class="c-tile-content c-arrow-right c-arrow-brown-2 c-content-overlay">
                                                             <div class="c-overlay-wrapper">
                                                                 <div class="c-overlay-content filter-bn">
-                                                                    <a href="assets/base/img/content/backgrounds/gym.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-4">
+                                                                    <a href="assets/base/img/content/desarrollo/jacuzzi.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-4">
                                                                         <i class="icon-magnifier"></i>
                                                                     </a>
                                                                 </div>
                                                             </div>
-                                                            <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/content/backgrounds/gym.jpg)"></div>
+                                                            <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/content/desarrollo/jacuzzi.jpg)"></div>
                                                         </div>
                                                     </div>
                                                     <div class="col-sm-6">
                                                         <div class="c-tile-content c-content-v-center" data-height="height">
                                                             <div class="c-wrapper">
                                                                 <div class="c-body c-center">
-                                                                    <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white"> GYM</h3>
-                                                                    <p class="c-tile-body c-font-white">Equipado con salón para yoga, vestidores y vista a las áreas verdes</p>
+                                                                    <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white"> SPA dividido para hombres y mujeres</h3>
+                                                                    <p class="c-tile-body c-font-white">Jacuzzi, Sauna, Vapor y camas de masaje para que puedas relajarte</p>
                                                                     
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END: CONTENT/TILES/TILE-3 -->
+                        </section>
+                        <section id="promociones">
+                            <!-- BEGIN: CONTENT/MISC/desarrollo-3 -->
+                            <div class="c-content-box c-size-md c-bg-grey-1">
+                                <div class="container">
+                                    <!-- Begin: Testimonals 1 component -->
+                                    <div class="c-content-desarrollo-1-slider" data-slider="owl" data-items="3">
+                                        <!-- Begin: Title 1 component -->
+                                        <div class="c-content-title-1">
+                                            <h1 class="c-center c-font-uppercase c-font-bold super-title c-font-36">Promociones</h1>
+                                            <div class="c-line-center c-theme-bg"></div>
+                                        </div>
+                                        <!-- End-->
+                                        
+                                        <div class="row">
+                                            <div class="col-md-6 col-sm-6 c-margin-b-30">
+                                                <div class="c-content-person-1 c-option-2">
+                                                    <div class="c-caption c-content-overlay">
+                                                        <div class="c-overlay-wrapper">
+                                                            <div class="c-overlay-content">
+                                                                <a href="#">
+                                                                    <i class="icon-link"></i>
+                                                                </a>
+                                                                <a href="assets/base/img/content/desarrollo/promo-referidos.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-4">
+                                                                    <i class="icon-magnifier"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    <img class="c-overlay-object img-responsive" src="assets/base/img/content/desarrollo/referidos.jpg" alt=""> </div>
+                                                    <div class="c-body">
+                                                        <div class="c-head">
+                                                            <div class="c-name c-font-uppercase c-font-bold">Programa de referidos</div>
+                                                        </div>
+                                                        <div class="c-position"></div>
+                                                        <p>Refiérenos con una persona y si se concreta la venta podrás ganar dinero en efectivo</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End-->
+                                        </div>
+                                        <!-- End-->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END: CONTENT/MISC/desarrollo-3 -->
+                        </section>
+                        
+                        <section id="ubicacion" class="extra-divider" style="background-image: url(assets/base/img/content/backgrounds/textura2.jpg); max-width: 100%;">
+                            <!-- BEGIN: CONTENT/ubicación/ubicación-3 -->
+                            <div class="container">
+                                <div class="row">
+                                    <div class="c-content-title-1">
+                                        <h1 class="c-center c-font-uppercase c-font-bold super-title c-font-36">Ubicación</h1>
+                                        <div class="c-line-center c-theme-bg"></div>
+                                    </div>
+                                    <div class="c-content-box c-size-md c-bg-white display-inline">
+                                        <div class="container">
+                                            <div class="col-md-6 col-sm-6 c-margin-b-30">
+                                                <div class="c-content-ubicación-1 c-option-2">
+                                                    
+                                                    <iframe class="map-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.850654463269!2d-100.44806944970222!3d20.71628830368032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d3577b5ad8f37b%3A0xd7b4085dc4cb0614!2sBlvrd+Universitario+319%2C+Manzanares%2C+Juriquilla%2C+Qro.!5e0!3m2!1ses!2smx!4v1532368901587" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 c-margin-b-30">
+                                                <div class="c-content-box c-size-md c-bg-img-top c-no-padding c-pos-relative">
+                                                    <div class="">
+                                                        <div class="c-content-contacto-1 c-opt-1">
+                                                            <div class="" data-auto-height=".c-height">
+                                                                <div class="col-sm-12 c-desktop"></div>
+                                                                <div class="col-sm-12">
+                                                                    <div class="c-body">
+                                                                        <div class="c-section">
+                                                                            <h2 class="uppercase">Terra Verde Juriquilla</h2>
+                                                                        </div>
+                                                                        <div class="c-section">
+                                                                            <div class="c-content-label c-font-uppercase c-font-bold c-theme-bg">Dirección</div>
+                                                                            <p>Boulevard Universitario #319, Col. Manzanares, C.P. 76230
+                                                                            |<br/>Juriquilla, Querétaro</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- END: CONTENT/ubicación/ubicación-3 -->
+                            </section>
+                            <section id="financiamiento" class="c-bg-grey-1">
+                                <div class="container-full">
+                                    <div class="row mt-5 mb-5">
+                                        <div class="col-lg-3 col-md-3 d-sm-none d-md-block"></div>
+                                        <div class="col-lg-6 col-md-6 col-sm-8 col-8 py-auto">
+                                            <h1 class="c-center c-font-uppercase c-font-bold super-title mt-5">Tramitamos tu crédito</h1>
+                                            <p class=" c-content-title-1 text-center">Te brindamos <strong>asesoría gratuita</strong> en todos tus trámites. Contamos con profesionales certificados en créditos hipotecarios, para orientarte al producto que más se acomode a tus necesidades, ten la seguridad que tus datos son confidenciales.</p>
+                                            <div class="c-line-center c-theme-bg"></div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 d-sm-none d-md-block"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-12 my-5 text-center">
+                                            <h1 class="text-uppercase">Aceptamos todos los créditos bancarios</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container-full" style="background-color: white;">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                            <div class="c-content-box c-size-md">
+                                                <div class="container">
+                                                    <!-- Begin: Testimonals 1 component -->
+                                                    <div class="c-content-client-logos-slider-1" data-slider="owl">
+                                                        <!-- Begin: Owlcarousel -->
+                                                        <div class="owl-carousel owl-theme c-theme c-owl-nav-center" data-items="5" data-desktop-items="4" data-desktop-small-items="3" data-tablet-items="3" data-mobile-small-items="1" data-auto-play="false" data-rtl="false" data-slide-speed="5000"
+                                                            data-auto-play-hover-pause="true">
+                                                            
+                                                            <div class="item">
+                                                                <a href="#">
+                                                                    <img src="assets/base/img/content/client-logos/logo_infonavit.jpg" alt="" />
+                                                                </a>
+                                                            </div>
+                                                            <div class="item">
+                                                                <a href="#">
+                                                                    <img src="assets/base/img/content/client-logos/logo18.jpg" alt="" />
+                                                                </a>
+                                                            </div>
+                                                            <div class="item">
+                                                                <a href="#">
+                                                                    <img src="assets/base/img/content/client-logos/logo4.jpg" alt="" />
+                                                                </a>
+                                                            </div>
+                                                            <div class="item">
+                                                                <a href="#">
+                                                                    <img src="assets/base/img/content/client-logos/logo6.jpg" alt="" />
+                                                                </a>
+                                                            </div>
+                                                            <div class="item">
+                                                                <a href="#">
+                                                                    <img src="assets/base/img/content/client-logos/logo7.jpg" alt="" />
+                                                                </a>
+                                                            </div>
+                                                            <div class="item">
+                                                                <a href="#">
+                                                                    <img src="assets/base/img/content/client-logos/logo8.jpg" alt="" />
+                                                                </a>
+                                                            </div>
+                                                            <div class="item">
+                                                                <a href="#">
+                                                                    <img src="assets/base/img/content/client-logos/logo9.jpg" alt="" />
+                                                                </a>
+                                                            </div>
+                                                            <div class="item">
+                                                                <a href="#">
+                                                                    <img src="assets/base/img/content/client-logos/logo11.jpg" alt="" />
+                                                                </a>
+                                                            </div>
+                                                            
+                                                            <div class="item">
+                                                                <a href="#">
+                                                                    <img src="assets/base/img/content/client-logos/logo13.jpg" alt="" />
+                                                                </a>
+                                                            </div>
+                                                            <div class="item">
+                                                                <a href="#">
+                                                                    <img src="assets/base/img/content/client-logos/logo14.jpg" alt="" />
+                                                                </a>
+                                                            </div>
+                                                            
+                                                            <div class="item">
+                                                                <a href="#">
+                                                                    <img src="assets/base/img/content/client-logos/logo16.jpg" alt="" />
+                                                                </a>
+                                                            </div>
+                                                            
+                                                            
+                                                        </div>
+                                                        <!-- End-->
+                                                    </div>
+                                                    <!-- End-->
                                                     
                                                 </div>
                                             </div>
                                         </div>
-                                        
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="c-content-tile-1 c-bg-blue-3">
-                                            <div class="row">
-                                                <div class="col-sm-6">
-                                                    <div class="c-tile-content c-arrow-left c-arrow-red-2 c-content-overlay">
-                                                        <div class="c-overlay-wrapper">
-                                                            <div class="c-overlay-content filter-bn">
-                                                                <a href="assets/base/img/content/desarrollo/ludoteca.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-4">
-                                                                    <i class="icon-magnifier"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/content/desarrollo/ludoteca.jpg)"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-6">
-                                                    <div class="c-tile-content c-content-v-center" data-height="height">
-                                                        <div class="c-wrapper">
-                                                            <div class="c-body c-center">
-                                                                <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white"> Ludoteca</h3>
-                                                                <p class="c-tile-body c-font-white">Entretenimiento para los más pequeños</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                </div>
+                            </section>
+                            <!--FIN: Seccion financiamiento-->
+                            <!--INICIO: Avances de Obra-->
+                            <section id="avances" class="c-bg-grey-1">
+                                <div class="row">
+                                    <div class="container-full">
+                                        <div class="row mt-5 mb-5">
+                                            <div class="col-lg-12 col-md-6 col-sm-8 col-8 py-auto">
+                                                <h1 class="c-center c-font-36 c-font-uppercase c-font-bold super-title mt-5">Avances de Obra</h1>
+                                                <div class="c-line-center c-theme-bg"></div>
+                                                <p class=" c-content-title-1 text-center">Conoce el progeso en la contrucción de <strong>Terra Verde Juriquilla</strong></p>
+                                                <div class="c-line-center c-theme-bg"></div>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="c-content-tile-1 c-bg-green-2">
-                                            <div class="row">
-                                                <div class="col-sm-6">
-                                                    <div class="c-tile-content c-arrow-left c-arrow-red-2 c-content-overlay">
-                                                        <div class="c-overlay-wrapper">
-                                                            <div class="c-overlay-content filter-bn">
-                                                                <a href="assets/base/img/content/desarrollo/salon-fiestas.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-4">
-                                                                    <i class="icon-magnifier"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/content/desarrollo/salon-fiestas.jpg)"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-6">
-                                                    <div class="c-tile-content c-content-v-center" data-height="height">
-                                                        <div class="c-wrapper">
-                                                            <div class="c-body c-center">
-                                                                <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white">Salón de fiestas</h3>
-                                                                <p class="c-tile-body c-font-white">Con todas las comodidades para eventos incréibles.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="c-content-tile-1 c-bg-blue-3">
-                                            <div class="row">
-                                                <div class="col-sm-6">
-                                                    <div class="c-tile-content c-arrow-left c-arrow-blue-3 c-content-overlay">
-                                                        <div class="c-overlay-wrapper">
-                                                            <div class="c-overlay-content filter-bn">
-                                                                <a href="assets/base/img/content/desarrollo/sum.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-4">
-                                                                    <i class="icon-magnifier"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/content/desarrollo/sum.jpg)"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-6">
-                                                    <div class="c-tile-content c-content-v-center" data-height="height">
-                                                        <div class="c-wrapper">
-                                                            <div class="c-body c-center">
-                                                                <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white"> Salón de usos Múltiples</h3>
-                                                                <p class="c-tile-body c-font-white"></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="c-content-tile-1 c-bg-green-2">
-                                            <div class="row">
-                                                <div class="col-sm-6">
-                                                    <div class="c-tile-content c-arrow-right c-arrow-brown-2 c-content-overlay">
-                                                        <div class="c-overlay-wrapper">
-                                                            <div class="c-overlay-content filter-bn">
-                                                                <a href="assets/base/img/content/desarrollo/jacuzzi.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-4">
-                                                                    <i class="icon-magnifier"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/content/desarrollo/jacuzzi.jpg)"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-6">
-                                                    <div class="c-tile-content c-content-v-center" data-height="height">
-                                                        <div class="c-wrapper">
-                                                            <div class="c-body c-center">
-                                                                <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white"> SPA dividido para hombres y mujeres</h3>
-                                                                <p class="c-tile-body c-font-white">Jacuzzi, Sauna, Vapor y camas de masaje para que puedas relajarte</p>
-                                                                
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            <div class="c-line-center c-theme-bg"></div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <!-- END: CONTENT/TILES/TILE-3 -->
-                    </section>
-                    <section id="promociones">
-                        <!-- BEGIN: CONTENT/MISC/desarrollo-3 -->
-                        <div class="c-content-box c-size-md c-bg-grey-1">
-                            <div class="container">
-                                <!-- Begin: Testimonals 1 component -->
-                                <div class="c-content-desarrollo-1-slider" data-slider="owl" data-items="3">
-                                    <!-- Begin: Title 1 component -->
-                                    <div class="c-content-title-1">
-                                        <h1 class="c-center c-font-uppercase c-font-bold super-title c-font-36">Promociones</h1>
-                                        <div class="c-line-center c-theme-bg"></div>
-                                    </div>
-                                    <!-- End-->
-                                    
-                                    <div class="row">
-                                        <div class="col-md-6 col-sm-6 c-margin-b-30">
-                                            <div class="c-content-person-1 c-option-2">
-                                                <div class="c-caption c-content-overlay">
-                                                    <div class="c-overlay-wrapper">
-                                                        <div class="c-overlay-content">
-                                                            <a href="#">
-                                                                <i class="icon-link"></i>
-                                                            </a>
-                                                            <a href="assets/base/img/content/desarrollo/promo-referidos.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-4">
-                                                                <i class="icon-magnifier"></i>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                <img class="c-overlay-object img-responsive" src="assets/base/img/content/desarrollo/referidos.jpg" alt=""> </div>
-                                                <div class="c-body">
-                                                    <div class="c-head">
-                                                        <div class="c-name c-font-uppercase c-font-bold">Programa de referidos</div>
-                                                    </div>
-                                                    <div class="c-position"></div>
-                                                    <p>Refiérenos con una persona y si se concreta la venta podrás ganar dinero en efectivo</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End-->
-                                    </div>
-                                    <!-- End-->
-                                </div>
-                            </div>
-                        </div>
-                        <!-- END: CONTENT/MISC/desarrollo-3 -->
-                    </section>
-                    
-                    <section id="ubicacion" class="extra-divider" style="background-image: url(assets/base/img/content/backgrounds/textura2.jpg); max-width: 100%;">
-                        <!-- BEGIN: CONTENT/ubicación/ubicación-3 -->
-                        <div class="container">
-                            <div class="row">
-                                <div class="c-content-title-1">
-                                    <h1 class="c-center c-font-uppercase c-font-bold super-title c-font-36">Ubicación</h1>
-                                    <div class="c-line-center c-theme-bg"></div>
-                                </div>
-                                <div class="c-content-box c-size-md c-bg-white display-inline">
-                                    <div class="container">
-                                        <div class="col-md-6 col-sm-6 c-margin-b-30">
-                                            <div class="c-content-ubicación-1 c-option-2">
-                                                
-                                                <iframe class="map-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.850654463269!2d-100.44806944970222!3d20.71628830368032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d3577b5ad8f37b%3A0xd7b4085dc4cb0614!2sBlvrd+Universitario+319%2C+Manzanares%2C+Juriquilla%2C+Qro.!5e0!3m2!1ses!2smx!4v1532368901587" frameborder="0" style="border:0" allowfullscreen></iframe>
-                                                
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-sm-6 c-margin-b-30">
-                                            <div class="c-content-box c-size-md c-bg-img-top c-no-padding c-pos-relative">
-                                                <div class="">
-                                                    <div class="c-content-contacto-1 c-opt-1">
-                                                        <div class="" data-auto-height=".c-height">
-                                                            <div class="col-sm-12 c-desktop"></div>
-                                                            <div class="col-sm-12">
-                                                                <div class="c-body">
-                                                                    <div class="c-section">
-                                                                        <h2 class="uppercase">Terra Verde Juriquilla</h2>
-                                                                    </div>
-                                                                    <div class="c-section">
-                                                                        <div class="c-content-label c-font-uppercase c-font-bold c-theme-bg">Dirección</div>
-                                                                        <p>Boulevard Universitario #319, Col. Manzanares, C.P. 76230
-                                                                        |<br/>Juriquilla, Querétaro</p>
+                                <!--INICIO: LIGHTBOX DE AVANCES DE OBRA NOV-->
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="c-content-box c-bg-white text-center">
+                                            <div class="c-content-tile-grid c-bs-grid-reset-space" data-auto-height="true">
+                                                <div class="col-lg-12">
+                                                    <div class="c-content-tile-1 c-bg-green-2">
+                                                        <div class="row">
+                                                            <div class=" col-lg-6 col-md-6 col-sm-6">
+                                                                <div class="wow animate fadeInUp">
+                                                                    <div class="c-tile-content c-arrow-right c-arrow-brown-2 c-content-overlay">
+                                                                        <div class="c-overlay-wrapper">
+                                                                            <div class="c-overlay-content filter-bn">
+                                                                                <a href="assets/base/img/content/avances/nov19/1.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-6">
+                                                                                    <i class="far fa-eye"></i>
+                                                                                    <p class="text-center text-white">Ver avances</p>
+                                                                                </a>
+                                                                                <a href="assets/base/img/content/avances/nov19/2.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-6">
+                                                                                    
+                                                                                </a>
+                                                                                <a href="assets/base/img/content/avances/nov19/3.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-6">
+                                                                                    
+                                                                                </a>
+                                                                                <a href="assets/base/img/content/avances/nov19/11.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-6">
+                                                                                    
+                                                                                </a>
+                                                                                <a href="assets/base/img/content/avances/nov19/12.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-6">
+                                                                                    
+                                                                                </a>
+                                                                                <a href="assets/base/img/content/avances/nov19/6.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-6">
+                                                                                    
+                                                                                </a>
+                                                                                <a href="assets/base/img/content/avances/nov19/7.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-6">
+                                                                                    
+                                                                                </a>
+                                                                                <a href="assets/base/img/content/avances/nov19/8.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-6">
+                                                                                    
+                                                                                </a>
+                                                                                <a href="assets/base/img/content/avances/nov19/9.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-6">
+                                                                                    
+                                                                                </a>
+                                                                                <a href="assets/base/img/content/avances/nov19/vid1.mp4" data-lightbox="fancybox" data-fancybox-group="gallery-6">
+                                                                                    
+                                                                                </a>
+                                                                                <a href="assets/base/img/content/avances/nov19/vid2.mp4" data-lightbox="fancybox" data-fancybox-group="gallery-6">
+                                                                                    
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/content/avances/nov19/1.jpg)"></div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- END: CONTENT/ubicación/ubicación-3 -->
-                        </section>
-                        <section id="financiamiento" class="c-bg-grey-1">
-                            <div class="container-full">
-                                <div class="row mt-5 mb-5">
-                                    <div class="col-lg-3 col-md-3 d-sm-none d-md-block"></div>
-                                    <div class="col-lg-6 col-md-6 col-sm-8 col-8 py-auto">
-                                        <h1 class="c-center c-font-uppercase c-font-bold super-title mt-5">Tramitamos tu crédito</h1>
-                                        <p class=" c-content-title-1 text-center">Te brindamos <strong>asesoría gratuita</strong> en todos tus trámites. Contamos con profesionales certificados en créditos hipotecarios, para orientarte al producto que más se acomode a tus necesidades, ten la seguridad que tus datos son confidenciales.</p>
-                                        <div class="c-line-center c-theme-bg"></div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 d-sm-none d-md-block"></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 my-5 text-center">
-                                        <h1 class="text-uppercase">Aceptamos todos los créditos bancarios</h1>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="container-full" style="background-color: white;">
-                                <div class="row">
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                                        <div class="c-content-box c-size-md">
-                                            <div class="container">
-                                                <!-- Begin: Testimonals 1 component -->
-                                                <div class="c-content-client-logos-slider-1" data-slider="owl">
-                                                    <!-- Begin: Owlcarousel -->
-                                                    <div class="owl-carousel owl-theme c-theme c-owl-nav-center" data-items="5" data-desktop-items="4" data-desktop-small-items="3" data-tablet-items="3" data-mobile-small-items="1" data-auto-play="false" data-rtl="false" data-slide-speed="5000"
-                                                        data-auto-play-hover-pause="true">
-                                                        
-                                                        <div class="item">
-                                                            <a href="#">
-                                                                <img src="assets/base/img/content/client-logos/logo_infonavit.jpg" alt="" />
-                                                            </a>
-                                                        </div>
-                                                        <div class="item">
-                                                            <a href="#">
-                                                                <img src="assets/base/img/content/client-logos/logo18.jpg" alt="" />
-                                                            </a>
-                                                        </div>
-                                                        <div class="item">
-                                                            <a href="#">
-                                                                <img src="assets/base/img/content/client-logos/logo4.jpg" alt="" />
-                                                            </a>
-                                                        </div>
-                                                        <div class="item">
-                                                            <a href="#">
-                                                                <img src="assets/base/img/content/client-logos/logo6.jpg" alt="" />
-                                                            </a>
-                                                        </div>
-                                                        <div class="item">
-                                                            <a href="#">
-                                                                <img src="assets/base/img/content/client-logos/logo7.jpg" alt="" />
-                                                            </a>
-                                                        </div>
-                                                        <div class="item">
-                                                            <a href="#">
-                                                                <img src="assets/base/img/content/client-logos/logo8.jpg" alt="" />
-                                                            </a>
-                                                        </div>
-                                                        <div class="item">
-                                                            <a href="#">
-                                                                <img src="assets/base/img/content/client-logos/logo9.jpg" alt="" />
-                                                            </a>
-                                                        </div>
-                                                        <div class="item">
-                                                            <a href="#">
-                                                                <img src="assets/base/img/content/client-logos/logo11.jpg" alt="" />
-                                                            </a>
-                                                        </div>
-                                                        
-                                                        <div class="item">
-                                                            <a href="#">
-                                                                <img src="assets/base/img/content/client-logos/logo13.jpg" alt="" />
-                                                            </a>
-                                                        </div>
-                                                        <div class="item">
-                                                            <a href="#">
-                                                                <img src="assets/base/img/content/client-logos/logo14.jpg" alt="" />
-                                                            </a>
-                                                        </div>
-                                                        
-                                                        <div class="item">
-                                                            <a href="#">
-                                                                <img src="assets/base/img/content/client-logos/logo16.jpg" alt="" />
-                                                            </a>
-                                                        </div>
-                                                        
-                                                        
-                                                    </div>
-                                                    <!-- End-->
-                                                </div>
-                                                <!-- End-->
-                                                
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <!--FIN: Seccion financiamiento-->
-                        <!--INICIO: Avances de Obra-->
-                        <section id="avances" class="c-bg-grey-1">
-                            <div class="row">
-                                <div class="container-full">
-                                    <div class="row mt-5 mb-5">
-                                        <div class="col-lg-12 col-md-6 col-sm-8 col-8 py-auto">
-                                            <h1 class="c-center c-font-36 c-font-uppercase c-font-bold super-title mt-5">Avances de Obra</h1>
-                                            <div class="c-line-center c-theme-bg"></div>
-                                            <p class=" c-content-title-1 text-center">Conoce el progeso en la contrucción de <strong>Terra Verde Juriquilla</strong></p>
-                                            <div class="c-line-center c-theme-bg"></div>
-                                        </div>
-                                        <div class="c-line-center c-theme-bg"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--INICIO: LIGHTBOX DE AVANCES DE OBRA NOV-->
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="c-content-box c-bg-white text-center">
-                                        <div class="c-content-tile-grid c-bs-grid-reset-space" data-auto-height="true">
-                                            <div class="col-lg-12">
-                                                <div class="c-content-tile-1 c-bg-green-2">
-                                                    <div class="row">
-                                                        <div class=" col-lg-6 col-md-6 col-sm-6">
-                                                            <div class="wow animate fadeInUp">
-                                                                <div class="c-tile-content c-arrow-right c-arrow-brown-2 c-content-overlay">
-                                                                    <div class="c-overlay-wrapper">
-                                                                        <div class="c-overlay-content filter-bn">
-                                                                            <a href="assets/base/img/content/avances/nov19/1.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-6">
-                                                                                <i class="far fa-eye"></i>
-                                                                                <p class="text-center text-white">Ver avances</p>
-                                                                            </a>
-                                                                            <a href="assets/base/img/content/avances/nov19/2.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-6">
-                                                                                
-                                                                            </a>
-                                                                            <a href="assets/base/img/content/avances/nov19/3.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-6">
-                                                                                
-                                                                            </a>
-                                                                            <a href="assets/base/img/content/avances/nov19/11.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-6">
-                                                                                
-                                                                            </a>
-                                                                            <a href="assets/base/img/content/avances/nov19/12.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-6">
-                                                                                
-                                                                            </a>
-                                                                            <a href="assets/base/img/content/avances/nov19/6.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-6">
-                                                                                
-                                                                            </a>
-                                                                            <a href="assets/base/img/content/avances/nov19/7.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-6">
-                                                                                
-                                                                            </a>
-                                                                            <a href="assets/base/img/content/avances/nov19/8.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-6">
-                                                                                
-                                                                            </a>
-                                                                            <a href="assets/base/img/content/avances/nov19/9.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-6">
-                                                                                
-                                                                            </a>
-                                                                            <a href="assets/base/img/content/avances/nov19/vid1.mp4" data-lightbox="fancybox" data-fancybox-group="gallery-6">
-                                                                                
-                                                                            </a>
-                                                                            <a href="assets/base/img/content/avances/nov19/vid2.mp4" data-lightbox="fancybox" data-fancybox-group="gallery-6">
-                                                                                
-                                                                            </a>
+                                                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div class="c-tile-content c-content-v-center" data-height="height">
+                                                                    <div class="c-wrapper">
+                                                                        <div class="c-body c-center">
+                                                                            <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white"> Noviembre 2019</h3>
+                                                                            <p class="c-tile-body c-font-white"></p>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/content/avances/nov19/1.jpg)"></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-6 col-md-6 col-sm-6">
-                                                            <div class="c-tile-content c-content-v-center" data-height="height">
-                                                                <div class="c-wrapper">
-                                                                    <div class="c-body c-center">
-                                                                        <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white"> Noviembre 2019</h3>
-                                                                        <p class="c-tile-body c-font-white"></p>
-                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1386,8 +1403,7 @@ Follow: http://www.twitter.com/themehats
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!--INICIO: LIGHTBOX DE AVANCES DE OBRA OCT-->
+                                <!--INICIO: LIGHTBOX DE AVANCES DE OBRA OCT-->
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="c-content-box  c-bg-white text-center">
@@ -1452,65 +1468,66 @@ Follow: http://www.twitter.com/themehats
                                         </div>
                                     </div>
                                 </div>
-                            <!--INICIO: LIGHTBOX DE AVANCES DE OBRA SEP-->
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="c-content-box c-bg-white text-center">
-                                        <div class="c-content-tile-grid c-bs-grid-reset-space" data-auto-height="true">
-                                            <div class="col-lg-12">
-                                                <div class="c-content-tile-1 c-bg-green-2">
-                                                    <div class="row">
-                                                        <div class=" col-lg-6 col-md-6 col-sm-6">
-                                                            <div class="wow animate fadeInUp">
-                                                                <div class="c-tile-content c-arrow-right c-arrow-brown-2 c-content-overlay">
-                                                                    <div class="c-overlay-wrapper">
-                                                                        <div class="c-overlay-content filter-bn">
-                                                                            <a href="assets/base/img/content/avances/sep19/1.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
-                                                                                <i class="far fa-eye"></i>
-                                                                                <p class="text-center text-white">Ver avances</p>
-                                                                            </a>
-                                                                            <a href="assets/base/img/content/avances/sep19/2.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
-                                                                                
-                                                                            </a>
-                                                                            <a href="assets/base/img/content/avances/sep19/3.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
-                                                                                
-                                                                            </a>
-                                                                            <a href="assets/base/img/content/avances/sep19/4.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
-                                                                                
-                                                                            </a>
-                                                                            <a href="assets/base/img/content/avances/sep19/5.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
-                                                                                
-                                                                            </a>
-                                                                            <a href="assets/base/img/content/avances/sep19/6.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
-                                                                                
-                                                                            </a>
-                                                                            <a href="assets/base/img/content/avances/sep19/7.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
-                                                                                
-                                                                            </a>
-                                                                            <a href="assets/base/img/content/avances/sep19/8.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
-                                                                                
-                                                                            </a>
-                                                                            <a href="assets/base/img/content/avances/sep19/9.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
-                                                                                
-                                                                            </a>
-                                                                            <a href="assets/base/img/content/avances/sep19/vid1.mp4" data-lightbox="fancybox" data-fancybox-group="gallery-5">
-                                                                                
-                                                                            </a>
-                                                                            <a href="assets/base/img/content/avances/sep19/vid2.mp4" data-lightbox="fancybox" data-fancybox-group="gallery-5">
-                                                                                
-                                                                            </a>
+                                <!--INICIO: LIGHTBOX DE AVANCES DE OBRA SEP-->
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="c-content-box c-bg-white text-center">
+                                            <div class="c-content-tile-grid c-bs-grid-reset-space" data-auto-height="true">
+                                                <div class="col-lg-12">
+                                                    <div class="c-content-tile-1 c-bg-green-2">
+                                                        <div class="row">
+                                                            <div class=" col-lg-6 col-md-6 col-sm-6">
+                                                                <div class="wow animate fadeInUp">
+                                                                    <div class="c-tile-content c-arrow-right c-arrow-brown-2 c-content-overlay">
+                                                                        <div class="c-overlay-wrapper">
+                                                                            <div class="c-overlay-content filter-bn">
+                                                                                <a href="assets/base/img/content/avances/sep19/1.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                    <i class="far fa-eye"></i>
+                                                                                    <p class="text-center text-white">Ver avances</p>
+                                                                                </a>
+                                                                                <a href="assets/base/img/content/avances/sep19/2.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                    
+                                                                                </a>
+                                                                                <a href="assets/base/img/content/avances/sep19/3.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                    
+                                                                                </a>
+                                                                                <a href="assets/base/img/content/avances/sep19/4.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                    
+                                                                                </a>
+                                                                                <a href="assets/base/img/content/avances/sep19/5.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                    
+                                                                                </a>
+                                                                                <a href="assets/base/img/content/avances/sep19/6.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                    
+                                                                                </a>
+                                                                                <a href="assets/base/img/content/avances/sep19/7.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                    
+                                                                                </a>
+                                                                                <a href="assets/base/img/content/avances/sep19/8.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                    
+                                                                                </a>
+                                                                                <a href="assets/base/img/content/avances/sep19/9.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                    
+                                                                                </a>
+                                                                                <a href="assets/base/img/content/avances/sep19/vid1.mp4" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                    
+                                                                                </a>
+                                                                                <a href="assets/base/img/content/avances/sep19/vid2.mp4" data-lightbox="fancybox" data-fancybox-group="gallery-5">
+                                                                                    
+                                                                                </a>
+                                                                            </div>
                                                                         </div>
+                                                                        <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/content/avances/sep19/1.jpg)"></div>
                                                                     </div>
-                                                                    <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/content/avances/sep19/1.jpg)"></div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="col-lg-6 col-md-6 col-sm-6">
-                                                            <div class="c-tile-content c-content-v-center" data-height="height">
-                                                                <div class="c-wrapper">
-                                                                    <div class="c-body c-center">
-                                                                        <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white"> Septiembre 2019</h3>
-                                                                        <p class="c-tile-body c-font-white"></p>
+                                                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div class="c-tile-content c-content-v-center" data-height="height">
+                                                                    <div class="c-wrapper">
+                                                                        <div class="c-body c-center">
+                                                                            <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white"> Septiembre 2019</h3>
+                                                                            <p class="c-tile-body c-font-white"></p>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1521,7 +1538,6 @@ Follow: http://www.twitter.com/themehats
                                         </div>
                                     </div>
                                 </div>
-                            </div>
                                 
                             </section>
                             <!--Fin: Seccion Avances de obra-->
