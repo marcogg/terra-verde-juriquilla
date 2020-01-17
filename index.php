@@ -1665,7 +1665,7 @@ Follow: http://www.twitter.com/themehats
                                             <div class="col-md-6 col-sm-6">
                                                 <img src="assets/base/img/content/desarrollo/logo.png">
                                                 <p class="c-copyright c-font-oswald c-font-14"> Grupo Hodaya | Derechos reservados</p>
-                                                <p>Consulta nuestro <a href="Aviso_de_Privacidad.pdf">Aviso de Privacidad</a></p>
+                                                <p>Consulta nuestro <a href="aviso-de-privacidad.php">Aviso de Privacidad</a></p>
                                                 <p><small>El diseño, superficies, decoración, imágenes y mobiliario, son solo ilustrativas y podrían tener modificaciones sin previo aviso. Por lo tanto, no constituye un compromiso, obligación y oferta comercial o legal de la empresa vendedora.</small></p>
                                                 <p>Las áreas especificadas pueden ser variables.</p>
                                             </div>
