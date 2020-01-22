@@ -110,7 +110,7 @@ $headers_2 .= "Content-type:text/html;charset=utf-8" . "\r\n";
 
 <script type="text/javascript">
   alert("¡Gracias! Puede descargar el folleto completo después de este mensaje");
-  window.location.href = "https://drive.google.com/file/d/1qKGz4EKx_Y7Fkz5ZBnhOGnOJZ0ydd55p/view?usp=sharing";
+  window.location.href = "https://drive.google.com/file/d/1W3UkkrL82RcWn-84tYU5XcgY9XJMTXh5/view?usp=sharing";
 </script>
 
 
