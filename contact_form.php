@@ -50,7 +50,7 @@ require('constant.php');
 		  }	
 	}
 	
-	$toEmail = "contacto@terraverdejuriquilla.com";
+	$toEmail = "digital@grupohodaya.com, mgarcia@grupohodaya.com";
 	$mailHeaders = "De: " . $user_name . "<" . $user_email . ">\r\n";
 	$mailBody = "Nombre: " . $user_name . "\n";
 	$mailBody .= "Apellido: " . $user_last . "\n";
@@ -61,11 +61,13 @@ require('constant.php');
 
 
 
-	if (mail($toEmail, "Nueva entrada desde formulario de contacto", $mailBody, $mailHeaders)) {
-	    $output = json_encode(array('type'=>'message', 'text' => 'Hola '.$user_name .', Gracias por escribirnos, en breve nos contactaremos'));
+	if (mail($toEmail, "Terra Verde Juriquilla: Nueva entrada desde formulario de contacto", $mailBody, $mailHeaders)) {
+	    /*$output = json_encode(array('type'=>'message', 'text' => 'Hola '.$user_name .', Gracias por escribirnos, en breve nos contactaremos'));
+	    die($output);*/
+	    $output = json_encode(array('type'=>'message', 'text' => '<script>window.location.href="gracias_contacto.php"</script>'));
 	    die($output);
 	} else {
-	    $output = json_encode(array('type'=>'error', 'text' => 'Error en el envío, por favor escríbenos a:'.SENDER_EMAIL));
+	    $output = json_encode(array('type'=>'error', 'text' => 'Error en el envío, por favor escríbenos a: digital@grupohodaya.com'));
 	    die($output);
 	}
 }

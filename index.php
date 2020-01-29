@@ -364,7 +364,7 @@ Follow: http://www.twitter.com/themehats
                                                 <!--BEGIN: SLIDE #2 -->
                                                 <li data-transition="fade" data-slotamount="1" data-masterspeed="1000">
                                                     <img alt="" src="assets/base/img/content/backgrounds/fachada_ago.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
-                                                    
+
                                                 </li>
                                                 <!--END -->
                                                 <!--BEGIN: SLIDE #3 -->
