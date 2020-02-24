@@ -3581,11 +3581,11 @@ h1 {
     background: rgba(30, 36, 42, 0);
     border-bottom: 0; }
     .c-layout-header.c-layout-header-2 .c-navbar {
-      background: none; }
+      background: white; }
       .c-layout-header.c-layout-header-2 .c-navbar .c-mega-menu > .nav.navbar-nav > li > .c-btn-icon,
       .c-layout-header.c-layout-header-2 .c-navbar .c-mega-menu > .nav.navbar-nav > li > .c-link {
-        color: #ffffff;
-        text-shadow: 1px 1px 10px rgba(0,0,0,.9); }
+        color: #b3b3b3;
+        /*text-shadow: 1px 1px 10px rgba(0,0,0,.9);*/ }
         .c-layout-header.c-layout-header-2 .c-navbar .c-mega-menu > .nav.navbar-nav > li > .c-btn-icon:hover,
         .c-layout-header.c-layout-header-2 .c-navbar .c-mega-menu > .nav.navbar-nav > li > .c-btn-icon:focus,
         .c-layout-header.c-layout-header-2 .c-navbar .c-mega-menu > .nav.navbar-nav > li > .c-link:hover,
@@ -3625,7 +3625,7 @@ h1 {
     box-shadow: none; }
     .c-page-on-scroll .c-layout-header.c-layout-header-2 .c-navbar .c-mega-menu > .nav.navbar-nav > li > .c-btn-icon,
     .c-page-on-scroll .c-layout-header.c-layout-header-2 .c-navbar .c-mega-menu > .nav.navbar-nav > li > .c-link {
-      color: #ffffff; }
+      color: #b3b3b3; }
       .c-page-on-scroll .c-layout-header.c-layout-header-2 .c-navbar .c-mega-menu > .nav.navbar-nav > li > .c-btn-icon:hover,
       .c-page-on-scroll .c-layout-header.c-layout-header-2 .c-navbar .c-mega-menu > .nav.navbar-nav > li > .c-btn-icon:focus,
       .c-page-on-scroll .c-layout-header.c-layout-header-2 .c-navbar .c-mega-menu > .nav.navbar-nav > li > .c-link:hover,
@@ -4212,11 +4212,11 @@ h1 {
     .c-layout-header .c-navbar .c-mega-menu.c-mega-menu-dark > .nav.navbar-nav > li .dropdown-menu > li > h3 {
       color: #cbd2d9; }
     .c-layout-header .c-navbar .c-mega-menu.c-mega-menu-dark > .nav.navbar-nav > li .dropdown-menu > li > a {
-      color: #7d8691; }
+      color: #c9cbce; }
       .c-layout-header .c-navbar .c-mega-menu.c-mega-menu-dark > .nav.navbar-nav > li .dropdown-menu > li > a:hover,
       .c-layout-header .c-navbar .c-mega-menu.c-mega-menu-dark > .nav.navbar-nav > li .dropdown-menu > li > a:focus {
         background: none;
-        color: #7d8691; }
+        color: #c9cbce; }
     .c-layout-header .c-navbar .c-mega-menu.c-mega-menu-dark > .nav.navbar-nav > li .dropdown-menu > li.c-active > a,
     .c-layout-header .c-navbar .c-mega-menu.c-mega-menu-dark > .nav.navbar-nav > li .dropdown-menu > li:hover > a {
       background: #292e33;

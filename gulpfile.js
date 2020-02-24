@@ -7,6 +7,14 @@ var rtlcss = require("gulp-rtlcss");
 var rename = require("gulp-rename");
 var pump = require('pump');
 var minjs=require('gulp-uglify');
+const gulp = require('gulp');
+const webp = require('gulp-webp');
+ 
+gulp.task('default', () =>
+    gulp.src('src/image.jpg')
+        .pipe(webp())
+        .pipe(gulp.dest('dist'))
+);
 
 
 
@@ -42,7 +50,15 @@ gulp.task('compress', function (cb) {
     cb
   );
 });
-
+//Convert images to WEBP
+webp.cwebp("input.jpg","output.webp","-q 80",function(status,error)
+  {
+     //if conversion successful status will be '100'
+    //if conversion fails status will be '101'
+    console.log(status,error);  
+  });
+ 
+ //Unminify
 var prettify = require('gulp-prettify');
  
 gulp.task('prettify', function() {

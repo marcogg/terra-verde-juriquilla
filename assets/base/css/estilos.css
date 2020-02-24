@@ -188,3 +188,17 @@ a#link-contacto:hover{
 	0%{right:0px; top:0px;}
   100% {right:300px; top:0px;}
 }
+
+/*FICHAS TECNICAS PHs*/
+.ficha-phs{
+	padding: 5% 7% 5% 7%;
+	font-size: 1.5rem !important;
+}
+
+.ficha-phs li{
+	list-style: none;
+}
+
+.icons-phs{
+	color: #43beab;
+}

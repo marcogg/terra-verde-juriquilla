@@ -237,7 +237,7 @@ Follow: http://www.twitter.com/themehats
                                             <a href="#financiamiento" class="c-link">Financiamiento</a>
                                         </li>-->
                                         <li class="c-onepage-link ">
-                                            <a href="#avances" class="c-link">Avances de Obra</a>
+                                            <a href="avances.php" class="c-link">Avances de Obra</a>
                                         </li>
                                         <li class="c-onepage-link ">
                                             <a href="#contacto" class="c-link">Contacto</a>
@@ -624,7 +624,7 @@ Follow: http://www.twitter.com/themehats
                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin: 1.5%;">
                                                 <span aria-hidden="true">&times;</span>
                                                 </button>
-                                                <h5 class="super-title c-font-bold text-center" id="">Modelo Teca</h5>
+                                                <h5 class="super-title c-font-bold text-center" id="">Modelo: PH Teca</h5>
                                                 
                                                 
                                             </div>
@@ -652,8 +652,66 @@ Follow: http://www.twitter.com/themehats
                                                 </a>
                                             </div>
                                             <div class="row">
-                                                <div class="col-lg-12 col-md-12 col-sm12">
-                                                    <img class="img-responsive" src="assets/base/img/content/modelos/especs_teca.png" alt="Especificaciones Teca">
+                                                <div class="col-lg-12 col-md-12 col-sm12 ficha-phs">
+                                                    <p class="text-uppercase c-font-16">4 recámaras</p>
+                                                    <p><strong>Área depto: 171.08 m<sup>2</sup> + balcón 5.41 m<sup>2</sup> + Roof Garden 12.57 m<sup>2</sup></strong></p>
+                                                    <p>
+                                                        <div class="row justify-content-md-center">
+                                                            <div class="col-lg-5 col-md-5 col-sm-5 col-5">
+                                                                        <table>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-couch icons-ph "></i></td>
+                                                                        <td> Sala</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-chair icons-ph "></i></td>
+                                                                        <td> Comedor</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-seedling icons-ph "></i></td>
+                                                                        <td> Balcón</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-toilet icons-ph "></i></td>
+                                                                        <td> 3 baños completos</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-utensils icons-ph "></i></td>
+                                                                        <td> Cocina Integral</td>
+                                                                    </tr>
+
+                                                                </table>
+                                                            </div>
+                                                            <div class="col-lg-5 col-md-5 col-sm5-5 col-5">
+                                                                        <table>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-tv icons-ph "></i></td>
+                                                                        <td>  Sala de TV</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-bed icons-ph "></i></td>
+                                                                        <td>  2 recámaras con vestidor y baño privado</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-bed icons-ph "></i></td>
+                                                                        <td>  2 Recámaras con closet y baño compartido
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-sun icons-ph "></i></td>
+                                                                        <td> Roof garden en planta alta</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-tshirt icons-ph "></i></td>
+                                                                        <td>  Cuarto de lavado</td>
+                                                                    </tr>
+
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </p>
+                                                    <!--<img class="img-responsive" src="assets/base/img/content/modelos/especs_teca.png" alt="Especificaciones Teca">-->
                                                 </div>
                                             </div>
                                         </div>
@@ -668,7 +726,7 @@ Follow: http://www.twitter.com/themehats
                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin: 1.5%;">
                                                 <span aria-hidden="true">&times;</span>
                                                 </button>
-                                                <h5 class="super-title c-font-bold text-center" id="">Modelo Tzalam</h5>
+                                                <h5 class="super-title c-font-bold text-center" id="">Modelo PH: Tzalam</h5>
                                                 
                                                 
                                             </div>
@@ -696,8 +754,66 @@ Follow: http://www.twitter.com/themehats
                                                 </a>
                                             </div>
                                             <div class="row">
-                                                <div class="col-lg-12 col-md-12 col-sm12">
-                                                    <img class="img-responsive" src="assets/base/img/content/modelos/especs_tzalam.png" alt="Especificaciones Tzalam">
+                                                <div class="col-lg-12 col-md-12 col-sm12 ficha-phs">
+                                                    <p class="text-uppercase c-font-16">4 recámaras</p>
+                                                    <p><strong>Área depto: 185.81 m<sup>2</sup> + balcón 14.45 m<sup>2</sup> + Roof Garden 48.15 m<sup>2</sup></strong></p>
+                                                    <p>
+                                                        <div class="row justify-content-md-center">
+                                                            <div class="col-lg-5 col-md-5 col-sm-5 col-5">
+                                                                        <table>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-couch icons-ph "></i></td>
+                                                                        <td> Sala</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-chair icons-ph "></i></td>
+                                                                        <td> Comedor</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-seedling icons-ph "></i></td>
+                                                                        <td> Balcón</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-toilet icons-ph "></i></td>
+                                                                        <td> 3 baños completos</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-utensils icons-ph "></i></td>
+                                                                        <td> Cocina Integral</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-tv icons-ph "></i></td>
+                                                                        <td> Sala de TV</td>
+                                                                    </tr>
+
+                                                                </table>
+                                                            </div>
+                                                            <div class="col-lg-5 col-md-5 col-sm5-5 col-5">
+                                                                        <table>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-bed icons-ph "></i></td>
+                                                                        <td>  Recámara principal con vestidor, balcón y baño</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-bed icons-ph "></i></td>
+                                                                        <td>  3 Recámaras secundarias con baño compartido
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-box icons-ph "></i></td>
+                                                                        <td> Bodega privada</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-tshirt icons-ph "></i></td>
+                                                                        <td>  Cuarto de lavado</td>
+                                                                    </tr>
+
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </p>
+                                                    <!--<img class="img-responsive" src="assets/base/img/content/modelos/especs_teca.png" alt="Especificaciones Teca">-->
                                                 </div>
                                             </div>
                                         </div>
@@ -712,7 +828,7 @@ Follow: http://www.twitter.com/themehats
                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin: 1.5%;">
                                                 <span aria-hidden="true">&times;</span>
                                                 </button>
-                                                <h5 class="super-title c-font-bold text-center" id="">Modelo Banak</h5>
+                                                <h5 class="super-title c-font-bold text-center" id="">Modelo PH: Banak</h5>
                                                 
                                                 
                                             </div>
@@ -740,8 +856,70 @@ Follow: http://www.twitter.com/themehats
                                                 </a>
                                             </div>
                                             <div class="row">
-                                                <div class="col-lg-12 col-md-12 col-sm12">
-                                                    <img class="img-responsive" src="assets/base/img/content/modelos/especs_banak.png" alt="Especificaciones Banak">
+                                                <div class="col-lg-12 col-md-12 col-sm12 ficha-phs">
+                                                    <p class="text-uppercase c-font-16">3 recámaras</p>
+                                                    <p><strong>Área depto: 163.74 m<sup>2</sup> + balcón 10.40 m<sup>2</sup> + Roof Garden 40.78 m<sup>2</sup></strong></p>
+                                                    <p>
+                                                        <div class="row justify-content-md-center">
+                                                            <div class="col-lg-5 col-md-5 col-sm-5 col-5">
+                                                                        <table>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-couch icons-ph "></i></td>
+                                                                        <td> Sala y comedor</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-seedling icons-ph "></i></td>
+                                                                        <td> Balcón</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-toilet icons-ph "></i></td>
+                                                                        <td> 2 baños completos + 2 medios</td>
+                                                                    </tr>
+                                                                    
+                                                                    <tr>
+                                                                        <td><i class="fas fa-utensils icons-ph "></i></td>
+                                                                        <td> Cocina Integral</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-tv icons-ph "></i></td>
+                                                                        <td> Sala de TV</td>
+                                                                    </tr>
+
+                                                                </table>
+                                                            </div>
+                                                            <div class="col-lg-5 col-md-5 col-sm5-5 col-5">
+                                                                        <table>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-bed icons-ph "></i></td>
+                                                                        <td>  Recámara principal con vestidor, balcón y baño</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-bed icons-ph "></i></td>
+                                                                        <td>  Recámaras secundarias con baño compartido
+
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-bed icons-ph "></i></td>
+                                                                        <td>  1 recámara secundaria con vestidor
+
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-sun icons-ph "></i></td>
+                                                                        <td> Roof Garden en planta alta</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-tshirt icons-ph "></i></td>
+                                                                        <td>  Cuarto de lavado</td>
+                                                                    </tr>
+
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </p>
+                                                    <!--<img class="img-responsive" src="assets/base/img/content/modelos/especs_teca.png" alt="Especificaciones Teca">-->
                                                 </div>
                                             </div>
                                         </div>
@@ -756,7 +934,7 @@ Follow: http://www.twitter.com/themehats
                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin: 1.5%;">
                                                 <span aria-hidden="true">&times;</span>
                                                 </button>
-                                                <h5 class="super-title c-font-bold text-center" id="">Modelo Balau</h5>
+                                                <h5 class="super-title c-font-bold text-center" id="">Modelo PH: Balau</h5>
                                                 
                                                 
                                             </div>
@@ -784,8 +962,64 @@ Follow: http://www.twitter.com/themehats
                                                 </a>
                                             </div>
                                             <div class="row">
-                                                <div class="col-lg-12 col-md-12 col-sm12">
-                                                    <img class="img-responsive" src="assets/base/img/content/modelos/especs_balau.png" alt="Especificaciones Balau">
+                                                <div class="col-lg-12 col-md-12 col-sm12 ficha-phs">
+                                                    <p class="text-uppercase c-font-16">4 recámaras</p>
+                                                    <p><strong>Área depto: 154.02 m<sup>2</sup> + balcón 12.50 m<sup>2</sup> + Roof Garden 19.19 m<sup>2</sup></strong></p>
+                                                    <p>
+                                                        <div class="row justify-content-md-center">
+                                                            <div class="col-lg-5 col-md-5 col-sm-5 col-5">
+                                                                        <table>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-couch icons-ph "></i></td>
+                                                                        <td> Sala</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-chair icons-ph "></i></td>
+                                                                        <td> Comedor</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-seedling icons-ph "></i></td>
+                                                                        <td> Balcón</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-toilet icons-ph "></i></td>
+                                                                        <td> 3 baños completos</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-utensils icons-ph "></i></td>
+                                                                        <td> Cocina Integral</td>
+                                                                    </tr>
+                                                                    
+
+                                                                </table>
+                                                            </div>
+                                                            <div class="col-lg-5 col-md-5 col-sm5-5 col-5">
+                                                                        <table>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-bed icons-ph "></i></td>
+                                                                        <td>  Recámara principal con vestidor, balcón y baño</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-bed icons-ph "></i></td>
+                                                                        <td>  2 Recámaras secundarias con closet
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-bed icons-ph "></i></td>
+                                                                        <td>  1 Recámara secundaria con vestidor
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><i class="fas fa-sun icons-ph "></i></td>
+                                                                        <td>  Roof Garden</td>
+                                                                    </tr>
+
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </p>
+                                                    <!--<img class="img-responsive" src="assets/base/img/content/modelos/especs_teca.png" alt="Especificaciones Teca">-->
                                                 </div>
                                             </div>
                                         </div>
@@ -978,7 +1212,7 @@ Follow: http://www.twitter.com/themehats
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="c-content-tile-1 c-bg-green-2">
-                                                    <div class="row">
+                                                    <div class="row wow animate fadeInUp">
                                                         <div class="col-sm-6">
                                                             <div class="c-tile-content c-arrow-right c-arrow-brown-2 c-content-overlay">
                                                                 <div class="c-overlay-wrapper">
@@ -1010,7 +1244,7 @@ Follow: http://www.twitter.com/themehats
                                         </div>
                                         <div class="col-md-6">
                                             <div class="c-content-tile-1 c-bg-blue-3">
-                                                <div class="row">
+                                                <div class="row wow animate fadeInUp">
                                                     <div class="col-sm-6">
                                                         <div class="c-tile-content c-arrow-left c-arrow-red-2 c-content-overlay">
                                                             <div class="c-overlay-wrapper">
@@ -1038,7 +1272,7 @@ Follow: http://www.twitter.com/themehats
                                         </div>
                                         <div class="col-md-6">
                                             <div class="c-content-tile-1 c-bg-green-2">
-                                                <div class="row">
+                                                <div class="row wow animate fadeInUp">
                                                     <div class="col-sm-6">
                                                         <div class="c-tile-content c-arrow-left c-arrow-red-2 c-content-overlay">
                                                             <div class="c-overlay-wrapper">
@@ -1067,7 +1301,7 @@ Follow: http://www.twitter.com/themehats
                                         </div>
                                         <div class="col-md-6">
                                             <div class="c-content-tile-1 c-bg-blue-3">
-                                                <div class="row">
+                                                <div class="row wow animate fadeInUp">
                                                     <div class="col-sm-6">
                                                         <div class="c-tile-content c-arrow-left c-arrow-blue-3 c-content-overlay">
                                                             <div class="c-overlay-wrapper">
@@ -1095,7 +1329,7 @@ Follow: http://www.twitter.com/themehats
                                         </div>
                                         <div class="col-md-6">
                                             <div class="c-content-tile-1 c-bg-green-2">
-                                                <div class="row">
+                                                <div class="row wow animate fadeInUp">
                                                     <div class="col-sm-6">
                                                         <div class="c-tile-content c-arrow-right c-arrow-brown-2 c-content-overlay">
                                                             <div class="c-overlay-wrapper">
@@ -1124,24 +1358,24 @@ Follow: http://www.twitter.com/themehats
                                         </div>
                                     </div>
                                 </div>
-                            </div>
                             <!-- END: CONTENT/TILES/TILE-3 -->
                         </section>
-                        <section id="promociones">
+                        <section id="promociones py-5">
                             <!-- BEGIN: CONTENT/MISC/desarrollo-3 -->
                             <div class="c-content-box c-size-md c-bg-grey-1">
                                 <div class="container">
                                     <!-- Begin: Testimonals 1 component -->
                                     <div class="c-content-desarrollo-1-slider" data-slider="owl" data-items="3">
                                         <!-- Begin: Title 1 component -->
-                                        <div class="c-content-title-1">
-                                            <h1 class="c-center c-font-uppercase c-font-bold super-title c-font-36">Promociones</h1>
+                                        <div class="c-content-title-1" style="margin-top: 25vw;">
+                                            <h2 class="c-center c-font-uppercase c-font-bold super-title c-font-36 mt-5">Promociones</h2>
                                             <div class="c-line-center c-theme-bg"></div>
                                         </div>
                                         <!-- End-->
                                         
                                         <div class="row">
-                                            <div class="col-md-6 col-sm-6 c-margin-b-30">
+                                            <div class="col-lg-3 col-md-1 col-sm-0"></div>
+                                            <div class="col-md-6 col-sm-6 col-sm-12 col-12 c-margin-b-30">
                                                 <div class="c-content-person-1 c-option-2">
                                                     <div class="c-caption c-content-overlay">
                                                         <div class="c-overlay-wrapper">
@@ -1164,6 +1398,7 @@ Follow: http://www.twitter.com/themehats
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div class="col-lg-3 col-md-1 col-sm-0"></div>
                                             <!-- End-->
                                         </div>
                                         <!-- End-->
@@ -1318,231 +1553,8 @@ Follow: http://www.twitter.com/themehats
                                 </div>
                             </section>
                             <!--FIN: Seccion financiamiento-->
-                            <!--INICIO: Avances de Obra-->
-                            <section id="avances" class="c-bg-grey-1">
-                                <div class="row">
-                                    <div class="container-full">
-                                        <div class="row mt-5 mb-5">
-                                            <div class="col-lg-12 col-md-6 col-sm-8 col-8 py-auto">
-                                                <h1 class="c-center c-font-36 c-font-uppercase c-font-bold super-title mt-5">Avances de Obra</h1>
-                                                <div class="c-line-center c-theme-bg"></div>
-                                                <p class=" c-content-title-1 text-center">Conoce el progeso en la contrucción de <strong>Terra Verde Juriquilla</strong></p>
-                                                <div class="c-line-center c-theme-bg"></div>
-                                            </div>
-                                            <div class="c-line-center c-theme-bg"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--INICIO: LIGHTBOX DE AVANCES DE OBRA NOV-->
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="c-content-box c-bg-white text-center">
-                                            <div class="c-content-tile-grid c-bs-grid-reset-space" data-auto-height="true">
-                                                <div class="col-lg-12">
-                                                    <div class="c-content-tile-1 c-bg-green-2">
-                                                        <div class="row">
-                                                            <div class=" col-lg-6 col-md-6 col-sm-6">
-                                                                <div class="wow animate fadeInUp">
-                                                                    <div class="c-tile-content c-arrow-right c-arrow-brown-2 c-content-overlay">
-                                                                        <div class="c-overlay-wrapper">
-                                                                            <div class="c-overlay-content filter-bn">
-                                                                                <a href="assets/base/img/content/avances/nov19/1.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-6">
-                                                                                    <i class="far fa-eye"></i>
-                                                                                    <p class="text-center text-white">Ver avances</p>
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/nov19/2.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-6">
-                                                                                    
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/nov19/3.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-6">
-                                                                                    
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/nov19/11.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-6">
-                                                                                    
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/nov19/12.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-6">
-                                                                                    
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/nov19/6.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-6">
-                                                                                    
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/nov19/7.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-6">
-                                                                                    
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/nov19/8.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-6">
-                                                                                    
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/nov19/9.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-6">
-                                                                                    
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/nov19/vid1.mp4" data-lightbox="fancybox" data-fancybox-group="gallery-6">
-                                                                                    
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/nov19/vid2.mp4" data-lightbox="fancybox" data-fancybox-group="gallery-6">
-                                                                                    
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/content/avances/nov19/1.jpg)"></div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                                                <div class="c-tile-content c-content-v-center" data-height="height">
-                                                                    <div class="c-wrapper">
-                                                                        <div class="c-body c-center">
-                                                                            <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white"> Noviembre 2019</h3>
-                                                                            <p class="c-tile-body c-font-white"></p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--INICIO: LIGHTBOX DE AVANCES DE OBRA OCT-->
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="c-content-box  c-bg-white text-center">
-                                            <div class="c-content-tile-grid c-bs-grid-reset-space" data-auto-height="true">
-                                                <div class="col-lg-12">
-                                                    <div class="c-content-tile-1 c-bg-green-1">
-                                                        <div class="row">
-                                                            
-                                                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                                                <div class="c-tile-content c-content-v-center" data-height="height">
-                                                                    <div class="c-wrapper">
-                                                                        <div class="c-body c-center">
-                                                                            <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white"> Octubre 2019</h3>
-                                                                            <p class="c-tile-body c-font-white"></p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                                                <div class="wow animate fadeInUp">
-                                                                    <div class="c-tile-content c-arrow-right c-arrow-brown-2 c-content-overlay">
-                                                                        <div class="c-overlay-wrapper">
-                                                                            <div class="c-overlay-content filter-bn">
-                                                                                <a href="assets/base/img/content/avances/oct19/2.jpeg" data-lightbox="fancybox" data-fancybox-group="gallery-7">
-                                                                                    <i class="far fa-eye"></i>
-                                                                                    <p class="text-center text-white">Ver avances</p>
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/oct19/2.jpeg" data-lightbox="fancybox" data-fancybox-group="gallery-7">
-                                                                                    
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/oct19/3.jpeg" data-lightbox="fancybox" data-fancybox-group="gallery-7">
-                                                                                    
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/oct19/4.jpeg" data-lightbox="fancybox" data-fancybox-group="gallery-7">
-                                                                                    
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/oct19/5.jpeg" data-lightbox="fancybox" data-fancybox-group="gallery-7">
-                                                                                    
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/oct19/6.jpeg" data-lightbox="fancybox" data-fancybox-group="gallery-7">
-                                                                                    
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/oct19/7.jpeg" data-lightbox="fancybox" data-fancybox-group="gallery-7">
-                                                                                    
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/oct19/8.jpeg" data-lightbox="fancybox" data-fancybox-group="gallery-7">
-                                                                                    
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/oct19/9.jpeg" data-lightbox="fancybox" data-fancybox-group="gallery-7">
-                                                                                    
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/content/avances/oct19/3.jpeg)"></div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--INICIO: LIGHTBOX DE AVANCES DE OBRA SEP-->
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="c-content-box c-bg-white text-center">
-                                            <div class="c-content-tile-grid c-bs-grid-reset-space" data-auto-height="true">
-                                                <div class="col-lg-12">
-                                                    <div class="c-content-tile-1 c-bg-green-2">
-                                                        <div class="row">
-                                                            <div class=" col-lg-6 col-md-6 col-sm-6">
-                                                                <div class="wow animate fadeInUp">
-                                                                    <div class="c-tile-content c-arrow-right c-arrow-brown-2 c-content-overlay">
-                                                                        <div class="c-overlay-wrapper">
-                                                                            <div class="c-overlay-content filter-bn">
-                                                                                <a href="assets/base/img/content/avances/sep19/1.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
-                                                                                    <i class="far fa-eye"></i>
-                                                                                    <p class="text-center text-white">Ver avances</p>
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/sep19/2.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
-                                                                                    
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/sep19/3.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
-                                                                                    
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/sep19/4.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
-                                                                                    
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/sep19/5.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
-                                                                                    
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/sep19/6.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
-                                                                                    
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/sep19/7.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
-                                                                                    
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/sep19/8.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
-                                                                                    
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/sep19/9.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-5">
-                                                                                    
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/sep19/vid1.mp4" data-lightbox="fancybox" data-fancybox-group="gallery-5">
-                                                                                    
-                                                                                </a>
-                                                                                <a href="assets/base/img/content/avances/sep19/vid2.mp4" data-lightbox="fancybox" data-fancybox-group="gallery-5">
-                                                                                    
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="c-image c-overlay-object" data-height="height" style="background-image: url(assets/base/img/content/avances/sep19/1.jpg)"></div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                                                <div class="c-tile-content c-content-v-center" data-height="height">
-                                                                    <div class="c-wrapper">
-                                                                        <div class="c-body c-center">
-                                                                            <h3 class="c-tile-title c-font-25 c-line-height-34 c-font-uppercase c-font-bold c-font-white"> Septiembre 2019</h3>
-                                                                            <p class="c-tile-body c-font-white"></p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                            </section>
-                            <!--Fin: Seccion Avances de obra-->
                             <!--SECTION: CONTACT-->
-                            <section id="contacto" class="extra-divider c-bg-grey-1" style="background-image: url(assets/base/img/content/backgrounds/bg-92.jpg); max-width: 100%; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;">
+                            <section id="contacto" class="extra-divider c-bg-grey-1" style="background-image: url(assets/base/img/content/backgrounds/contacto.jpg); max-width: 100%; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;">
                                 <!-- BEGIN: CONTENT/contacto/contacto-1 -->
                                 <div class="c-content-title-1">
                                     <h1 class="c-center c-font-uppercase c-font-bold super-title c-font-36">Contacto</h1>
@@ -1565,7 +1577,7 @@ Follow: http://www.twitter.com/themehats
                                                                     <strong>T</strong> <a id="link-contacto" href="tel:4630 3525">4630-3525</a>
                                                                     <br/>
                                                                     <strong>E</strong><a id="link-contacto" href="mailto:contacto@terraverdejuriquilla.com"> contacto@terraverdejuriquilla.com</a></p>
-                                                                    <p><img src="assets/base/img/content/apps/whatsapp-logo.png" width="20"><a href="https://wa.me/525573552395" id="link-contacto"> 55 7355-2395</a></p>
+                                                                    <p><img src="assets/base/img/content/apps/whatsapp-logo.png" width="20"><a href="https://wa.me/524421061793" id="link-contacto"> 55 7355-2395</a></p>
                                                                     <br>
                                                                 </div>
                                                                 <div class="c-section">
@@ -1935,9 +1947,9 @@ Follow: http://www.twitter.com/themehats
                             <!--<script src="assets/base/js/scripts/pages/contacto.js" type="text/javascript"></script>-->
                             <!-- END: PAGE SCRIPTS -->
                             <!-- END: LAYOUT/BASE/BOTTOM -->
-                            <div style="background-color:#02a047; width: 70px; height:70px; border-radius: 50%; position:fixed; top: 85vh; left: 5px; z-index:50000; display: block; ">
+                            <div style="background-color:#02a047; width: 70px; height:70px; border-radius: 50%; position:fixed; top: 87vh; left: 5px; z-index:50000; display: block; ">
                                 <div style="margin: auto; display: block; position: relative; left: 18%; top: 13%">
-                                    <a href="https://wa.me/525573552395">
+                                    <a href="https://wa.me/524421061793">
                                         <i class="fab fa-whatsapp fa-3x" style="color:white;"></i>
                                     </a>
                                 </div>

@@ -15,7 +15,8 @@
     "gulp-rtlcss": "^1.0.0",
     "gulp-sass": "^2.0.4",
     "gulp-sourcemaps": "^1.5.2",
-    "gulp-uglify": "^3.0.0"
+    "gulp-uglify": "^3.0.0",
+    "gulp-webp": "^4.0.1"
   },
   "keywords": [
     "juriquilla",
