@@ -202,3 +202,98 @@ a#link-contacto:hover{
 .icons-phs{
 	color: #43beab;
 }
+/*----------ARCE---------*/
+.ficha-especs-arce{
+	background-color: #77be44;
+	color: white;
+	font-size: 2rem;
+	padding: 5%;
+
+}
+.ficha-especs-arce table{
+	text-align: left;
+	padding: 4%;
+	display: block;
+	margin:auto;
+	vertical-align: top;
+}
+
+.especs-grales{
+	background-color: #6AA93C;
+	padding: 2%;
+	font-weight: bold;
+}
+
+/*-------FRESNO----------*/
+.ficha-especs-fresno{
+	background-color: #44BEAB;
+	color: white;
+	font-size: 2rem;
+	padding: 5%;
+
+}
+.ficha-especs-fresno table{
+	text-align: left;
+	padding: 4%;
+	display: block;
+	margin:auto;
+	vertical-align: top;
+}
+
+.especs-grales-fresno{
+	background-color: #3EB19F;
+	padding: 2%;
+	font-weight: bold;
+}
+
+/*--------CEREZO------------*/
+.ficha-especs-cerezo{
+	background-color: #2f80a4;
+	color: white;
+	font-size: 2rem;
+	padding: 5%;
+
+}
+.ficha-especs-cerezo table{
+	text-align: left;
+	padding: 4%;
+	display: block;
+	margin:auto;
+	vertical-align: top;
+}
+
+.especs-grales-cerezo{
+	background-color: #207094;
+	padding: 2%;
+	font-weight: bold;
+}
+
+/*--------OLMO------------*/
+.ficha-especs-olmo{
+	background-color: #45BC42;
+	color: white;
+	font-size: 2rem;
+	padding: 5%;
+
+}
+.ficha-especs-olmo table{
+	text-align: left;
+	padding: 4%;
+	display: block;
+	margin:auto;
+	vertical-align: top;
+}
+
+.especs-grales-olmo{
+	background-color: #41A83E;
+	padding: 2%;
+	font-weight: bold;
+}
+
+
+
+
+.white-border{
+	border: 3px solid white;
+	margin:3px;
+}

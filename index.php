@@ -23,8 +23,9 @@ Follow: http://www.twitter.com/themehats
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport" />
         <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-        <meta content="" name="description" />
-        <meta content="" name="author" />
+        <meta name="description" content="Preventa de departamentos de lujo en juriquilla, Querétaro. Depas en Querétaro Nuevos. un proyecto más de Grupo Hodaya" />
+        <meta name="keywords" content="depas Querétaro, depas juriquilla, departamentos de lujo en querétaro, desarrollos querétaro">
+        <meta name="author" content="https://dimarcogarcia.com, https://creaty.com.mx" />
         <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -432,6 +433,10 @@ Follow: http://www.twitter.com/themehats
                                                                 <input type="text" placeholder="Email*" class="form-control c-square c-theme input-lg" name="mail" id="mail" required>
                                                             </div>
                                                         </div>
+                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                            <input type="text" placeholder="Teléfono*" class="form-control c-square c-theme input-lg" name="telephone" id="telephone" required>
+                                                        </div>
+                                                
                                                         <!--<div class="col-lg-6 col-md-6 col-sm-12 col-12">
                                                             <input type="text" placeholder="Apellido*" class="form-control c-square c-theme input-lg" name="last_name" id="last_name" required>
                                                         </div>-->
@@ -445,10 +450,7 @@ Follow: http://www.twitter.com/themehats
                                                     
                                                 </div>
                                                 
-                                                <div class="form-group">
-                                                    <label>Recibe una asesoría gratuita vía telefónica (opcional)</label>
-                                                    <input type="text" placeholder="Teléfono" class="form-control c-square c-theme input-lg" name="telephone" id="telephone">
-                                                </div>
+                                                
                                                 <!--<div class="form-group">
                                                     <label>Estado</label>
                                                     <select id="estado" name="estado" class="input-lg form-control c-square c-theme">
@@ -525,8 +527,8 @@ Follow: http://www.twitter.com/themehats
                                                             <div class="collapse multi-collapse" id="multiCollapseExample1">
                                                                 <div class="card card-body" id="2rec">
                                                                     <button id ="btn-arce" data-toggle="modal" onclick="depaArce()" ondblclick="close()" class="btn btn-md c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph">ARCE</button>
-                                                                    <button id="btn-olmo" data-toggle="modal" onclick="depaOlmo()" ondblclick="close()" class="btn btn-md c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph">OLMO</button>
                                                                     
+                                                                    <button id="btn-olmo" data-toggle="modal" onclick="depaOlmo()" ondblclick="close()" class="btn btn-md c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph">OLMO</button>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -549,7 +551,220 @@ Follow: http://www.twitter.com/themehats
                                                                 <img id="depas" src="" class="wow animated fadeIn img-responsive shadowed" onclick="">
                                                             </div>
                                                             <div class="col-lg-5 col-md-4 col-sm-12">
-                                                                <img id="especs" src="" class="wow animated fadeIn img-responsive" onclick="">
+                                                                <!--BEGIN: ARCE DATA-->
+                                                                    <div id="arce-info" class="ficha-especs-arce" style="display: none;">
+                                                                        <div class="row white-border">
+                                                                            <div class="col-lg-12">
+                                                                                <p class="text-uppercase">Prototipo</p>
+                                                                                <h3 class="text-white c-font-36 text-uppercase">Arce</h3>
+                                                                            </div>
+                                                                            <div class="col-lg-12">
+                                                                                <div class="especs-grales">
+                                                                                    <h4 class="text-white c-font-20">Departamento de 2 recámaras</h4>
+                                                                                    <p>ÁREA: 88.17 m<sup>2</sup> + Jardín o balcón</p>
+                                                                                </div>
+                                                                                <table>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style="width: 12%;"><i class="fas fa-couch icons-ph "></i></td>
+                                                                                        <td valign="top"> Sala</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style="width: 12%;"><i class="fas fa-chair icons-ph "></i></td>
+                                                                                        <td valign="top"> Comedor</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style="width: 12%;"><i class="fas fa-seedling icons-ph "></i></td>
+                                                                                        <td valign="top"> Balcón o Jardín</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td valign="top" style="width: 12%;"><i class="fas fa-toilet icons-ph "></i></td>
+                                                                                        <td valign="top"> 2 baños completos</td>
+                                                                                    </tr style="height: 30px;">
+                                                                                    <tr>
+                                                                                        <td valign="top" style="width: 12%;"><i class="fas fa-utensils icons-ph "></i></td>
+                                                                                        <td valign="top"> Cocina Integral</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style="width: 12%;"><i class="fas fa-tshirt icons-ph "></i></td>
+                                                                                        <td valign="top"> Cuarto de Lavado</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style="width: 12%;"><i class="fas fa-bed icons-ph "></i></td>
+                                                                                        <td valign="top">    Recámara principal con baño</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top"><i class="fas fa-bed icons-ph "></i></td>
+                                                                                        <td valign="top">    Recámara secundaria con baño compartido</td>
+                                                                                    </tr>
+
+                                                                                </table>
+                                                                                
+                                                                            </div>
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                <!--END: ARCE DATA-->
+                                                                <!--BEGIN: FRESNO DATA-->
+                                                                    <div id="fresno-info" class="ficha-especs-fresno" style="display: none;">
+                                                                        <div class="row white-border">
+                                                                            <div class="col-lg-12">
+                                                                                <p class="text-uppercase">Prototipo</p>
+                                                                                <h3 class="text-white c-font-36 text-uppercase">Fresno</h3>
+                                                                            </div>
+                                                                            <div class="col-lg-12">
+                                                                                <div class="especs-grales-fresno">
+                                                                                    <h4 class="text-white c-font-20">Departamento de 2 recámaras + Estudio Abierto</h4>
+                                                                                    <p>ÁREA: 97.16 m<sup>2</sup> + Jardín o balcón</p>
+                                                                                </div>
+                                                                                <table>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style="width: 12%"><i class="fas fa-couch icons-ph "></i></td>
+                                                                                        <td valign="top"> Sala</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style="width: 12%"><i class="fas fa-chair icons-ph "></i></td>
+                                                                                        <td valign="top"> Comedor</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style="width: 12%"><i class="fas fa-seedling icons-ph "></i></td>
+                                                                                        <td valign="top"> Balcón o Jardín</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style=""><i class="fas fa-toilet icons-ph "></i></td>
+                                                                                        <td valign="top"> 2 baños completos</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style="width: 12%"><i class="fas fa-utensils icons-ph "></i></td>
+                                                                                        <td valign="top"> Cocina Integral</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style="width: 12%"><i class="fas fa-tshirt icons-ph "></i></td>
+                                                                                        <td>  Cuarto de Lavado</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style="width: 12%"><i class="fas fa-bed icons-ph "></i></td>
+                                                                                        <td valign="top">    Recámara principal con vestidor y baño</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style="width: 12%"><i class="fas fa-bed icons-ph "></i></td>
+                                                                                        <td valign="top">    Recámara secundaria con baño compartido</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style="width: 12%"><i class="fas fa-book icons-ph "></i></td>
+                                                                                        <td valign="top">    Estudio abierto (puede cerrarse)</td>
+                                                                                    </tr>
+
+                                                                                </table>
+                                                                                
+                                                                            </div>
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                <!--END: FRESNO DATA-->
+                                                                <!--BEGIN: CEREZO DATA-->
+                                                                    <div id="cerezo-info" class="ficha-especs-cerezo" style="display: none;">
+                                                                        <div class="row white-border">
+                                                                            <div class="col-lg-12">
+                                                                                <p class="text-uppercase">Prototipo</p>
+                                                                                <h3 class="text-white c-font-36 text-uppercase">Cerezo</h3>
+                                                                            </div>
+                                                                            <div class="col-lg-12">
+                                                                                <div class="especs-grales-cerezo">
+                                                                                    <h4 class="text-white c-font-20">Departamento de 3 recámaras</h4>
+                                                                                    <p>ÁREA: 119.77 m<sup>2</sup> + Jardín o balcón</p>
+                                                                                </div>
+                                                                                <table>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style="width: 12%"><i class="fas fa-couch icons-ph "></i></td>
+                                                                                        <td valign="top"> Sala</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style="width: 12%"><i class="fas fa-chair icons-ph "></i></td>
+                                                                                        <td valign="top"> Comedor</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style="width: 12%"><i class="fas fa-seedling icons-ph "></i></td>
+                                                                                        <td valign="top"> Balcón o Jardín</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style=""><i class="fas fa-toilet icons-ph "></i></td>
+                                                                                        <td valign="top"> 2 baños completos</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style="width: 12%"><i class="fas fa-utensils icons-ph "></i></td>
+                                                                                        <td valign="top"> Cocina Integral</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style="width: 12%"><i class="fas fa-tshirt icons-ph "></i></td>
+                                                                                        <td>  Cuarto de Lavado</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style="width: 12%"><i class="fas fa-bed icons-ph "></i></td>
+                                                                                        <td valign="top">    Recámara principal con vestidor y baño</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style="width: 12%"><i class="fas fa-bed icons-ph "></i></td>
+                                                                                        <td valign="top">    Recámara secundaria con baño compartido</td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                                
+                                                                            </div>
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                <!--END: CEREZO DATA-->
+                                                                <!--BEGIN: OLMO DATA-->
+                                                                    <div id="olmo-info" class="ficha-especs-olmo" style="display: none;">
+                                                                        <div class="row white-border">
+                                                                            <div class="col-lg-12">
+                                                                                <p class="text-uppercase">Prototipo</p>
+                                                                                <h3 class="text-white c-font-36 text-uppercase">Olmo</h3>
+                                                                            </div>
+                                                                            <div class="col-lg-12">
+                                                                                <div class="especs-grales-olmo">
+                                                                                    <h4 class="text-white c-font-20">Departamento de 2 recámaras</h4>
+                                                                                    <p>ÁREA: 89.60 m<sup>2</sup> + Jardín o balcón</p>
+                                                                                </div>
+                                                                                <table>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style="width: 12%"><i class="fas fa-couch icons-ph "></i></td>
+                                                                                        <td valign="top"> Sala</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style="width: 12%"><i class="fas fa-chair icons-ph "></i></td>
+                                                                                        <td valign="top"> Comedor</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style="width: 12%"><i class="fas fa-seedling icons-ph "></i></td>
+                                                                                        <td valign="top"> Balcón o Jardín</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style=""><i class="fas fa-toilet icons-ph "></i></td>
+                                                                                        <td valign="top"> 2 baños completos</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style="width: 12%"><i class="fas fa-utensils icons-ph "></i></td>
+                                                                                        <td valign="top"> Cocina Integral</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style="width: 12%"><i class="fas fa-tshirt icons-ph "></i></td>
+                                                                                        <td>  Cuarto de Lavado</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style="width: 12%"><i class="fas fa-bed icons-ph "></i></td>
+                                                                                        <td valign="top">    Recámara principal con baño</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 30px;">
+                                                                                        <td valign="top" style="width: 12%"><i class="fas fa-bed icons-ph "></i></td>
+                                                                                        <td valign="top">    Recámara secundaria con baño compartido</td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                                
+                                                                            </div>
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                <!--END: OLMO DATA-->
                                                             </div>
                                                             
                                                         </div>
@@ -1574,10 +1789,10 @@ Follow: http://www.twitter.com/themehats
                                                             <div class="c-section">
                                                                 <div class="c-content-label c-font-uppercase c-font-bold c-theme-bg">Para mayor información</div>
                                                                 <p class="text-white">
-                                                                    <strong>T</strong> <a id="link-contacto" href="tel:4630 3525">4630-3525</a>
+                                                                    <strong>T</strong> <a id="link-contacto" href="tel:4424541611">44-2454-1611</a>
                                                                     <br/>
                                                                     <strong>E</strong><a id="link-contacto" href="mailto:contacto@terraverdejuriquilla.com"> contacto@terraverdejuriquilla.com</a></p>
-                                                                    <p><img src="assets/base/img/content/apps/whatsapp-logo.png" width="20"><a href="https://wa.me/524421061793" id="link-contacto"> 55 7355-2395</a></p>
+                                                                    <p><img src="assets/base/img/content/apps/whatsapp-logo.png" width="20"><a href="https://wa.me/524421061793" id="link-contacto"> 44-2106-1793</a></p>
                                                                     <br>
                                                                 </div>
                                                                 <div class="c-section">
@@ -1675,7 +1890,7 @@ Follow: http://www.twitter.com/themehats
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-md-6 col-sm-6">
-                                                <img src="assets/base/img/content/desarrollo/logo.png">
+                                                <a href="http://www.grupohodaya.com"><img src="assets/base/img/content/desarrollo/logo.png"></a>
                                                 <p class="c-copyright c-font-oswald c-font-14"> Grupo Hodaya | Derechos reservados</p>
                                                 <p>Consulta nuestro <a href="aviso-de-privacidad.php">Aviso de Privacidad</a></p>
                                                 <p><small>El diseño, superficies, decoración, imágenes y mobiliario, son solo ilustrativas y podrían tener modificaciones sin previo aviso. Por lo tanto, no constituye un compromiso, obligación y oferta comercial o legal de la empresa vendedora.</small></p>
@@ -1733,52 +1948,50 @@ Follow: http://www.twitter.com/themehats
                             <script type="text/javascript">
                             /*Gathering id*/
                             var get=document.getElementById("depas");
-                            var getEspecs=document.getElementById("especs");
+                            var getArce=document.getElementById("arce-info");
+                            var getFresno=document.getElementById("fresno-info");
+                            var getCerezo=document.getElementById("cerezo-info");
+                            var getOlmo=document.getElementById("olmo-info");
+                            //var getEspecs= document.getElementById("especs");
                             var caption=document.getElementById("caption");
                             function depaArce() {
-                            get.innerHTML='<br>'+'<br>';
-                            get.src='assets/base/img/content/modelos/arce_final.png';
-                            getEspecs.src='assets/base/img/content/modelos/especs_arce_final.png';
+                                get.innerHTML='<br>'+'<br>';
+                                get.src='assets/base/img/content/modelos/arce_final.png';
+                                getArce.style.display='inline-block';
+                                getFresno.style.display='none';
+                                getCerezo.style.display='none';
+                                getOlmo.style.display='none';
                             
                             //LIGHTBOX DEL MODELO
                             }
                             function depaFresno() {
-                            get.innerHTML='<br>'+'<br>';
-                            get.src='assets/base/img/content/modelos/fresno_final.png';
-                            getEspecs.src='assets/base/img/content/modelos/especs_fresno_final.png';
+                                get.innerHTML='<br>'+'<br>';
+                                get.src='assets/base/img/content/modelos/fresno_final.png';
+                                getFresno.style.display='inline-block';
+                                getArce.style.display='none';
+                                getCerezo.style.display='none';
+                                getOlmo.style.display='none';
                             
                             }
                             function depaCerezo() {
                             get.innerHTML='<br>'+'<br>';
                             get.src='assets/base/img/content/modelos/cerezo_final.png';
-                            getEspecs.src='assets/base/img/content/modelos/especs_cerezo_final.png';
+                            getCerezo.style.display='inline-block';
+                            getArce.style.display='none';
+                            getFresno.style.display='none';
+                            getOlmo.style.display='none';
                             
                             
                             }
                             function depaOlmo() {
                             get.innerHTML='<br>'+'<br>';
                             get.src='assets/base/img/content/modelos/olmo_final.png';
-                            getEspecs.src='assets/base/img/content/modelos/especs_olmo.png';
+                            getArce.style.display='none';
+                            getFresno.style.display='none';
+                            getCerezo.style.display='none';
+                            getOlmo.style.display='inline-block';
                             
                             }
-                            /*function depaAlamo() {
-                            get.innerHTML='<br>'+'<br>';
-                            get.src='assets/base/img/content/modelos/alamo.png';
-                            getEspecs.src='assets/base/img/content/modelos/especs_alamo.png';
-                            
-                            }*/
-                            /*function depaCedro() {
-                            get.innerHTML='<br>'+'<br>';
-                            get.src='assets/base/img/content/modelos/cedro.png';
-                            getEspecs.src='assets/base/img/content/modelos/especs_cedro.png';
-                            
-                            }*/
-                            /*function depaBose() {
-                            get.innerHTML='<br>'+'<br>';
-                            get.src='assets/base/img/content/modelos/bose.png';
-                            getEspecs.src='assets/base/img/content/modelos/especs_bose.png';
-                            
-                            }*/
                             
                             function close() {
                             get.src='';
