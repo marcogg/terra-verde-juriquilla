@@ -297,3 +297,37 @@ a#link-contacto:hover{
 	border: 3px solid white;
 	margin:3px;
 }
+
+/*------------------------SERVICIOS------------------------*/
+
+.servicios{
+	background-color: #32c5d2;
+	padding: 3%;
+	text-align: center;
+	color: white;
+	border: 5px solid #FFFFFF;
+	min-height:100%; 
+}
+
+.servicios:hover{
+	transition: ease 0.7s;
+	background-color: #27ADB9;
+}
+
+.conatiner-servicios{
+	padding: 10% !important;
+}
+
+.gpo-hodaya{
+	padding: 5%;
+}
+
+.c-facebook-btn{
+	background-color: #1A51AD;
+	color: white;
+}
+
+.c-facebook-btn:hover{
+	background-color: #2963C3;
+	color: white;
+}

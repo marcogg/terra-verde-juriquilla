@@ -19,7 +19,7 @@ Follow: http://www.twitter.com/themehats
     <head>
         <meta charset="utf-8" />
         <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
-        <title>TERRAVERDE JURIQUILLA</title>
+        <title>Venta de departamentos en Querétaro - TERRAVERDE JURIQUILLA de Grupo Hodaya</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport" />
         <meta http-equiv="Content-type" content="text/html; charset=utf-8">
@@ -344,10 +344,10 @@ Follow: http://www.twitter.com/themehats
                                                 </div>
                                                 <div class="row">
                                                     <div class="col-lg-12">
-                                                        <h1 class="c-font-36 c-font-bold c-font-uppercase c-font-white c-subtitle title-shadow" > El <strong>mejor desarrollo</strong> en Querétaro</h1>
+                                                        <h1 class="c-font-36 c-font-bold c-font-uppercase c-font-white c-subtitle title-shadow" > Venta de departamentos y Pent-Houses en Querétaro</h1>
                                                         <br>
                                                         <br>
-                                                        <p><span style="background-color: #c12a34; padding: 1% 3% 1% 3%;" class="text-uppercase c-font-24 text-white">Preventa</span></p></h5>
+                                                        <p><span style="background-color: #74af0d; padding: 1% 3% 1% 3%;" class="text-uppercase c-font-22 text-white text-center">Terra Verde Juriquilla de <b>Grupo Hodaya</b></span></p></h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -358,8 +358,6 @@ Follow: http://www.twitter.com/themehats
                                                 <!--BEGIN: SLIDE #1 -->
                                                 <li data-transition="fade" data-slotamount="1" data-masterspeed="1000">
                                                     <img alt="" src="assets/base/img/content/backgrounds/fachada_juriquilla.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
-                                                    
-                                                    
                                                 </li>
                                                 <!--END -->
                                                 <!--BEGIN: SLIDE #2 -->
@@ -392,15 +390,28 @@ Follow: http://www.twitter.com/themehats
                                                 <div class="col-lg-8 col-md-8 col-sm-12 d-block m-auto">
                                                     <!-- Begin: Title 1 component -->
                                                     <div class="c-content-title-1" data-height="height">
-                                                        <h3 class="c-font-uppercase c-font-bold">Descubre una nueva forma de vivir.</h3>
-                                                        <p class=" c-font-sbold"> Ubicado en una zona de alta plusvalía, rodeado de comercios y servicios; Terra Verde Juriquilla posee una conectividad envidiable, con rápido acceso a las principales vías de comunicación. El desarrollo cuenta con un concepto de diseño moderno, elegante y con amenidades exclusivas para brindarte un estilo de vida que tú mereces.</p>
+                                                        <h2 class="c-font-uppercase c-font-bold text-center">Exclusivos Departamentos y Pent-Houses de Lujo en Querétaro.</h2>
+                                                        <h2 class="text-center"> Terra Verde Juriquilla un desarrollo de Grupo Hodaya.</h2>
+                                                        <p class=" c-font-sbold text-justify">Invierte de forma segura en un desarrollo ubicado en la zona con mayor plusvalia de Querétaro. <br>Exclusivos departamentos y pent-houses de lujo en venta en Juriquilla, ubicados en una zona inmejorable de Querétaro, con la mayor plusvalía. Disfruta la comodidad de contar con universidades, colegios, hospitales y centros comerciales <b>a menos de 5 minutos</b> de distancia de tu nuevo departamento o pent-house en Terra Verde Juriquilla.</p>
                                                         <button type="button" class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square btn-brochure" data-toggle="modal" data-target="#descargarBrochure" style="width: 100%;">Descargar Folleto</button>
+
                                                     </div>
                                                     <!-- Button trigger modal -->
                                                     
                                                 </div>
                                                 <div class="col-lg-2"></div>
                                             </div>
+                                        </div>
+                                    </div>
+                                    <div class="container gpo-hodaya">
+                                        <div class="col-lg-6">
+                                            <h3 class="c-font-60 c-font-bold text-uppercase text-center" style="color: #DBDBDB;">Grupo Hodaya</h3>
+                                            <div style=" width: 150px; height: 7px; background-color: #32c5d2; margin: 0 auto 30px auto;"></div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <p>Grupo HODAYA Inmobiliaria comprometida con <b>más de 40 años de experiencia</b> haciendo felices a más de 6,000 hogares en México.</p>
+                                            <a href="http://grupohodaya.com" target="_blank" class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square btn-brochure">Conócenos</a>
+                                            <a href="https://facebook.com/grupohodaya" target="_blank" class="btn c-facebook-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square"><i class="fab fa-facebook-f"></i> Síguenos</a>
                                         </div>
                                     </div>
                                 </div>
@@ -504,8 +515,7 @@ Follow: http://www.twitter.com/themehats
                                 </div>
                             </div>
                             <!-- END: CONTENT/BARS/BAR-2 -->
-                            <!-- BEGIN: CONTENT/FEATURES/FEATURES-4-4 -->
-                            <!-- BEGIN: FEATURES 4.4 -->
+                            
                             <!-- SLIDER DE LOS PROTOTIPOS-->
                             <section id="departamentos">
                                 <div class="padding-depa-container">
@@ -513,6 +523,7 @@ Follow: http://www.twitter.com/themehats
                                         <div class="row">
                                             <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center white-background">
                                                 <h2 class="c-font-bold super-title" style="color: #32c5d2;">DEPARTAMENTOS</h2>
+                                                <p class="text-center">Contamos con <b>4 modelos de departamentos</b> de 2 y 3 recámaras desde 90.16 m², hasta 119.91 m²</p>
                                                 <h3 class="c-font-bold text-center" style="color:#32c5d2;">Torre A</h3>
                                                 <div class="c-content animated wow fadeInDown" data-wow-delay="0.3s">
                                                     <p class="c-margin-b-30"></p>
@@ -779,7 +790,7 @@ Follow: http://www.twitter.com/themehats
                                 <div class="c-size-md c-bg-grey-1">
                                     <div class="container" style="padding: 5%;">
                                         <div class="row">
-                                            <h5 class="c-center c-font-uppercase c-font-bold c-font-40 text-center c-content-title-1">Conoce los Departamentos virtuales</h5>
+                                            <h5 class="c-center c-font-uppercase c-font-bold c-font-40 text-center c-content-title-1" style="color:#CCCCCC;">Conoce los Departamentos virtuales</h5>
                                             <div style=" width: 150px; height: 7px; background-color: #32c5d2; margin: 0 auto 30px auto;"></div>
                                             <p class="text-center">Haz el recorrido virtual de los prototipos de <b>Terra Verde Juiriquilla</b></p>
                                         </div>
@@ -806,6 +817,8 @@ Follow: http://www.twitter.com/themehats
                                     <div class="row">
                                         <div class="col-lg-12 text-center white-background">
                                             <h2 class="c-font-bold super-title" style="color: #32c5d2;">PENTHOUSES</h2>
+                                            <p>Contamos con <b>4 modelos de pent-houses</b> desde 143.62 m² hasta 187.03 m².</p>
+                                            <h3 class="c-font-bold text-center" style="color:#32c5d2;">Torre A</h3>
                                             <div class="c-content animated wow fadeInDown">
                                                 <p class="c-margin-b-30"></p>
                                                 <div class="row">
@@ -1245,6 +1258,60 @@ Follow: http://www.twitter.com/themehats
                             <!-- FIN DE LOS PROTOTIPOS-->
                             <!-- END: FEATURES 4.4 -->
                             <!-- END: CONTENT/FEATURES/FEATURES-4-4 -->
+                            <!-- BEGIN: SERVICIOS -->
+                            <section>
+                                <div class="container container-servicios" style="padding: 5%;">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <h2 class="c-font-60 text-uppercase c-font-bold" style="color: #DBDBDB;">Servicios</h2>
+                                            <p>Exclusivos departamentos y pent-houses de lujo en venta en Juriquilla, ubicados en una zona inmejorable de Querétaro, con la mayor plusvalía.
+                                            <br>
+                                            <br>
+                                            Disfruta la comodidad de contar con universidades, colegios, hospitales y centros comerciales a menos de 5 minutos de distancia de tu nuevo departamento o pent-house en Terra Verde Juriquilla.
+                                            <br>
+                                            <br>Nuestro desarrollo posee un concepto de diseño único y elegante con todas las comodidades que tu familia merece, además de contar con servicios y amenidades de lujo como: </p>
+                                            <a href="tel:4424541611" class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square btn-brochure">Llama Ahora</a>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-6 col-6 servicios">
+                                                    <i class="fas fa-user-shield fa-2x"></i>
+                                                    <br>
+                                                    Vigilancia 24 horas.
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6 col-6 servicios">
+                                                    <i class="fas fa-video fa-2x"></i>
+                                                    <br>
+                                                    Cámaras de vigilancia
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6 col-6 servicios">
+                                                    <i class="fas fa-arrow-up fa-2x"></i>
+                                                    <br>
+                                                    2 Elevadores <br>por torre
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6 col-6 servicios">
+                                                    <i class="fas fa-warehouse fa-2x"></i>
+                                                    <br>
+                                                    Bodegas opcionales*
+                                                    <br>
+                                                    <small>*Sujetas a disponibilidad</small>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6 col-6 servicios">
+                                                    <i class="fas fa-tree fa-2x"></i>
+                                                    <br>
+                                                    Áreas verdes
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6 col-6 servicios">
+                                                    <i class="fas fa-parking fa-2x"></i>
+                                                    <br>
+                                                    Estacionamiento para visitas
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- END: SERVICIOS -->
                             <section id="amenidades-desarrollo">
                                 <!-- BEGIN: CONTENT/FEATURES/FEATURES-12 -->
                                 <div class="c-content-box c-size-md c-no-padding c-bg-dark-2">
@@ -1281,7 +1348,7 @@ Follow: http://www.twitter.com/themehats
                                                 <div class="">
                                                     <div class="row">
                                                         <div class="c-content-title-1">
-                                                            <h1 class="c-center c-font-uppercase c-font-bold super-title c-font-36">AMENIDADES DEL DESARROLLO</h1>
+                                                            <h2 class="c-center c-font-uppercase c-font-bold super-title c-font-36">AMENIDADES DEL DESARROLLO</h2>
                                                             <div class="c-line-center c-theme-bg"></div>
                                                         </div>
                                                     </div>
@@ -1294,7 +1361,8 @@ Follow: http://www.twitter.com/themehats
                                                             </li>
                                                             <li>
                                                                 <div class="c-card c-img c-bg-img-center grayscale-img" style="background-image: url(assets/base/img/content/backgrounds/multiple.jpg)">
-                                                                    <h3 class="c-font-40 c-font-bold c-font-uppercase c-font-white title-shadow">CANCHA MÚLTIPLE</h3>
+                                                                    <h3 class="c-font-40 c-font-bold c-font-uppercase c-font-white title-shadow" style="line-height: 0.4;">CANCHA MÚLTIPLE</h3>
+                                                                    <small><p class="c-font-bold title-shadow" style="color: white;">Futbol, Basquetbol y Voleibol</p></small>
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -1368,7 +1436,7 @@ Follow: http://www.twitter.com/themehats
                                                 </div>-->
                                                 <div class="modal-body">
                                                     
-                                                    <img src="assets/base/img/content/masterPlan/master-plan.jpg" class="img-responsive">
+                                                    <img src="assets/base/img/content/masterPlan/master-plan.jpg" class="img-responsive" alt="Master Plan desarrollo inmobiliario en Querétaro">
                                                 </div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -1389,7 +1457,7 @@ Follow: http://www.twitter.com/themehats
                                 <div class="c-content-box c-size-md c-bg-white text-center">
                                     <div class="c-content-tile-grid c-bs-grid-reset-space" data-auto-height="true">
                                         <div class="c-content-title-1 wow animate fadeInDown">
-                                            <h1 class="c-font-uppercase c-center c-font-bold super-title c-font-36">Amenidades Interiores</h1>
+                                            <h2 class="c-font-uppercase c-center c-font-bold super-title c-font-36">Amenidades Interiores</h2>
                                             <div class="c-line-center"></div>
                                             <div class="c-content animated wow fadeInDown padding-ph" data-wow-delay="0.7s">
                                                 
@@ -1575,6 +1643,7 @@ Follow: http://www.twitter.com/themehats
                                 </div>
                             <!-- END: CONTENT/TILES/TILE-3 -->
                         </section>
+                        
                         <section id="promociones py-5">
                             <!-- BEGIN: CONTENT/MISC/desarrollo-3 -->
                             <div class="c-content-box c-size-md c-bg-grey-1">
@@ -1589,8 +1658,7 @@ Follow: http://www.twitter.com/themehats
                                         <!-- End-->
                                         
                                         <div class="row">
-                                            <div class="col-lg-3 col-md-1 col-sm-0"></div>
-                                            <div class="col-md-6 col-sm-6 col-sm-12 col-12 c-margin-b-30">
+                                            <div class="col-lg-5 col-md-6 col-sm-6 col-sm-12 col-12 c-margin-b-30">
                                                 <div class="c-content-person-1 c-option-2">
                                                     <div class="c-caption c-content-overlay">
                                                         <div class="c-overlay-wrapper">
@@ -1603,7 +1671,8 @@ Follow: http://www.twitter.com/themehats
                                                                 </a>
                                                             </div>
                                                         </div>
-                                                    <img class="c-overlay-object img-responsive" src="assets/base/img/content/desarrollo/referidos.jpg" alt=""> </div>
+                                                        <img class="c-overlay-object img-responsive" src="assets/base/img/content/desarrollo/referidos.jpg" alt="Promocion departamentos en preventa Juriquilla"> 
+                                                    </div>
                                                     <div class="c-body">
                                                         <div class="c-head">
                                                             <div class="c-name c-font-uppercase c-font-bold">Programa de referidos</div>
@@ -1613,7 +1682,10 @@ Follow: http://www.twitter.com/themehats
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-3 col-md-1 col-sm-0"></div>
+                                            <div class="col-lg-7" style="padding: 7%; background-color: white; box-shadow: 10px 14px 12px rgba(0,0,0,.15); position: relative; top:60px;">
+                                                <p class="c-font-28">Compra ahora en preventa y recibe un <b class="text-uppercase">incremento de hasta el 25% en la plusvalía</b> de tu inmueble al momento de la entrega.</p>
+                                                <button type="button" class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square btn-brochure" data-toggle="modal" data-target="#descargarBrochure" style="width: 100%;">Descargar Folleto</button>
+                                            </div>
                                             <!-- End-->
                                         </div>
                                         <!-- End-->
@@ -1628,7 +1700,7 @@ Follow: http://www.twitter.com/themehats
                             <div class="container">
                                 <div class="row">
                                     <div class="c-content-title-1">
-                                        <h1 class="c-center c-font-uppercase c-font-bold super-title c-font-36">Ubicación</h1>
+                                        <h2 class="c-center c-font-uppercase c-font-bold super-title c-font-36">Ubicación</h2>
                                         <div class="c-line-center c-theme-bg"></div>
                                     </div>
                                     <div class="c-content-box c-size-md c-bg-white display-inline">
@@ -1655,6 +1727,7 @@ Follow: http://www.twitter.com/themehats
                                                                             <div class="c-content-label c-font-uppercase c-font-bold c-theme-bg">Dirección</div>
                                                                             <p>Boulevard Universitario #319, Col. Manzanares, C.P. 76230
                                                                             |<br/>Juriquilla, Querétaro</p>
+                                                                            <button type="button" class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square btn-brochure" data-toggle="modal" data-target="#descargarBrochure" style="width: 100%;">Más información</button>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -1662,6 +1735,10 @@ Follow: http://www.twitter.com/themehats
                                                         </div>
                                                     </div>
                                                 </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <h3 class="text-center c-font-30" style="color: #959595; font-weight: 300;">Juriquilla es una zona residencial rodeada de <b><span style="color: #32c5d2;">todos los servicios</span></b>, colegios, universidades y hospitales y con la mayor plusvalia de Querétaro. </h3>
+
                                             </div>
                                             
                                         </div>
@@ -1671,10 +1748,10 @@ Follow: http://www.twitter.com/themehats
                             </section>
                             <section id="financiamiento" class="c-bg-grey-1">
                                 <div class="container-full">
-                                    <div class="row mt-5 mb-5">
+                                    <div class="row mt-5 mb-5" style="padding: 3%;">
                                         <div class="col-lg-3 col-md-3 d-sm-none d-md-block"></div>
                                         <div class="col-lg-6 col-md-6 col-sm-8 col-8 py-auto">
-                                            <h1 class="c-center c-font-uppercase c-font-bold super-title mt-5">Tramitamos tu crédito</h1>
+                                            <h2 class="c-center c-font-uppercase c-font-bold super-title mt-5">Tramitamos tu crédito</h2>
                                             <p class=" c-content-title-1 text-center">Te brindamos <strong>asesoría gratuita</strong> en todos tus trámites. Contamos con profesionales certificados en créditos hipotecarios, para orientarte al producto que más se acomode a tus necesidades, ten la seguridad que tus datos son confidenciales.</p>
                                             <div class="c-line-center c-theme-bg"></div>
                                         </div>
@@ -1682,7 +1759,7 @@ Follow: http://www.twitter.com/themehats
                                     </div>
                                     <div class="row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-12 my-5 text-center">
-                                            <h1 class="text-uppercase">Aceptamos todos los créditos bancarios</h1>
+                                            <h2 class="text-uppercase">Aceptamos todos los créditos bancarios</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -1699,59 +1776,59 @@ Follow: http://www.twitter.com/themehats
                                                             
                                                             <div class="item">
                                                                 <a href="#">
-                                                                    <img src="assets/base/img/content/client-logos/logo_infonavit.jpg" alt="" />
+                                                                    <img src="assets/base/img/content/client-logos/logo_infonavit.jpg" alt="Infonavit" />
                                                                 </a>
                                                             </div>
                                                             <div class="item">
                                                                 <a href="#">
-                                                                    <img src="assets/base/img/content/client-logos/logo18.jpg" alt="" />
+                                                                    <img src="assets/base/img/content/client-logos/logo18.jpg" alt="Santander" />
                                                                 </a>
                                                             </div>
                                                             <div class="item">
                                                                 <a href="#">
-                                                                    <img src="assets/base/img/content/client-logos/logo4.jpg" alt="" />
+                                                                    <img src="assets/base/img/content/client-logos/logo4.jpg" alt="Mifel" />
                                                                 </a>
                                                             </div>
                                                             <div class="item">
                                                                 <a href="#">
-                                                                    <img src="assets/base/img/content/client-logos/logo6.jpg" alt="" />
+                                                                    <img src="assets/base/img/content/client-logos/logo6.jpg" alt="BBVA" />
                                                                 </a>
                                                             </div>
                                                             <div class="item">
                                                                 <a href="#">
-                                                                    <img src="assets/base/img/content/client-logos/logo7.jpg" alt="" />
+                                                                    <img src="assets/base/img/content/client-logos/logo7.jpg" alt="SIF" />
                                                                 </a>
                                                             </div>
                                                             <div class="item">
                                                                 <a href="#">
-                                                                    <img src="assets/base/img/content/client-logos/logo8.jpg" alt="" />
+                                                                    <img src="assets/base/img/content/client-logos/logo8.jpg" alt="Scotiabank" />
                                                                 </a>
                                                             </div>
                                                             <div class="item">
                                                                 <a href="#">
-                                                                    <img src="assets/base/img/content/client-logos/logo9.jpg" alt="" />
+                                                                    <img src="assets/base/img/content/client-logos/logo9.jpg" alt="Banorte IXE" />
                                                                 </a>
                                                             </div>
                                                             <div class="item">
                                                                 <a href="#">
-                                                                    <img src="assets/base/img/content/client-logos/logo11.jpg" alt="" />
-                                                                </a>
-                                                            </div>
-                                                            
-                                                            <div class="item">
-                                                                <a href="#">
-                                                                    <img src="assets/base/img/content/client-logos/logo13.jpg" alt="" />
-                                                                </a>
-                                                            </div>
-                                                            <div class="item">
-                                                                <a href="#">
-                                                                    <img src="assets/base/img/content/client-logos/logo14.jpg" alt="" />
+                                                                    <img src="assets/base/img/content/client-logos/logo11.jpg" alt="Cofinavit" />
                                                                 </a>
                                                             </div>
                                                             
                                                             <div class="item">
                                                                 <a href="#">
-                                                                    <img src="assets/base/img/content/client-logos/logo16.jpg" alt="" />
+                                                                    <img src="assets/base/img/content/client-logos/logo13.jpg" alt="Citi Banamex" />
+                                                                </a>
+                                                            </div>
+                                                            <div class="item">
+                                                                <a href="#">
+                                                                    <img src="assets/base/img/content/client-logos/logo14.jpg" alt="HSBC" />
+                                                                </a>
+                                                            </div>
+                                                            
+                                                            <div class="item">
+                                                                <a href="#">
+                                                                    <img src="assets/base/img/content/client-logos/logo16.jpg" alt="BANBAJÍO" />
                                                                 </a>
                                                             </div>
                                                             
@@ -1772,7 +1849,7 @@ Follow: http://www.twitter.com/themehats
                             <section id="contacto" class="extra-divider c-bg-grey-1" style="background-image: url(assets/base/img/content/backgrounds/contacto.jpg); max-width: 100%; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;">
                                 <!-- BEGIN: CONTENT/contacto/contacto-1 -->
                                 <div class="c-content-title-1">
-                                    <h1 class="c-center c-font-uppercase c-font-bold super-title c-font-36">Contacto</h1>
+                                    <h2 class="c-center c-font-uppercase c-font-bold super-title c-font-36">Contacto</h2>
                                     <div class="c-line-center c-theme-bg"></div>
                                 </div>
                                 <!-- END: CONTENT/contacto/contacto-1 -->
@@ -1918,6 +1995,19 @@ Follow: http://www.twitter.com/themehats
                                                             <i class="fab fa-linkedin"></i>
                                                         </a>
                                                     </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <ul class="list-inline">
+                                                    <li>#Preventa</li>
+                                                    <li>#InmueblesQuerétaro</li>
+                                                    <li>#PreventaDepartamentos</li>
+                                                    <li>#DepaEnVenta</li>
+                                                    <li>#DepaJuriquilla</li>
+                                                    <li>#InmuebleEnVenta</li>
+                                                    <li>#VentaInmuebles</li>
+                                                    <li>#VentaInmuebles</li>
+                                                    <li>#Penthouse</li>
                                                 </ul>
                                             </div>
                                         </div>
