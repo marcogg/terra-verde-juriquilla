@@ -446,6 +446,19 @@ Follow: http://www.twitter.com/themehats
                                                     </li>
                                                 </ul>
                                             </div>
+                                            <div class="col-lg-12">
+                                                <ul class="list-inline">
+                                                    <li>#Preventa</li>
+                                                    <li>#InmueblesQuerétaro</li>
+                                                    <li>#PreventaDepartamentos</li>
+                                                    <li>#DepaEnVenta</li>
+                                                    <li>#DepaJuriquilla</li>
+                                                    <li>#InmuebleEnVenta</li>
+                                                    <li>#VentaInmuebles</li>
+                                                    <li>#VentaInmuebles</li>
+                                                    <li>#Penthouse</li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

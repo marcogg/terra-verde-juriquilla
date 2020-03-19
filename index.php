@@ -339,7 +339,7 @@ Follow: http://www.twitter.com/themehats
                                             <div class="container">
                                                 <div class="row">
                                                     <div class="col-lg-12">
-                                                        <img src="assets/base/img/layout/logos/logo.png" alt="Juriquilla" class="" style="width: 220px;">
+                                                        <img src="assets/base/img/layout/logos/logo.png" alt="Departamentos Juriquilla" class="" style="width: 220px;">
                                                     </div>
                                                 </div>
                                                 <div class="row">
@@ -357,19 +357,19 @@ Follow: http://www.twitter.com/themehats
                                             <ul>
                                                 <!--BEGIN: SLIDE #1 -->
                                                 <li data-transition="fade" data-slotamount="1" data-masterspeed="1000">
-                                                    <img alt="" src="assets/base/img/content/backgrounds/fachada_juriquilla.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                                    <img alt="Desarrollo en Querétaro" src="assets/base/img/content/backgrounds/fachada_juriquilla.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                                                 </li>
                                                 <!--END -->
                                                 <!--BEGIN: SLIDE #2 -->
                                                 <li data-transition="fade" data-slotamount="1" data-masterspeed="1000">
-                                                    <img alt="" src="assets/base/img/content/backgrounds/fachada_ago.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                                    <img alt="" src="assets/base/img/content/backgrounds/fachada_ago.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" alt="Preventa Departamentos">
 
                                                 </li>
                                                 <!--END -->
                                                 <!--BEGIN: SLIDE #3 -->
                                                 <li data-transition="fade" data-slotamount="1" data-masterspeed="700" data-delay="6000" data-thumb="">
                                                     <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
-                                                    <img alt="" src="assets/base/img/content/backgrounds/balcones.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="visible-xs" />
+                                                    <img alt="" src="assets/base/img/content/backgrounds/balcones.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="visible-xs" alt="Balcón" />
                                                     
                                                 </li>
                                                 <!--END -->
@@ -410,8 +410,14 @@ Follow: http://www.twitter.com/themehats
                                         </div>
                                         <div class="col-lg-6">
                                             <p>Grupo HODAYA Inmobiliaria comprometida con <b>más de 40 años de experiencia</b> haciendo felices a más de 6,000 hogares en México.</p>
-                                            <a href="http://grupohodaya.com" target="_blank" class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square btn-brochure">Conócenos</a>
-                                            <a href="https://facebook.com/grupohodaya" target="_blank" class="btn c-facebook-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square"><i class="fab fa-facebook-f"></i> Síguenos</a>
+                                            <div class="row">
+                                                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-6">
+                                                  <a href="http://grupohodaya.com" target="_blank" class="btn c-theme-btn c-btn-uppercase c-btn-bold c-btn-square btn-brochure">Conócenos</a>  
+                                                </div>
+                                                <dic class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-6">
+                                                    <a href="https://facebook.com/grupohodaya" target="_blank" class="btn c-facebook-btn c-btn-uppercase c-btn-bold c-btn-square"><i class="fab fa-facebook-f"></i> Síguenos</a>
+                                                </dic>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -559,7 +565,7 @@ Follow: http://www.twitter.com/themehats
                                                         <div class="col-lg-12 col-md-12 col-sm-12 mt-4" style="margin-top: 3%;">
                                                             <h2 id="caption" class="text-center" style="font-size: 2.5em;"> </h2>
                                                             <div class="col-lg-7 col-md-8 col-sm-12">
-                                                                <img id="depas" src="" class="wow animated fadeIn img-responsive shadowed" onclick="">
+                                                                <img id="depas" src="" class="wow animated fadeIn img-responsive shadowed" onclick="" alt="">
                                                             </div>
                                                             <div class="col-lg-5 col-md-4 col-sm-12">
                                                                 <!--BEGIN: ARCE DATA-->
@@ -862,12 +868,12 @@ Follow: http://www.twitter.com/themehats
                                                 <div class="carousel-inner">
                                                     <div class="item active">
                                                         <img class="img-responsive" src="assets/base/img/content/modelos/ph/teca-pb.jpg" alt="Teca Planta Baja">
-                                                        <div class="carousel-caption d-none d-md-block">
+                                                        <div class="carousel-caption d-none d-md-block" alt="Departamentos de lujo Juriquilla">
                                                         </div>
                                                     </div>
                                                     <div class="item">
                                                         <img class="img-responsive" src="assets/base/img/content/modelos/ph/teca-pa.jpg" alt="Teca Planta Alta">
-                                                        <div class="carousel-caption d-none d-md-block">
+                                                        <div class="carousel-caption d-none d-md-block" alt="Departamentos de lujo Juriquilla">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1869,7 +1875,7 @@ Follow: http://www.twitter.com/themehats
                                                                     <strong>T</strong> <a id="link-contacto" href="tel:4424541611">44-2454-1611</a>
                                                                     <br/>
                                                                     <strong>E</strong><a id="link-contacto" href="mailto:contacto@terraverdejuriquilla.com"> contacto@terraverdejuriquilla.com</a></p>
-                                                                    <p><img src="assets/base/img/content/apps/whatsapp-logo.png" width="20"><a href="https://wa.me/524421061793" id="link-contacto"> 44-2106-1793</a></p>
+                                                                    <p><img src="assets/base/img/content/apps/whatsapp-logo.png" width="20" alt="whatsapp-logo"><a href="https://wa.me/525573552395" id="link-contacto"> +52 55 7355 2395</a></p>
                                                                     <br>
                                                                 </div>
                                                                 <div class="c-section">
@@ -1947,7 +1953,7 @@ Follow: http://www.twitter.com/themehats
                                                                     <div id="mail-status"></div>
                                                                     <button class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square" type="Submit" id="send-message" style="clear:both;">Enviar</button>
                                                                 </form>
-                                                                <div id="loader-icon" style="display:none;"><img src="img/loader.gif" /></div>
+                                                                <div id="loader-icon" style="display:none;"><img src="img/loader.gif" alt="cargando" /></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1967,7 +1973,7 @@ Follow: http://www.twitter.com/themehats
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-md-6 col-sm-6">
-                                                <a href="http://www.grupohodaya.com"><img src="assets/base/img/content/desarrollo/logo.png"></a>
+                                                <a href="http://www.grupohodaya.com"><img src="assets/base/img/content/desarrollo/logo.png" alt="Grupo Hodaya"></a>
                                                 <p class="c-copyright c-font-oswald c-font-14"> Grupo Hodaya | Derechos reservados</p>
                                                 <p>Consulta nuestro <a href="aviso-de-privacidad.php">Aviso de Privacidad</a></p>
                                                 <p><small>El diseño, superficies, decoración, imágenes y mobiliario, son solo ilustrativas y podrían tener modificaciones sin previo aviso. Por lo tanto, no constituye un compromiso, obligación y oferta comercial o legal de la empresa vendedora.</small></p>
@@ -2252,7 +2258,7 @@ Follow: http://www.twitter.com/themehats
                             <!-- END: LAYOUT/BASE/BOTTOM -->
                             <div style="background-color:#02a047; width: 70px; height:70px; border-radius: 50%; position:fixed; top: 87vh; left: 5px; z-index:50000; display: block; ">
                                 <div style="margin: auto; display: block; position: relative; left: 18%; top: 13%">
-                                    <a href="https://wa.me/524421061793">
+                                    <a href="https://wa.me/525573552395">
                                         <i class="fab fa-whatsapp fa-3x" style="color:white;"></i>
                                     </a>
                                 </div>
