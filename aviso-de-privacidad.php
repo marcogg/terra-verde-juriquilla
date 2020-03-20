@@ -703,7 +703,7 @@ Follow: http://www.twitter.com/themehats
                             <!-- END: LAYOUT/BASE/BOTTOM -->
                             <div style="background-color:#02a047; width: 70px; height:70px; border-radius: 50%; position:fixed; top: 85vh; left: 5px; z-index:50000; display: block; ">
                                 <div style="margin: auto; display: block; position: relative; left: 18%; top: 13%">
-                                    <a href="https://wa.me/524421061793">
+                                    <a href="https://wa.me/525513772791">
                                         <i class="fab fa-whatsapp fa-3x" style="color:white;"></i>
                                     </a>
                                 </div>

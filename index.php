@@ -1875,7 +1875,7 @@ Follow: http://www.twitter.com/themehats
                                                                     <strong>T</strong> <a id="link-contacto" href="tel:4424541611">44-2454-1611</a>
                                                                     <br/>
                                                                     <strong>E</strong><a id="link-contacto" href="mailto:contacto@terraverdejuriquilla.com"> contacto@terraverdejuriquilla.com</a></p>
-                                                                    <p><img src="assets/base/img/content/apps/whatsapp-logo.png" width="20" alt="whatsapp-logo"><a href="https://wa.me/525573552395" id="link-contacto"> +52 55 7355 2395</a></p>
+                                                                    <p><img src="assets/base/img/content/apps/whatsapp-logo.png" width="20" alt="whatsapp-logo"><a href="https://wa.me/525513772791" id="link-contacto"> +52 55 1377 2791</a></p>
                                                                     <br>
                                                                 </div>
                                                                 <div class="c-section">
@@ -2258,7 +2258,7 @@ Follow: http://www.twitter.com/themehats
                             <!-- END: LAYOUT/BASE/BOTTOM -->
                             <div style="background-color:#02a047; width: 70px; height:70px; border-radius: 50%; position:fixed; top: 87vh; left: 5px; z-index:50000; display: block; ">
                                 <div style="margin: auto; display: block; position: relative; left: 18%; top: 13%">
-                                    <a href="https://wa.me/525573552395">
+                                    <a href="https://wa.me/525513772791">
                                         <i class="fab fa-whatsapp fa-3x" style="color:white;"></i>
                                     </a>
                                 </div>
