@@ -4,7 +4,7 @@ if($_POST)
 require('constant.php');
     
     $user_name      = filter_var($_POST["name"], FILTER_SANITIZE_STRING);
-    $user_last     = filter_var($_POST["lastname"], FILTER_SANITIZE_EMAIL);
+    //user_last    	= filter_var($_POST["lastname"], FILTER_SANITIZE_STRING);
     $user_email     = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
     $user_phone     = filter_var($_POST["phone"], FILTER_SANITIZE_STRING);
     $content   = filter_var($_POST["content"], FILTER_SANITIZE_STRING);
@@ -12,9 +12,9 @@ require('constant.php');
     if(empty($user_name)) {
 		$empty[] = "<b>Nombre</b>";		
 	}
-	if(empty($user_last)) {
+	/*if(empty($user_last)) {
 		$empty[] = "<b>Apellido</b>";		
-	}
+	}*/
 	if(empty($user_email)) {
 		$empty[] = "<b>Email</b>";
 	}
@@ -45,7 +45,7 @@ require('constant.php');
 		$resp = $recaptcha->verify($_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);
 
 		  if (!$resp->isSuccess()) {
-				$output = json_encode(array('type'=>'error', 'text' => '<b>Captcha</b> no validado'));
+				$output = json_encode(array('type'=>'error', 'text' => '<b>Captcha</b> debe validarse'));
 				die($output);				
 		  }	
 	}
@@ -53,7 +53,7 @@ require('constant.php');
 	$toEmail = "digital@grupohodaya.com, mgarcia@grupohodaya.com";
 	$mailHeaders = "De: " . $user_name . "<" . $user_email . ">\r\n";
 	$mailBody = "Nombre: " . $user_name . "\n";
-	$mailBody .= "Apellido: " . $user_last . "\n";
+	//$mailBody .= "Apellido: " . $user_last . "\n";
 	$mailBody .= "Email: " . $user_email . "\n";
 	$mailBody .= "Tel: " . $user_phone . "\n";
 	$mailBody .= "Mensaje: " . $content . "\n";

@@ -34,7 +34,7 @@ Follow: http://www.twitter.com/themehats
         })(window,document,'script','dataLayer','GTM-WW8DQ7P');</script>
         <!-- End Google Tag Manager -->
         <!-- BEGIN GLOBAL MANDATORY STYLES -->
-        <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700&amp;subset=all' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700&amp;subset=all' rel='stylesheet' type='text/css'>
         <link href="assets/plugins/socicon/socicon.css" rel="stylesheet" type="text/css" />
         <link href="assets/plugins/bootstrap-social/bootstrap-social.css" rel="stylesheet" type="text/css" />
         <!--FONT AWESOME-->
@@ -65,22 +65,10 @@ Follow: http://www.twitter.com/themehats
         <link rel="stylesheet" type="text/css" href="assets/base/css/estilos.css">
         <!-- END THEME STYLES -->
         <link rel="shortcut icon" href="assets/base/img/layout/logos/logo_juriquilla.png" />
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136165782-1"></script>
-        <!--Contact Form styles-->
+        <!--Components Contact Form-->
+        <script src="component/jquery/jquery-3.2.1.min.js"></script>
+         <!--Contact Form styles-->
         <style>
-        /*.label {margin: 2px 0;}
-        .field {margin: 0 0 20px 0;}
-        .content {width: 960px;margin: 0 auto;}
-        /*h1, h2 {font-family:"Georgia", Times, serif;font-weight: normal;}
-        div#central {margin: 40px 0px 100px 0px;}
-        @media all and (min-width: 768px) and (max-width: 979px) {.content {width: 750px;}}
-        @media all and (max-width: 767px) {
-        body {margin: 0 auto;word-wrap:break-word}
-        .content {width:auto;}
-        div#central {   margin: 40px 20px 100px 20px;}
-        }
-        body {font-family: 'Helvetica',Arial,sans-serif;background:#ffffff;margin: 0 auto;-webkit-font-smoothing: antialiased;  font-size: initial;line-height: 1.7em;}*/
         input, textarea {width:100%;padding: 15px;font-size:1em;border: 1px solid #A1A1A1; margin-top: 3%;  }
         button {
         padding: 12px 60px;
@@ -90,21 +78,14 @@ Follow: http://www.twitter.com/themehats
         font-size:1em;
         font-family: "Roboto Condensed", sans-serif;
         cursor: pointer;
-        }/*
-        #message {  padding: 0px 40px 0px 0px; }
-        #mail-status {
-        padding: 12px 20px;
-        width: 100%;
-        display:none;
-        font-size: 1em;
-        font-family: "Georgia", Times, serif;
-        color: rgb(40, 40, 40);
-        }*/
+        }
         .error{background-color: #F7902D;  margin-bottom: 40px;}
         .success{background-color: #48e0a4; }
         .g-recaptcha {margin: 0 0 25px 0;}
         </style>
         <!--End: Contact  Form Styles-->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136165782-1"></script>
         <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -129,17 +110,48 @@ Follow: http://www.twitter.com/themehats
         src="https://www.facebook.com/tr?id=723109194702550&ev=PageView&noscript=1"
         /></noscript>
         <!-- End Facebook Pixel Code -->
-        <!--Start of Zendesk Chat Script-->
-        <!--<script type="text/javascript">
-        window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
-        d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
-        _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
-        $.src="https://v2.zopim.com/?54ys00M745p7rRzJeWci9rFUxg32ENMy";z.t=+new Date;$.
-        type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
-        </script>-->
-        <!--End of Zendesk Chat Script-->
+
+        
+         <!--Contact form script-->
+            <script>
+            $(document).ready(function (e){
+            $("#frmContact").on('submit',(function(e){
+            e.preventDefault();
+            $("#mail-status").hide();
+            $('#send-message').hide();
+            $('#loader-icon').show();
+            $.ajax({
+            url: "contact_form.php",
+            type: "POST",
+            dataType:'json',
+            data: {
+            "name":$('input[name="name"]').val(),
+            "lastname":$('input[name="lastname"]').val(),
+            "email":$('input[name="email"]').val(),
+            "phone":$('input[name="phone"]').val(),
+            "content":$('textarea[name="content"]').val(),
+            "g-recaptcha-response":$('textarea[id="g-recaptcha-response"]').val()},
+            success: function(response){
+            $("#mail-status").show();
+            $('#loader-icon').hide();
+            if(response.type == "error") {
+            $('#send-message').show();
+            $("#mail-status").attr("class","error");
+            } else if(response.type == "message"){
+            $('#send-message').hide();
+            $("#mail-status").attr("class","success");
+            }
+            $("#mail-status").html(response.text);
+            },
+            error: function(){}
+            });
+            }));
+            });
+            </script>
+                <!--Contact form script end-->
         <!--GOOGLE RECAPTCHA-->
         <script src='https://www.google.com/recaptcha/api.js'></script>
+        <!--Contact form script end-->
     </head>
     <body class="c-layout-header-fixed c-layout-header-mobile-fixed c-layout-header-fullscreen c-layout-header-topbar">
         <!-- Google Tag Manager (noscript) -->
@@ -1650,7 +1662,7 @@ Follow: http://www.twitter.com/themehats
                             <!-- END: CONTENT/TILES/TILE-3 -->
                         </section>
                         
-                        <section id="promociones py-5">
+                        <section id="promociones">
                             <!-- BEGIN: CONTENT/MISC/desarrollo-3 -->
                             <div class="c-content-box c-size-md c-bg-grey-1">
                                 <div class="container">
@@ -1664,14 +1676,11 @@ Follow: http://www.twitter.com/themehats
                                         <!-- End-->
                                         
                                         <div class="row">
-                                            <div class="col-lg-5 col-md-6 col-sm-6 col-sm-12 col-12 c-margin-b-30">
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-sm-12 col-12 c-margin-b-30">
                                                 <div class="c-content-person-1 c-option-2">
                                                     <div class="c-caption c-content-overlay">
                                                         <div class="c-overlay-wrapper">
                                                             <div class="c-overlay-content">
-                                                                <a href="#">
-                                                                    <i class="icon-link"></i>
-                                                                </a>
                                                                 <a href="assets/base/img/content/desarrollo/promo-referidos.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-4">
                                                                     <i class="icon-magnifier"></i>
                                                                 </a>
@@ -1688,7 +1697,28 @@ Follow: http://www.twitter.com/themehats
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-7" style="padding: 7%; background-color: white; box-shadow: 10px 14px 12px rgba(0,0,0,.15); position: relative; top:60px;">
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-sm-12 col-12 c-margin-b-30">
+                                                <div class="c-content-person-1 c-option-2">
+                                                    <div class="c-caption c-content-overlay">
+                                                        <div class="c-overlay-wrapper">
+                                                            <div class="c-overlay-content">
+                                                                <a href="assets/base/img/content/backgrounds/covid_mecanica-y-restricciones.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-4">
+                                                                    <i class="icon-magnifier"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <img class="c-overlay-object img-responsive" src="assets/base/img/content/backgrounds/promo-covid.jpg" alt="Promocion departamentos en preventa Juriquilla"> 
+                                                    </div>
+                                                    <div class="c-body">
+                                                        <div class="c-head">
+                                                            <div class="c-name c-font-uppercase c-font-bold">Descuento de $100,000</div>
+                                                        </div>
+                                                        <div class="c-position"></div>
+                                                        <p>En apoyo a la contingencia sanitaria, obtén un descuento del 23 de Marzo al 23 de Abril de 2020</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12" style="padding: 7%; background-color: white; box-shadow: 10px 14px 12px rgba(0,0,0,.15); position: relative; top:60px;">
                                                 <p class="c-font-28">Compra ahora en preventa y recibe un <b class="text-uppercase">incremento de hasta el 25% en la plusvalía</b> de tu inmueble al momento de la entrega.</p>
                                                 <button type="button" class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square btn-brochure" data-toggle="modal" data-target="#descargarBrochure" style="width: 100%;">Descargar Folleto</button>
                                             </div>
@@ -1924,37 +1954,33 @@ Follow: http://www.twitter.com/themehats
                                                                 <h3 class="c-font-uppercase c-font-bold">Más información</h3>
                                                                 <p class="c-font-lowercase">Déjenos sus datos y en breve un ejecutivo se pondrá en contacto con usted.</p>
                                                             </div>
-                                                            <div id="message">
-                                                                <form id="frmContact" action="" method="POST" novalidate="novalidate">
-                                                                    <div class="row">
-                                                                        <div class="col-lg-6">
-                                                                            <div class="field">
-                                                                                <input type="text" id="name" name="name" placeholder="Nombre" title="Por favor ingrese su nombre" class="required" aria-required="true" required>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="col-lg-6">
-                                                                            <div class="field">
-                                                                                <input type="text" id="lastname" name="lastname" placeholder="Apellido" title="Por favor ingrese su apellido" class="required" aria-required="true" required>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="field">
-                                                                        <input type="text" id="email" name="email" placeholder="Email" title="Ingrese su correo electrónico" class="required email" aria-required="true" required>
-                                                                    </div>
-                                                                    
-                                                                    <div class="field">
-                                                                        <input type="text" id="phone" name="phone" placeholder="Número telefónico" title="Please enter your phone number" class="phone">
-                                                                    </div>
-                                                                    
-                                                                    <div class="field">
-                                                                        <textarea id="comment-content" name="content" placeholder="Escriba su comentario"></textarea>
-                                                                    </div>
-                                                                    <div class="g-recaptcha" data-sitekey="<?php echo SITE_KEY; ?>"></div>
-                                                                    <div id="mail-status"></div>
-                                                                    <button class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square" type="Submit" id="send-message" style="clear:both;">Enviar</button>
-                                                                </form>
-                                                                <div id="loader-icon" style="display:none;"><img src="img/loader.gif" alt="cargando" /></div>
+                                                             <form action="descargar_folleto.php" method="post" name="contactform" onsubmit="return submitUserForm();">
+                                                <div class="form-group">
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                            <input type="text" placeholder="Nombre completo*" class="form-control c-square c-theme input-lg" name="first_name" id="first_name" required>
+                                                        </div>
+                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                            <div class="form-group">
+                                                                <input type="text" placeholder="Email*" class="form-control c-square c-theme input-lg" name="mail" id="mail" required>
                                                             </div>
+                                                        </div>
+                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                            <input type="text" placeholder="Teléfono*" class="form-control c-square c-theme input-lg" name="telephone" id="telephone" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mt-5">
+                                                        <div class="col-lg-12 text-center">
+                                                            <p><small>*Campos requeridos</small></p>
+                                                            <br>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                                <input type="submit" name="submit_brochure" value="Más información"class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square">
+                                                
+                                            </form>  
+                                                            
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2196,66 +2222,10 @@ Follow: http://www.twitter.com/themehats
                             App.init(); // init core
                             });
                             </script>
-                            <!--Contact form script-->
-                            <script>
-                            $(document).ready(function (e){
-                            $("#frmContact").on('submit',(function(e){
-                            e.preventDefault();
-                            $("#mail-status").hide();
-                            $('#send-message').hide();
-                            $('#loader-icon').show();
-                            $.ajax({
-                            url: "contact_form.php",
-                            type: "POST",
-                            dataType:'json',
-                            data: {
-                            "name":$('input[name="name"]').val(),
-                            "lastname":$('input[name="lastname"]').val(),
-                            "email":$('input[name="email"]').val(),
-                            "phone":$('input[name="phone"]').val(),
-                            "content":$('textarea[name="content"]').val(),
-                            "g-recaptcha-response":$('textarea[id="g-recaptcha-response"]').val()},
-                            success: function(response){
-                            $("#mail-status").show();
-                            $('#loader-icon').hide();
-                            if(response.type == "error") {
-                            $('#send-message').show();
-                            $("#mail-status").attr("class","error");
-                            } else if(response.type == "message"){
-                            $('#send-message').hide();
-                            $("#mail-status").attr("class","success");
-                            }
-                            $("#mail-status").html(response.text);
-                            },
-                            error: function(){}
-                            });
-                            }));
-                            });
-                            </script>
-                            <!--Contact form script end-->
+                            
                             <!-- END: THEME SCRIPTS -->
                             <!-- BEGIN: PAGE SCRIPTS -->
                             <script src="assets/base/js/scripts/revo-slider/slider-7.js" type="text/javascript"></script>
-                            <!--VALIDACION DE LA RESPUESTA DEL SERVIDOR DEL RECAPTCHA CON JAVASCRIPT-->
-                            <!--<script>
-                            function submitUserForm() {
-                            var response = grecaptcha.getResponse();
-                            if(response.length == 0) {
-                            document.getElementById('g-recaptcha-error').innerHTML = '<span style="color:red;">This field is required.</span>';
-                            return false;
-                            }
-                            return true;
-                            }
-                            
-                            function verifyCaptcha() {
-                            document.getElementById('g-recaptcha-error').innerHTML = '';
-                            }
-                            </script>-->
-                            <!--<script src="//maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>-->
-                            <!-- <script src="assets/plugins/gmaps/gmaps.js" type="text/javascript"></script>-->
-                            <!--<script src="assets/base/js/scripts/pages/contacto.js" type="text/javascript"></script>-->
-                            <!-- END: PAGE SCRIPTS -->
-                            <!-- END: LAYOUT/BASE/BOTTOM -->
                             <div style="background-color:#02a047; width: 70px; height:70px; border-radius: 50%; position:fixed; top: 87vh; left: 5px; z-index:50000; display: block; ">
                                 <div style="margin: auto; display: block; position: relative; left: 18%; top: 13%">
                                     <a href="https://wa.me/525513772791">
