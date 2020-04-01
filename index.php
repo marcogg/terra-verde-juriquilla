@@ -1682,7 +1682,11 @@ Follow: http://www.twitter.com/themehats
                                                         <div class="c-overlay-wrapper">
                                                             <div class="c-overlay-content">
                                                                 <a href="assets/base/img/content/desarrollo/promo-referidos.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-4">
-                                                                    <i class="icon-magnifier"></i>
+                                                                    <div style="width: 100%; height: 416px; padding:32%;">
+                                                                        <center>
+                                                                            <span style="margin: auto; color: white; display: block; height: 416px; width: 100%; ">Ver Mecánica y Restricciones</span>
+                                                                        </center>
+                                                                    </div>
                                                                 </a>
                                                             </div>
                                                         </div>
@@ -1690,7 +1694,7 @@ Follow: http://www.twitter.com/themehats
                                                     </div>
                                                     <div class="c-body">
                                                         <div class="c-head">
-                                                            <div class="c-name c-font-uppercase c-font-bold">Programa de referidos</div>
+                                                            <div class="c-name c-font-uppercase c-font-bold">Programa de referidos <br> Click en la imagen para más info.</div>
                                                         </div>
                                                         <div class="c-position"></div>
                                                         <p>Refiérenos con una persona y si se concreta la venta podrás ganar dinero en efectivo</p>
@@ -1703,7 +1707,11 @@ Follow: http://www.twitter.com/themehats
                                                         <div class="c-overlay-wrapper">
                                                             <div class="c-overlay-content">
                                                                 <a href="assets/base/img/content/backgrounds/covid_mecanica-y-restricciones.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-4">
-                                                                    <i class="icon-magnifier"></i>
+                                                                    <div style="width: 100%; height: 416px; padding:32%;">
+                                                                        <center>
+                                                                            <span style="margin: auto; color: white; display: block; height: 416px; width: 100%; ">Ver Mecánica y Restricciones</span>
+                                                                        </center>
+                                                                    </div>
                                                                 </a>
                                                             </div>
                                                         </div>
@@ -1711,7 +1719,7 @@ Follow: http://www.twitter.com/themehats
                                                     </div>
                                                     <div class="c-body">
                                                         <div class="c-head">
-                                                            <div class="c-name c-font-uppercase c-font-bold">Descuento de $100,000</div>
+                                                            <div class="c-name c-font-uppercase c-font-bold">Descuento de $100,000 <br> Click en la imagen para más info.</div>
                                                         </div>
                                                         <div class="c-position"></div>
                                                         <p>En apoyo a la contingencia sanitaria, obtén un descuento del 23 de Marzo al 23 de Abril de 2020</p>
@@ -1954,19 +1962,20 @@ Follow: http://www.twitter.com/themehats
                                                                 <h3 class="c-font-uppercase c-font-bold">Más información</h3>
                                                                 <p class="c-font-lowercase">Déjenos sus datos y en breve un ejecutivo se pondrá en contacto con usted.</p>
                                                             </div>
-                                                             <form action="descargar_folleto.php" method="post" name="contactform" onsubmit="return submitUserForm();">
+                                                             <form action="formulario_contacto.php" method="post" name="contactform" onsubmit="return submitUserForm();">
                                                 <div class="form-group">
                                                     <div class="row">
                                                         <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                                                             <input type="text" placeholder="Nombre completo*" class="form-control c-square c-theme input-lg" name="first_name" id="first_name" required>
                                                         </div>
                                                         <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                                                            <div class="form-group">
                                                                 <input type="text" placeholder="Email*" class="form-control c-square c-theme input-lg" name="mail" id="mail" required>
-                                                            </div>
                                                         </div>
                                                         <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                                                             <input type="text" placeholder="Teléfono*" class="form-control c-square c-theme input-lg" name="telephone" id="telephone" required>
+                                                        </div>
+                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                            <textarea placeholder="Mensaje*" class="form-control c-square c-theme input-lg" name="comments" id="comments" required></textarea>
                                                         </div>
                                                     </div>
                                                     <div class="row mt-5">
@@ -1977,7 +1986,7 @@ Follow: http://www.twitter.com/themehats
                                                     </div>
                                                     
                                                 </div>
-                                                <input type="submit" name="submit_brochure" value="Más información"class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square">
+                                                <input type="submit" name="submit_brochure" value="Enviar" class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square">
                                                 
                                             </form>  
                                                             
