@@ -23,7 +23,7 @@
 		<div id="container"></div>
 		<div id="info">
 			<h1 class="text-white" style="color: white;">Modelo Fresno</h1>
-			<a href=".../index.php" target="_self" rel="noopener">Regresar al sitio</a></h1>
+			<a href="../../index.php" target="_self" rel="noopener">Regresar al sitio</a></h1>
 		</div>
 		<script type="module">
 			import * as THREE from '../build/three.module.js';
@@ -47,7 +47,7 @@
 				controls.enablePan = false;
 				controls.enableDamping = true;
 				controls.rotateSpeed = - 0.25;
-				var textures = getTexturesFromAtlasFile( "textures/cube/prueba_fresno.jpg", 6 );
+				var textures = getTexturesFromAtlasFile( "textures/cube/fresno-sala.jpg", 6 );
 				var materials = [];
 				for ( var i = 0; i < 6; i ++ ) {
 					materials.push( new THREE.MeshBasicMaterial( { map: textures[ i ] } ) );
@@ -92,24 +92,24 @@
 		</script>
 		<div class="container display-1" style="z-index: 50000; position: absolute; bottom: 0; right: 0; left: 0;">
 			<div class="row">
-				<a href="">
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
+				<a href="index.html">
+					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center col-lg-offset-3">
 						<img src="img/thumbnails/sala-comedor.jpg" class="img-thumbnail">
 						<h3 style="">Sala-Comedor</h3>
 					</div>
 				</a>
-				<a href="">
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
-						<img src="img/thumbnails/sala-comedor.jpg" class="img-thumbnail">
-						<h3 style="">Recámara secundaria</h3>
+				<a href="recamara-principal-fresno.html">
+					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center">
+						<img src="img/thumbnails/recamara-principal.jpg" class="img-thumbnail">
+						<h3 style="">Recámara principal</h3>
 					</div>
 				</a>
-				<a href="">
+				<!--<a href="">
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
 						<img src="img/thumbnails/sala-comedor.jpg" class="img-thumbnail">
 						<h3 style="">Recámara principal</h3>
 					</div>
-				</a>
+				</a>-->
 			</div>
 		</div>
 	</body>

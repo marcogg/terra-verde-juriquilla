@@ -821,7 +821,7 @@ Follow: http://www.twitter.com/themehats
                                                 <a href="#"><button class="btn btn-xl btn-block c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph" disabled>MODELO OLMO <br><small>Próximamente</small></button></a>
                                             </div>
                                             <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                                                <a href="#"><button class="btn btn-xl btn-block c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph" disabled>MODELO FRESNO<br><small>Próximamente</small></button></a>
+                                                <a href="panoramas/fresno/index.html"><button class="btn btn-xl btn-block c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph">MODELO FRESNO<br><small>2 rec + Estudio abierto</small></button></a>
                                             </div>
                                             <div class="col-lg-3 col-md-3 col-sm-6 col-6">
                                                 <a href="#"><button class="btn btn-xl btn-block c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph" disabled>MODELO CEREZO <br><small>Próximamente</small></button></a>
@@ -2244,5 +2244,33 @@ Follow: http://www.twitter.com/themehats
                                 
                             </div>
                             <!--FIN BUTTON WHATSAPP-->
+                           
+                                    <div class="modal-covid" id="anuncio">
+                                        <center>
+                                            <div class="mensaje">
+                                                <i class="fas fa-info-circle fa-5x text-center" style="color: lightgray;"></i>
+                                            <p>Para nosotros es muy importante cuidar de nuestros clientes y en apoyo a la contingencia del Coronavirus (Covid-19) y para evitar su propagación, tomamos las siguientes medidas sanitarias:
+                                            <ul class="text-left">
+                                                <li>Si decides quedarte en casa, nuestro equipo de ventas te atenderá a través de nuestra línea telefónica: <a href="tel:4424540341"><b>442 454 0341</b></a> o vía WhatsApp al número <a href="https://wa.me/525513772791"><b>5513772791</b></a>, donde recibirás toda la información de la misma forma que si nos visitaras. </li>
+                                                <li>En caso de que decidas agendar una visita, nuestro desarrollo contará con gel antibacterial y reforzaremos las medidas de limpieza e higiene diarias en los lugares donde transcurren las personas.</li>
+                                            </ul> 
+                                            Para Terra Verde Juriquilla lo más importante es la salud de nuestros clientes.
+                                            </p>
+                                            <button class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square" onclick="cerrarAnuncio()">Cerrar</button>
+                                            </div>
+                                        </center>
+                                           
+                                    </div>
+                                <!-- Aviso COVID-->
+                                <script type="text/javascript">
+
+                                var get = document.getElementById("anuncio");
+                                
+                                function cerrarAnuncio(){
+                                    get.style.display="none";
+                                };
+                                
+                                
+                            </script>
                         </body>
                     </html>
