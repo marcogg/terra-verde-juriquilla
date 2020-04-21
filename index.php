@@ -818,7 +818,7 @@ Follow: http://www.twitter.com/themehats
                                                 <a href="panoramas/arce"><button class="btn btn-xl btn-block c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph">MODELO ARCE<br><small>2 recámaras</small></button></a>
                                             </div>
                                             <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                                                <a href="#"><button class="btn btn-xl btn-block c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph" disabled>MODELO OLMO <br><small>Próximamente</small></button></a>
+                                                <a href="panoramas/olmo"><button class="btn btn-xl btn-block c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph">MODELO OLMO <br><small>2 recámaras</small></button></a>
                                             </div>
                                             <div class="col-lg-3 col-md-3 col-sm-6 col-6">
                                                 <a href="panoramas/fresno/index.html"><button class="btn btn-xl btn-block c-btn-green c-btn-border-2x c-btn-square c-btn-bold button-ph">MODELO FRESNO<br><small>2 rec + Estudio abierto</small></button></a>
@@ -2264,10 +2264,10 @@ Follow: http://www.twitter.com/themehats
                                 <!-- Aviso COVID-->
                                 <script type="text/javascript">
 
-                                var get = document.getElementById("anuncio");
+                                var getAnuncio = document.getElementById("anuncio");
                                 
                                 function cerrarAnuncio(){
-                                    get.style.display="none";
+                                    getAnuncio.style.display="none";
                                 };
                                 
                                 
