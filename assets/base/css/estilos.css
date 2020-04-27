@@ -301,17 +301,17 @@ a#link-contacto:hover{
 /*------------------------SERVICIOS------------------------*/
 
 .servicios{
-	background-color: #32c5d2;
+	background-color: #efefef;
 	padding: 3%;
 	text-align: center;
-	color: white;
+	color: #898989;
 	border: 5px solid #FFFFFF;
 	min-height:100%; 
 }
 
 .servicios:hover{
 	transition: ease 0.7s;
-	background-color: #27ADB9;
+	background-color: white;
 }
 
 .conatiner-servicios{

@@ -1280,7 +1280,7 @@ Follow: http://www.twitter.com/themehats
                             <section>
                                 <div class="container container-servicios" style="padding: 5%;">
                                     <div class="row">
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-5">
                                             <h2 class="c-font-60 text-uppercase c-font-bold" style="color: #DBDBDB;">Servicios</h2>
                                             <p>Exclusivos departamentos y pent-houses de lujo en venta en Juriquilla, ubicados en una zona inmejorable de Querétaro, con la mayor plusvalía.
                                             <br>
@@ -1288,45 +1288,52 @@ Follow: http://www.twitter.com/themehats
                                             Disfruta la comodidad de contar con universidades, colegios, hospitales y centros comerciales a menos de 5 minutos de distancia de tu nuevo departamento o pent-house en Terra Verde Juriquilla.
                                             <br>
                                             <br>Nuestro desarrollo posee un concepto de diseño único y elegante con todas las comodidades que tu familia merece, además de contar con servicios y amenidades de lujo como: </p>
-                                            <a href="tel:4424541611" class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square btn-brochure">Llama Ahora</a>
+                                            <center><a href="tel:4424541611" class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square btn-brochure">Llama Ahora</a></center>
+                                            <br>
+                                            <br>
                                         </div>
-                                        <div class="col-lg-6">
-                                            <div class="row">
-                                                <div class="col-lg-6 col-md-6 col-sm-6 col-6 servicios">
-                                                    <i class="fas fa-user-shield fa-2x"></i>
-                                                    <br>
-                                                    Vigilancia 24 horas.
-                                                </div>
-                                                <div class="col-lg-6 col-md-6 col-sm-6 col-6 servicios">
-                                                    <i class="fas fa-video fa-2x"></i>
-                                                    <br>
-                                                    Cámaras de vigilancia
-                                                </div>
-                                                <div class="col-lg-6 col-md-6 col-sm-6 col-6 servicios">
-                                                    <i class="fas fa-arrow-up fa-2x"></i>
-                                                    <br>
-                                                    2 Elevadores <br>por torre
-                                                </div>
-                                                <div class="col-lg-6 col-md-6 col-sm-6 col-6 servicios">
-                                                    <i class="fas fa-warehouse fa-2x"></i>
-                                                    <br>
-                                                    Bodegas opcionales*
-                                                    <br>
-                                                    <small>*Sujetas a disponibilidad</small>
-                                                </div>
-                                                <div class="col-lg-6 col-md-6 col-sm-6 col-6 servicios">
-                                                    <i class="fas fa-tree fa-2x"></i>
-                                                    <br>
-                                                    Áreas verdes
-                                                </div>
-                                                <div class="col-lg-6 col-md-6 col-sm-6 col-6 servicios">
+                                        <div class="col-lg-7">
+                                            <div class="col-lg-12 ">
+                                                <iframe style="width: 100%; height: 400px;" src="https://www.youtube.com/embed/i3Bq7uV1RL4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-6 servicios">
                                                     <i class="fas fa-parking fa-2x"></i>
                                                     <br>
                                                     Estacionamiento para visitas
                                                 </div>
+                                                
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-6 servicios">
+                                                    <i class="fas fa-video fa-2x"></i>
+                                                    <br>
+                                                    Cámaras de vigilancia
+                                                </div>
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-6 servicios">
+                                                    <i class="fas fa-arrow-up fa-2x"></i>
+                                                    <br>
+                                                    2 Elevadores <br>por torre
+                                                </div>
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-6 servicios">
+                                                    <i class="fas fa-warehouse fa-2x"></i>
+                                                    <br>
+                                                    Bodegas*
+                                                    <br>
+                                                    <small style="font-size: 0.85rem;">*Sujetas a disponibilidad</small>
+                                                </div>
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-6 servicios">
+                                                    <i class="fas fa-tree fa-2x"></i>
+                                                    <br>
+                                                    Áreas <br> verdes
+                                                </div>
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-6 servicios">
+                                                    <i class="fas fa-user-shield fa-2x"></i>
+                                                    <br>
+                                                    Vigilancia 24 horas.
+                                                </div>
                                             </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </section>
                             <!-- END: SERVICIOS -->

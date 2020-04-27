@@ -50,7 +50,7 @@ require('constant.php');
 		  }	
 	}
 	
-	$toEmail = "digital@grupohodaya.com, mgarcia@grupohodaya.com";
+	$toEmail = "digital@grupohodaya.com, mgarcia@grupohodaya.com, rcruz@grupohodaya.com, cherrera@grupohodaya.com, lsapien@grupohodaya.com, chernandez@grupohodaya.com";
 	$mailHeaders = "De: " . $user_name . "<" . $user_email . ">\r\n";
 	$mailBody = "Nombre: " . $user_name . "\n";
 	//$mailBody .= "Apellido: " . $user_last . "\n";
