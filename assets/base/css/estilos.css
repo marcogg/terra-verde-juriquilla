@@ -344,10 +344,21 @@ a#link-contacto:hover{
 	top: 0;
 	display: block;
 }
+
+.modal-covid{
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0,0,0,.5);
+	z-index: 300000;
+	position: fixed;
+	top: 0;
+	display: block;
+}
+
 @media screen and (min-width: 998px){
 	.mensaje{
 	background-color: white;
-	padding: 5%;
+	padding: 2%;
 	border-radius: 10px;
 	display: block;
 	margin: auto;
@@ -361,7 +372,7 @@ a#link-contacto:hover{
 @media screen and (max-width: 998px){
 	.mensaje{
 		background-color: white;
-		padding: 5%;
+		padding: 3%;
 		border-radius: 10px;
 		display: block;
 		margin: auto;

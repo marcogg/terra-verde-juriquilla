@@ -85,14 +85,14 @@ Follow: http://www.twitter.com/themehats
         </style>
         <!--End: Contact  Form Styles-->
         <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136165782-1"></script>
-        <script>
+        <!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136165782-1"></script>-->
+        <!--<script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'UA-136165782-1');
         gtag('config', 'AW-755354295'); //ID DE CONVERSION
-        </script>
+        </script>-->
         <!-- Facebook Pixel Code -->
         <script>
         !function(f,b,e,v,n,t,s)
@@ -1729,7 +1729,7 @@ Follow: http://www.twitter.com/themehats
                                                             <div class="c-name c-font-uppercase c-font-bold">Descuento de $100,000 <br> Click en la imagen para más info.</div>
                                                         </div>
                                                         <div class="c-position"></div>
-                                                        <p>En apoyo a la contingencia sanitaria, obtén un descuento del 23 de Marzo al 23 de Abril de 2020</p>
+                                                        <p>En apoyo a la contingencia sanitaria, obtén un descuento del 23 de Marzo al 30 de junio de 2020</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2254,7 +2254,7 @@ Follow: http://www.twitter.com/themehats
                            
                                     <div class="modal-covid" id="anuncio">
                                         <center>
-                                            <div class="mensaje">
+                                            <div class="mensaje" id="mensaje">
                                                 <i class="fas fa-info-circle fa-5x text-center" style="color: lightgray;"></i>
                                             <p>Para nosotros es muy importante cuidar de nuestros clientes y en apoyo a la contingencia del Coronavirus (Covid-19) y para evitar su propagación, tomamos las siguientes medidas sanitarias:
                                             <ul class="text-left">
@@ -2271,11 +2271,17 @@ Follow: http://www.twitter.com/themehats
                                 <!-- Aviso COVID-->
                                 <script type="text/javascript">
 
-                                var getAnuncio = document.getElementById("anuncio");
+                                var getMensaje = document.getElementById("mensaje");
+                                var getAnuncio = document.getElementById('anuncio');
                                 
                                 function cerrarAnuncio(){
-                                    getAnuncio.style.display="none";
+                                    getMensaje.style.display="none";
+
                                 };
+
+                                getAnuncio.addEventListener('click', function(){
+                                	getAnuncio.style.display='none';
+                                })
                                 
                                 
                             </script>
