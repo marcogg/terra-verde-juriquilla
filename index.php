@@ -1920,7 +1920,7 @@ Follow: http://www.twitter.com/themehats
                                                                     <strong>T</strong> <a id="link-contacto" href="tel:4424541611">44-2454-1611</a>
                                                                     <br/>
                                                                     <strong>E</strong><a id="link-contacto" href="mailto:contacto@terraverdejuriquilla.com"> contacto@terraverdejuriquilla.com</a></p>
-                                                                    <p><img src="assets/base/img/content/apps/whatsapp-logo.png" width="20" alt="whatsapp-logo"><a href="https://wa.me/525513772791" id="link-contacto"> +52 55 1377 2791</a></p>
+                                                                    <p><img src="assets/base/img/content/apps/whatsapp-logo.png" width="20" alt="whatsapp-logo"><a href="https://wa.me/525539298946" id="link-contacto"> +52 55 3929 8946</a></p>
                                                                     <br>
                                                                 </div>
                                                                 <div class="c-section">
@@ -2244,7 +2244,7 @@ Follow: http://www.twitter.com/themehats
                             <script src="assets/base/js/scripts/revo-slider/slider-7.js" type="text/javascript"></script>
                             <div style="background-color:#02a047; width: 70px; height:70px; border-radius: 50%; position:fixed; top: 87vh; left: 5px; z-index:50000; display: block; ">
                                 <div style="margin: auto; display: block; position: relative; left: 18%; top: 13%">
-                                    <a href="https://wa.me/525513772791">
+                                    <a href="https://wa.me/525539298946">
                                         <i class="fab fa-whatsapp fa-3x" style="color:white;"></i>
                                     </a>
                                 </div>
@@ -2258,7 +2258,7 @@ Follow: http://www.twitter.com/themehats
                                                 <i class="fas fa-info-circle fa-5x text-center" style="color: lightgray;"></i>
                                             <p>Para nosotros es muy importante cuidar de nuestros clientes y en apoyo a la contingencia del Coronavirus (Covid-19) y para evitar su propagación, tomamos las siguientes medidas sanitarias:
                                             <ul class="text-left">
-                                                <li>Si decides quedarte en casa, nuestro equipo de ventas te atenderá a través de nuestra línea telefónica: <a href="tel:4424540341"><b>442 454 0341</b></a> o vía WhatsApp al número <a href="https://wa.me/525513772791"><b>5513772791</b></a>, donde recibirás toda la información de la misma forma que si nos visitaras. </li>
+                                                <li>Si decides quedarte en casa, nuestro equipo de ventas te atenderá a través de nuestra línea telefónica: <a href="tel:4424540341"><b>442 454 0341</b></a> o vía WhatsApp al número <a href="https://wa.me/525539298946"><b>5539298946</b></a>, donde recibirás toda la información de la misma forma que si nos visitaras. </li>
                                                 <li>En caso de que decidas agendar una visita, nuestro desarrollo contará con gel antibacterial y reforzaremos las medidas de limpieza e higiene diarias en los lugares donde transcurren las personas.</li>
                                             </ul> 
                                             Para Terra Verde Juriquilla lo más importante es la salud de nuestros clientes.

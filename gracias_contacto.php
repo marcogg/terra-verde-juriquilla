@@ -327,7 +327,7 @@ Follow: http://www.twitter.com/themehats
                                                 <div class="col-lg-8 col-md-8 col-sm-12 d-block m-auto">
                                                     <h1 class="text-center display-1">Gracias por contactarnos</h1>
                                                     <p class="text-center">En breve nos pondremos en contacto contigo. Si necesitas atención inmediata contáctanos vía WhatsApp</p>
-                                                    <a class="btn btn-success d-block m-auto btn-block" href="https://wa.me/525513772791"><i class="fab fa-whatsapp" style="color:white;"></i>Más información</a>
+                                                    <a class="btn btn-success d-block m-auto btn-block" href="https://wa.me/525539298946"><i class="fab fa-whatsapp" style="color:white;"></i>Más información</a>
                                                     <br>
                                                     <br>
                                                     <!-- Begin: Title 1 component -->
@@ -510,7 +510,7 @@ Follow: http://www.twitter.com/themehats
                             <!-- END: LAYOUT/BASE/BOTTOM -->
                             <div style="background-color:#02a047; width: 70px; height:70px; border-radius: 50%; position:fixed; top: 85vh; left: 5px; z-index:50000; display: block; ">
                                 <div style="margin: auto; display: block; position: relative; left: 18%; top: 13%">
-                                    <a href="https://wa.me/525513772791">
+                                    <a href="https://wa.me/525539298946">
                                         <i class="fab fa-whatsapp fa-3x" style="color:white;"></i>
                                     </a>
                                 </div>
