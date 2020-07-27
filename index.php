@@ -405,6 +405,7 @@ Follow: http://www.twitter.com/themehats
                                                         <h2 class="c-font-uppercase c-font-bold text-center">Exclusivos Departamentos y Pent-Houses de Lujo en Querétaro.</h2>
                                                         <h2 class="text-center"> Terra Verde Juriquilla un desarrollo de Grupo Hodaya.</h2>
                                                         <p class=" c-font-sbold text-justify">Invierte de forma segura en un desarrollo ubicado en la zona con mayor plusvalia de Querétaro. <br>Exclusivos departamentos y pent-houses de lujo en venta en Juriquilla, ubicados en una zona inmejorable de Querétaro, con la mayor plusvalía. Disfruta la comodidad de contar con universidades, colegios, hospitales y centros comerciales <b>a menos de 5 minutos</b> de distancia de tu nuevo departamento o pent-house en Terra Verde Juriquilla.</p>
+                                                        <h3 class="text-center display-1"><b>Desde $2,500,000</b></h3>
                                                         <button type="button" class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square btn-brochure" data-toggle="modal" data-target="#descargarBrochure" style="width: 100%;">Descargar Folleto</button>
 
                                                     </div>
